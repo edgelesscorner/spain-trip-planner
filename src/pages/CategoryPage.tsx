@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { Category, SeedStay } from '../types'
 import { SEED_BY_CATEGORY, getSeedPlace } from '../data/seed'
+import { BAKED_TIKTOK } from '../data/bakedTikTok'
 import { usePlanner } from '../store/planner'
 import { useEnrichment } from '../hooks/useEnrichment'
 import { useLiveHotels } from '../hooks/useHotelRates'
@@ -116,10 +117,22 @@ export default function CategoryPage({ category }: { category: Category }) {
             filters.sort,
           )
     const seedCards = filtered.map(toCard)
+    // Baked-in TikTok finds (pre-verified, bundled) — real, permanent, free.
+    const seedNames = new Set(
+      SEED_BY_CATEGORY[category].map((p) => p.name.toLowerCase()),
+    )
+    const bakedCards = BAKED_TIKTOK.filter((b) => b.category === category)
+      .filter((b) => filters.leg === 'all' || b.leg === filters.leg)
+      .filter((b) => !seedNames.has(b.name.toLowerCase())) // don't duplicate seed
+      .map(toCard)
     const discCards = Object.values(discovered)
       .filter((d) => d.category === category)
       .map(toCard)
-    let all = [...seedCards, ...discCards]
+    // Dedupe by id (a live "Discover" click can re-find a baked place).
+    const byId = new Map<string, CardPlace>()
+    for (const c of [...seedCards, ...bakedCards, ...discCards])
+      if (!byId.has(c.id)) byId.set(c.id, c)
+    let all = [...byId.values()]
     if (filters.savedOnly) all = all.filter((c) => saved[c.id])
     return all
   }, [category, enrichment, discovered, saved, liveHotels, filters])

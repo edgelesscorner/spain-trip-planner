@@ -15,7 +15,8 @@
     "check:keys": "node scripts/check-keys.mjs",
     "check:amadeus": "node scripts/check-amadeus.mjs",
     "check:serpapi": "node scripts/check-serpapi.mjs",
-    "proxy": "node server/price-proxy.mjs"
+    "proxy": "node server/price-proxy.mjs",
+    "bake:tiktok": "node scripts/bake-tiktok.mjs"
   },
   "dependencies": {
     "@vis.gl/react-google-maps": "^1.5.5",
