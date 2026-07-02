@@ -13,10 +13,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Costa Brava Trip Planner',
-        short_name: 'Costa Brava',
+        name: 'Spain Trip Planner — Basque + Balearics',
+        short_name: 'Spain Trip',
         description:
-          'Plan a 6-night Costa Brava (Empordà) trip — real, verifiable places only.',
+          'Plan a 6-night Basque Country + Balearic Islands trip — real, verifiable places only.',
         theme_color: '#c4633a',
         background_color: '#faf7f2',
         display: 'standalone',
