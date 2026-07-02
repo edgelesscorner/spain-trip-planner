@@ -11,8 +11,9 @@ export default function App() {
   return (
     <HashRouter>
       <div className="flex min-h-full flex-col">
-        <main className="order-1 flex-1">
-          <div className="mx-auto w-full max-w-3xl px-4 pb-24 pt-5 md:pb-12 md:pt-8">
+        <NavBar />
+        <main className="flex-1">
+          <div className="mx-auto w-full max-w-3xl px-4 pb-16 pt-5 md:pt-8">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/stay" element={<CategoryPage category="stay" />} />
@@ -26,9 +27,6 @@ export default function App() {
             </Routes>
           </div>
         </main>
-        <div className="order-2 md:order-first">
-          <NavBar />
-        </div>
       </div>
     </HashRouter>
   )

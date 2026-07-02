@@ -32,9 +32,9 @@ export default function NavBar() {
   return (
     <nav
       aria-label="Primary"
-      className="sticky bottom-0 z-20 border-t border-sand-200 bg-sand-50/95 backdrop-blur md:bottom-auto md:top-0 md:border-b md:border-t-0"
+      className="sticky top-0 z-30 border-b border-sand-200 bg-sand-50/95 backdrop-blur"
     >
-      <div className="mx-auto flex max-w-3xl items-stretch gap-1 overflow-x-auto px-2 py-1.5 md:justify-center md:gap-2">
+      <div className="mx-auto flex max-w-3xl items-center gap-1 overflow-x-auto px-2 py-2 md:justify-center md:gap-2">
         {LINKS.map(({ to, label, Icon, end }) => (
           <NavLink
             key={to}
@@ -42,7 +42,7 @@ export default function NavBar() {
             end={end}
             className={({ isActive }) =>
               [
-                'flex min-w-[3.6rem] flex-col items-center gap-0.5 rounded-xl px-3 py-1.5 text-[0.7rem] font-medium transition-colors md:flex-row md:gap-2 md:text-sm',
+                'flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-sm font-medium transition-colors',
                 isActive
                   ? 'bg-terracotta-50 text-terracotta-600'
                   : 'text-ink-muted hover:bg-sand-100 hover:text-ink-soft',
