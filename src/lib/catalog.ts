@@ -9,9 +9,11 @@ import type {
   Place,
   Enrichment,
   SavedItem,
+  SeedStay,
 } from '../types'
 import { SEED_BY_CATEGORY, getSeedPlace } from '../data/seed'
 import type { DiscoveredPlace } from './verify'
+import type { LiveHotel } from './rates'
 import { convertPriceHint } from './money'
 
 export type BadgeTone = 'accent' | 'sea' | 'urgent' | 'neutral'
@@ -35,6 +37,8 @@ export interface CardPlace {
   externalUrl?: string
   bookingUrgency?: string
   isDiscovered: boolean
+  /** Live Google Hotels nightly price (USD) for the trip dates, when known. */
+  liveNightlyUSD?: number
 }
 
 export function isDiscovered(
@@ -109,7 +113,7 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
     if (place.priceMinEUR > 0 && place.priceMinEUR < 120)
       badges.push({ label: 'value', tone: 'accent' })
   } else if (place.category === 'eat') {
-    priceHint = convertPriceHint(place.priceHint)
+    priceHint = place.priceHint ? convertPriceHint(place.priceHint) : undefined
     if (place.michelin && place.michelin > 0)
       badges.push({
         label: `Michelin ${'★'.repeat(place.michelin)}`,
@@ -158,10 +162,79 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
     priceHint,
     badges: uniqueBadges,
     enrichment: place.enrichment,
-    externalUrl: bestExternalUrl(place.enrichment),
+    externalUrl: bestExternalUrl(place.enrichment, place.source),
     bookingUrgency,
     isDiscovered: false,
   }
+}
+
+// ── Live hotels (real Google listings, AC-confirmed, priced) ─────────────────
+
+function liveWhy(h: LiveHotel): string {
+  const cls = h.hotelClass ? `${h.hotelClass}-star ` : ''
+  const rated = h.rating ? `, rated ${h.rating} on Google` : ''
+  return `${cls}hotel in ${h.town}${rated}. Available for your dates.`.replace(
+    /^./,
+    (c) => c.toUpperCase(),
+  )
+}
+
+/**
+ * Build a Stay card from a live Google hotel. When it matches a curated seed
+ * hotel, keep the seed's hand-written notes/tags/badges and just attach the live
+ * price + Google data; otherwise build a factual card from Google's own data.
+ */
+export function liveHotelToCard(h: LiveHotel, seed?: SeedStay): CardPlace {
+  const enrichment: Enrichment = {
+    rating: h.rating,
+    coordinates: h.coordinates,
+    photoUrl: h.thumbnailUrl,
+    mapsUrl: h.link,
+    verified: true,
+  }
+  if (seed) {
+    const card = toCard({ ...seed, enrichment })
+    card.liveNightlyUSD = h.nightlyUSD
+    card.externalUrl = card.externalUrl ?? h.link
+    return card
+  }
+  const badges: Badge[] = [{ label: 'AC', tone: 'sea' }]
+  if (h.hotelClass) badges.push({ label: `${h.hotelClass}★`, tone: 'neutral' })
+  return {
+    id: h.id,
+    category: 'stay',
+    name: h.name,
+    town: h.town,
+    why: liveWhy(h),
+    tags: ['air conditioning'],
+    badges,
+    enrichment,
+    externalUrl: h.link,
+    isDiscovered: false,
+    liveNightlyUSD: h.nightlyUSD,
+  }
+}
+
+/**
+ * Resolve any saved id (curated seed, live hotel, or verified AI place) to a
+ * display card. Guarantees we only render places we can vouch for.
+ */
+export function resolveCardById(
+  id: string,
+  enrichment: Record<string, Enrichment>,
+  discovered: Record<string, DiscoveredPlace>,
+  liveHotels: LiveHotel[],
+): CardPlace | undefined {
+  const seed = getSeedPlace(id)
+  const live = liveHotels.find((h) => h.id === id)
+  if (seed) {
+    if (seed.category === 'stay' && live) return liveHotelToCard(live, seed)
+    return toCard({ ...seed, enrichment: enrichment[id] } as Place)
+  }
+  if (live) return liveHotelToCard(live)
+  const disc = discovered[id]
+  if (disc) return toCard(disc)
+  return undefined
 }
 
 // ── Budget ───────────────────────────────────────────────────────────────────

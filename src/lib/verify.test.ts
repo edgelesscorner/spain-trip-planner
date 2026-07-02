@@ -35,8 +35,8 @@ describe('Real-only verification gate', () => {
 
 describe('Only seed or verified ids resolve', () => {
   it('resolves a known seed id', () => {
-    const p = resolvePlaceData('casamar', {}, {})
-    expect(p?.name).toBe('Casamar')
+    const p = resolvePlaceData('arzak', {}, {})
+    expect(p?.name).toBe('Arzak')
   })
 
   it('returns undefined for an unknown / invented id', () => {

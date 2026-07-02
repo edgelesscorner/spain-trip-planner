@@ -1,19 +1,16 @@
 import { useMemo, useState } from 'react'
-import type { Category, Place } from '../types'
-import { SEED_BY_CATEGORY } from '../data/seed'
+import type { Category, SeedStay } from '../types'
+import { SEED_BY_CATEGORY, getSeedPlace } from '../data/seed'
 import { usePlanner } from '../store/planner'
 import { useEnrichment } from '../hooks/useEnrichment'
+import { useLiveHotels } from '../hooks/useHotelRates'
 import {
   mergeEnrichment,
   toCard,
+  liveHotelToCard,
   type CardPlace,
 } from '../lib/catalog'
-import {
-  filterStays,
-  filterEats,
-  filterDos,
-  sortPlaces,
-} from '../lib/filters'
+import { filterEats, filterDos, sortPlaces } from '../lib/filters'
 import { suggestAndVerify } from '../lib/verify'
 import { ENV } from '../lib/env'
 import FilterBar, {
@@ -29,15 +26,15 @@ import MapView from '../components/MapView'
 const META: Record<Category, { title: string; subtitle: string }> = {
   stay: {
     title: 'Where to stay',
-    subtitle: 'AC-only, value-first hotels walkable to the beach & dinner.',
+    subtitle: 'AC-confirmed hotels with live Google prices for your dates.',
   },
   eat: {
     title: 'Where to eat',
-    subtitle: 'One or two tasting-menu splurges plus excellent local spots.',
+    subtitle: 'Pintxos, Michelin tables and island seafood — researched, real spots.',
   },
   do: {
     title: 'What to do',
-    subtitle: 'Coves, wine, historic towns and boats between meals.',
+    subtitle: 'Beaches, coves, coastal walks, wine and culture across both legs.',
   },
 }
 
@@ -47,6 +44,7 @@ export default function CategoryPage({ category }: { category: Category }) {
   const discovered = usePlanner((s) => s.discovered)
   const saved = usePlanner((s) => s.saved)
   const addDiscovered = usePlanner((s) => s.addDiscovered)
+  const liveHotels = usePlanner((s) => s.liveHotels)
 
   const [filters, setFilters] = useState<FeedFilters>(DEFAULT_FEED_FILTERS)
   const [mode, setMode] = useState<ViewMode>('cards')
@@ -55,40 +53,62 @@ export default function CategoryPage({ category }: { category: Category }) {
 
   // Lazily enrich the seed places (no-op without a Maps key).
   useEnrichment(SEED_BY_CATEGORY[category])
+  // Live Google Hotels list (no-op if the price proxy isn't running).
+  useLiveHotels()
 
   const patch = (p: Partial<FeedFilters>) =>
     setFilters((f) => ({ ...f, ...p }))
 
   const cards: CardPlace[] = useMemo(() => {
-    const seedPlaces = mergeEnrichment(category, enrichment)
-    let filtered: Place[]
     if (category === 'stay') {
-      filtered = filterStays(seedPlaces, {
-        requireAC: true,
-        ceilingUSD: filters.ceilingUSD,
-        walkToBeach: filters.walkToBeach,
-        walkToDining: filters.walkToDining,
-        tags: [],
+      // Real, AC-confirmed, currently-priced hotels (curated + live Google).
+      let entries = liveHotels
+        .filter((h) => filters.leg === 'all' || h.leg === filters.leg)
+        .map((h) => {
+          const seed = getSeedPlace(h.id)
+          const seedStay =
+            seed && seed.category === 'stay' ? (seed as SeedStay) : undefined
+          return { h, seedStay }
+        })
+      // walk filters only apply to curated hotels (only they carry the flags)
+      if (filters.walkToBeach)
+        entries = entries.filter((e) => e.seedStay?.walkToBeach)
+      if (filters.walkToDining)
+        entries = entries.filter((e) => e.seedStay?.walkToDining)
+      entries = entries.filter((e) => e.h.nightlyUSD <= filters.ceilingUSD)
+      entries.sort((a, b) => {
+        if (filters.sort === 'price') return a.h.nightlyUSD - b.h.nightlyUSD
+        if (filters.sort === 'rating') return (b.h.rating ?? 0) - (a.h.rating ?? 0)
+        return (
+          (b.h.rating ?? 0) - (a.h.rating ?? 0) || a.h.nightlyUSD - b.h.nightlyUSD
+        )
       })
-    } else if (category === 'eat') {
-      filtered = filterEats(seedPlaces, { tiers: filters.tiers, tags: [] })
-    } else {
-      filtered = filterDos(seedPlaces, {
-        interests: filters.interests,
-        types: [],
-      })
+      let stayCards = entries.map((e) => liveHotelToCard(e.h, e.seedStay))
+      if (filters.savedOnly) stayCards = stayCards.filter((c) => saved[c.id])
+      return stayCards
     }
-    filtered = sortPlaces(filtered, filters.sort)
 
+    const seedPlaces = mergeEnrichment(category, enrichment).filter(
+      (p) => filters.leg === 'all' || p.leg === filters.leg,
+    )
+    const filtered =
+      category === 'eat'
+        ? sortPlaces(
+            filterEats(seedPlaces, { tiers: filters.tiers, tags: [] }),
+            filters.sort,
+          )
+        : sortPlaces(
+            filterDos(seedPlaces, { interests: filters.interests, types: [] }),
+            filters.sort,
+          )
     const seedCards = filtered.map(toCard)
     const discCards = Object.values(discovered)
       .filter((d) => d.category === category)
       .map(toCard)
-
     let all = [...seedCards, ...discCards]
     if (filters.savedOnly) all = all.filter((c) => saved[c.id])
     return all
-  }, [category, enrichment, discovered, saved, filters])
+  }, [category, enrichment, discovered, saved, liveHotels, filters])
 
   async function handleSuggestMore() {
     setLoadingMore(true)
@@ -123,12 +143,17 @@ export default function CategoryPage({ category }: { category: Category }) {
         </p>
       )}
 
-      {(category === 'stay' || category === 'eat') && (
+      {category === 'stay' && (
         <p className="text-xs text-ink-muted">
-          Prices shown in approximate USD, converted from researched euro figures
-          {category === 'stay'
-            ? ' — typical nightly rates, not August-specific. Tap “Check Aug 1–7 rates” on a hotel for live prices.'
-            : '.'}
+          Every real, air-conditioned hotel with a live Google price for Aug 1–7
+          (2 adults), in USD — curated picks first, then more from Google. Run{' '}
+          <code className="rounded bg-sand-100 px-1">npm run proxy</code> to
+          refresh.
+        </p>
+      )}
+      {category === 'eat' && (
+        <p className="text-xs text-ink-muted">
+          Prices shown in approximate USD, converted from researched euro figures.
         </p>
       )}
 
@@ -148,7 +173,13 @@ export default function CategoryPage({ category }: { category: Category }) {
             <PlaceCard key={c.id} card={c} />
           ))}
           {cards.length === 0 && (
-            <p className="text-ink-muted">No places match these filters.</p>
+            <p className="text-ink-muted">
+              {category === 'stay'
+                ? liveHotels.length === 0
+                  ? 'Fetching live hotels… make sure the price proxy is running (npm run proxy), then refresh.'
+                  : 'No hotels match these filters for Aug 1–7.'
+                : 'No places match these filters.'}
+            </p>
           )}
         </div>
       )}

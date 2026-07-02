@@ -53,7 +53,8 @@ const PRICE_LEVEL_MAP: Record<string, number> = {
   PRICE_LEVEL_VERY_EXPENSIVE: 4,
 }
 
-function photoMediaUrl(photoName: string, maxWidthPx = 800): string {
+function photoMediaUrl(photoName: string, maxWidthPx = 1200): string {
+  // 1200px keeps card thumbnails crisp on high-DPI / wide screens.
   return `https://places.googleapis.com/v1/${photoName}/media?maxWidthPx=${maxWidthPx}&key=${ENV.mapsKey}`
 }
 

@@ -16,6 +16,7 @@ import type {
   PackingItem,
 } from '../types'
 import type { DiscoveredPlace } from '../lib/verify'
+import type { LiveHotel } from '../lib/rates'
 import { TRIP_CONFIG } from '../data/seed'
 import { appKV, kvToStateStorage } from '../lib/storage'
 
@@ -23,9 +24,9 @@ export const STORE_KEY = 'costa-brava-planner-state'
 
 export const DEFAULT_SETTINGS: Settings = {
   homeBase: TRIP_CONFIG.homeBaseDefault,
-  budgetTargetEUR: 2500,
+  budgetTargetEUR: 4000,
   dietary: '',
-  stayPriceCeilingEUR: TRIP_CONFIG.lodgingMaxPerNightEUR,
+  stayPriceCeilingEUR: 300,
 }
 
 export interface PlannerState {
@@ -36,6 +37,9 @@ export interface PlannerState {
   enrichment: Record<string, Enrichment>
   /** Verified live (AI-suggested) places, kept so they survive reloads. */
   discovered: Record<string, DiscoveredPlace>
+  /** Real, AC-confirmed, currently-priced hotels from Google (via the proxy). */
+  liveHotels: LiveHotel[]
+  hotelsFetchedAt: number
   notes: string
   packing: PackingItem[]
   _hasHydrated: boolean
@@ -53,6 +57,7 @@ export interface PlannerState {
 
   setEnrichment: (id: string, enrichment: Enrichment) => void
   addDiscovered: (places: DiscoveredPlace[]) => void
+  setLiveHotels: (hotels: LiveHotel[]) => void
 
   setNotes: (notes: string) => void
   addPacking: (text: string) => void
@@ -78,6 +83,8 @@ export function createPlannerStore(storage?: StateStorage) {
         saved: {},
         enrichment: {},
         discovered: {},
+        liveHotels: [],
+        hotelsFetchedAt: 0,
         notes: '',
         packing: [],
         _hasHydrated: false,
@@ -203,6 +210,9 @@ export function createPlannerStore(storage?: StateStorage) {
             return { discovered: next }
           }),
 
+        setLiveHotels: (hotels) =>
+          set({ liveHotels: hotels, hotelsFetchedAt: nowMs() }),
+
         setNotes: (notes) => set({ notes }),
 
         addPacking: (text) =>
@@ -265,6 +275,8 @@ export function createPlannerStore(storage?: StateStorage) {
           saved: s.saved,
           enrichment: s.enrichment,
           discovered: s.discovered,
+          liveHotels: s.liveHotels,
+          hotelsFetchedAt: s.hotelsFetchedAt,
           notes: s.notes,
           packing: s.packing,
         }),

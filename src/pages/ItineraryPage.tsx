@@ -1,12 +1,8 @@
 import { useMemo } from 'react'
-import { SEED_BY_CATEGORY } from '../data/seed'
+import { SEED_BY_CATEGORY, legForDate, legById } from '../data/seed'
 import { usePlanner } from '../store/planner'
 import { useEnrichment } from '../hooks/useEnrichment'
-import {
-  resolvePlaceData,
-  toCard,
-  type CardPlace,
-} from '../lib/catalog'
+import { resolveCardById, type CardPlace } from '../lib/catalog'
 import { tripDays, dayLabelLong } from '../lib/dates'
 import MapView from '../components/MapView'
 import { CarIcon } from '../components/icons'
@@ -26,6 +22,7 @@ export default function ItineraryPage() {
   const saved = usePlanner((s) => s.saved)
   const enrichment = usePlanner((s) => s.enrichment)
   const discovered = usePlanner((s) => s.discovered)
+  const liveHotels = usePlanner((s) => s.liveHotels)
   const scheduleItem = usePlanner((s) => s.scheduleItem)
   const unscheduleItem = usePlanner((s) => s.unscheduleItem)
   const setItemTime = usePlanner((s) => s.setItemTime)
@@ -37,12 +34,12 @@ export default function ItineraryPage() {
   const planned: PlannedCard[] = useMemo(() => {
     return Object.values(saved)
       .map((item): PlannedCard | null => {
-        const data = resolvePlaceData(item.id, enrichment, discovered)
-        if (!data) return null
-        return { ...toCard(data), day: item.day, timeSlot: item.timeSlot }
+        const card = resolveCardById(item.id, enrichment, discovered, liveHotels)
+        if (!card) return null
+        return { ...card, day: item.day, timeSlot: item.timeSlot }
       })
       .filter((c): c is PlannedCard => c !== null)
-  }, [saved, enrichment, discovered])
+  }, [saved, enrichment, discovered, liveHotels])
 
   const unscheduled = planned.filter((p) => !p.day)
   const byDay = (iso: string) =>
@@ -84,11 +81,31 @@ export default function ItineraryPage() {
         </section>
       )}
 
-      {days.map((iso) => {
+      {days.map((iso, i) => {
         const dayCards = byDay(iso)
+        const leg = legForDate(iso)
+        const legStart = i === 0 || legForDate(days[i - 1]) !== leg
+        const legInfo = legById(leg)
+        const prevLegInfo = i > 0 ? legById(legForDate(days[i - 1])) : null
         return (
-          <section key={iso} className="card p-4">
-            <h2 className="text-lg">{dayLabelLong(iso)}</h2>
+          <div key={iso} className="flex flex-col gap-4">
+            {legStart && (
+              <div className="pt-1">
+                {prevLegInfo?.travelToNext && (
+                  <p className="mb-2 rounded-xl bg-sea-500/10 px-3 py-2 text-sm font-medium text-sea-500">
+                    ✈ {prevLegInfo.travelToNext}
+                  </p>
+                )}
+                <h2 className="font-serif text-xl text-ink">
+                  {legInfo.name}{' '}
+                  <span className="text-base text-ink-muted">
+                    · {legInfo.bases.join(' + ')}
+                  </span>
+                </h2>
+              </div>
+            )}
+            <section className="card p-4">
+              <h2 className="text-lg">{dayLabelLong(iso)}</h2>
             {dayCards.length === 0 ? (
               <p className="mt-2 text-sm text-ink-muted">No stops yet.</p>
             ) : (
@@ -116,7 +133,8 @@ export default function ItineraryPage() {
                 </div>
               </>
             )}
-          </section>
+            </section>
+          </div>
         )
       })}
     </div>

@@ -13,6 +13,13 @@ const CATEGORY_GLYPH: Record<string, string> = {
   do: '⛵',
 }
 
+// Smoothly graded Mediterranean gradients per category for the photo placeholder.
+const CATEGORY_GRADIENT: Record<string, string> = {
+  stay: 'linear-gradient(135deg, #f3d8c9 0%, #e9ded0 45%, #cfe1e4 100%)',
+  eat: 'linear-gradient(135deg, #f3d8c9 0%, #ead7c4 50%, #d6a07e 100%)',
+  do: 'linear-gradient(135deg, #cfe1e4 0%, #bcd6dc 45%, #7fb0b9 100%)',
+}
+
 function DriveTime({ card }: { card: CardPlace }) {
   const base = usePlanner((s) => s.settings.homeBase)
   const mins = card.enrichment?.driveMinutes
@@ -50,11 +57,25 @@ function Thumbnail({ card }: { card: CardPlace }) {
   // Fallback only when there is no real photo (e.g. no Maps key yet) or it
   // failed to load — we never show a stock photo of a different place.
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center gap-1 bg-gradient-to-br from-sand-100 to-terracotta-50">
-      <span className="text-4xl" aria-hidden>
-        {CATEGORY_GLYPH[card.category]}
-      </span>
-      <span className="text-[0.65rem] text-ink-muted">photo with Maps key</span>
+    <div
+      className="relative flex h-full w-full items-center justify-center overflow-hidden"
+      style={{ background: CATEGORY_GRADIENT[card.category] }}
+    >
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            'radial-gradient(120% 85% at 28% 18%, rgba(255,255,255,0.55), rgba(255,255,255,0) 60%)',
+        }}
+      />
+      <div className="relative flex flex-col items-center gap-2">
+        <span className="grid h-14 w-14 place-items-center rounded-full bg-white/70 text-2xl shadow-sm backdrop-blur-sm">
+          <span aria-hidden>{CATEGORY_GLYPH[card.category]}</span>
+        </span>
+        <span className="text-[0.65rem] font-medium text-ink-soft">
+          photo with Maps key
+        </span>
+      </div>
     </div>
   )
 }
@@ -63,6 +84,7 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
   const href = card.externalUrl ?? mapsSearchUrl(card.name, card.town)
   const rating = card.enrichment?.rating
   const googleRange = formatGooglePriceRangeUSD(card.enrichment?.priceRange)
+  const livePriced = card.liveNightlyUSD != null
 
   return (
     <article className="card flex flex-col">
@@ -81,26 +103,33 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
             </h3>
             <p className="text-sm text-ink-muted">{card.town}</p>
           </div>
-          {card.priceHint && (
+          {livePriced ? (
             <span
-              className="shrink-0 rounded-lg bg-sand-100 px-2 py-1 text-sm font-medium text-ink-soft"
-              title={
-                card.category === 'stay'
-                  ? 'Typical nightly rate (approx, not August-specific). Tap “Check Aug 1–7 rates” for live prices.'
-                  : undefined
-              }
+              className="shrink-0 rounded-lg bg-terracotta-50 px-2 py-1 text-sm font-semibold text-terracotta-700"
+              title="Live Google Hotels price for Aug 1–7, 2 adults"
             >
-              {card.priceHint}
-              {card.category === 'stay' ? ' /night' : ''}
+              ${card.liveNightlyUSD}/night
             </span>
+          ) : (
+            card.priceHint && (
+              <span className="shrink-0 rounded-lg bg-sand-100 px-2 py-1 text-sm font-medium text-ink-soft">
+                {card.priceHint}
+              </span>
+            )
           )}
         </div>
 
         <BadgeRow badges={card.badges} />
 
+        {livePriced && (
+          <p className="text-xs font-medium text-sea-500">
+            Live Google price · Aug 1–7, 2 adults
+          </p>
+        )}
+
         <p className="text-sm leading-relaxed text-ink-soft">{card.why}</p>
 
-        {googleRange && (
+        {googleRange && !livePriced && (
           <p className="text-xs text-ink-muted">
             Google price range: <span className="text-ink-soft">{googleRange}</span>
           </p>

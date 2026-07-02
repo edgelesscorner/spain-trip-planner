@@ -5,6 +5,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // Served at a subpath on GitHub Pages; '/' locally and on Vercel/Netlify.
+  base: process.env.GH_PAGES === 'true' ? '/spain-trip-planner/' : '/',
   plugins: [
     react(),
     VitePWA({
@@ -60,5 +62,12 @@ export default defineConfig({
     globals: false,
     setupFiles: ['./vitest.setup.ts'],
     css: false,
+    // Run tests hermetically: ignore any real keys in .env so behavior is
+    // deterministic and offline (the graceful no-key paths are what we assert).
+    env: {
+      VITE_GOOGLE_MAPS_API_KEY: '',
+      VITE_ANTHROPIC_API_KEY: '',
+      VITE_PRICE_PROXY_URL: '',
+    },
   },
 })

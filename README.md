@@ -159,12 +159,28 @@ converts them to approximate USD at display time using a single constant,
 re-rate everything.
 
 The euro figures on Stay cards are **typical** nightly rates, **not** an
-August-specific quote. Google Places does not return date-specific nightly hotel
-prices, so each Stay card has a **"Check Aug 1–7 rates ↗"** button that opens a
-booking search prefilled with the trip's exact dates and party size — that's
-where you get the genuine live price. When a Maps key is set, the card also shows
-Google's own price range when available. Converted amounts are approximate; always
-confirm by booking directly.
+August-specific quote. Each Stay card also has a **"Check Aug 1–7 rates ↗"**
+button that opens a booking search prefilled with the trip's exact dates.
+
+### Live in-app hotel prices (optional)
+
+Stay cards can show the **real Google Hotels nightly price for Aug 1–7** ("Aug
+1–7: $270/night · live on Google"). Because the price source (SerpApi → Google
+Hotels) needs a server-side key and can't be called from the browser, this runs
+through a tiny local proxy:
+
+1. Add `SERPAPI_KEY=...` to `.env` (free key at https://serpapi.com).
+2. Run the proxy alongside the app: **`npm run proxy`** (serves
+   `http://localhost:8787`; the app reads `VITE_PRICE_PROXY_URL`).
+3. Check coverage/prices anytime with **`npm run check:serpapi`**.
+
+Matching is **strict** — a card only shows a price when it confidently matches
+the right property *and* a real rate exists; otherwise it shows "no rooms for
+Aug 1–7" (genuinely booked) or just keeps the link. It never shows another
+property's price. Results are cached 6h (≈3 SerpApi searches per refresh). For a
+deployed site, port `server/price-proxy.mjs` to a serverless function and point
+`VITE_PRICE_PROXY_URL` at it. Converted amounts are approximate; always confirm
+by booking.
 
 ## Photos
 

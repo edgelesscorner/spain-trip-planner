@@ -1,10 +1,29 @@
 import { Link } from 'react-router-dom'
-import { TRIP_CONFIG, EAT } from '../data/seed'
+import type { SeedEat } from '../types'
+import {
+  TRIP_CONFIG,
+  EAT,
+  DO,
+  BASE_AREAS,
+  areaKeyForPlace,
+} from '../data/seed'
 import { usePlanner } from '../store/planner'
 import { computeBudget } from '../lib/catalog'
 import { formatUSD } from '../lib/money'
 import { countdownDays, dayLabel } from '../lib/dates'
+import { mapsSearchUrl } from '../lib/links'
 import { BedIcon, ForkIcon, CompassIcon } from '../components/icons'
+
+const TIER_RANK: Record<SeedEat['tier'], number> = { marquee: 0, splurge: 1, local: 2 }
+
+// Top picks per base: the standout dinners + a couple of things to do.
+const TOP_PICKS = BASE_AREAS.map((area) => ({
+  area,
+  eat: EAT.filter((e) => areaKeyForPlace(e) === area.key)
+    .sort((a, b) => TIER_RANK[a.tier] - TIER_RANK[b.tier])
+    .slice(0, 3),
+  do: DO.filter((d) => areaKeyForPlace(d) === area.key).slice(0, 3),
+}))
 
 export default function HomePage() {
   const saved = usePlanner((s) => s.saved)
@@ -43,13 +62,24 @@ export default function HomePage() {
         <h1 className="mt-1 text-3xl">{TRIP_CONFIG.tripName}</h1>
         <p className="mt-2 text-ink-soft">
           {dayLabel(TRIP_CONFIG.startDate)} – {dayLabel(TRIP_CONFIG.endDate)} ·{' '}
-          {TRIP_CONFIG.nights} nights · base in <strong>{base}</strong>
+          {TRIP_CONFIG.nights} nights · 2 legs
         </p>
         {days >= 0 && (
           <p className="mt-3 inline-block rounded-full bg-white/70 px-3 py-1 text-sm font-medium text-terracotta-700">
             {days === 0 ? 'Today!' : `${days} days to go`}
           </p>
         )}
+        <div className="mt-4 grid gap-2 sm:grid-cols-2">
+          {TRIP_CONFIG.legs.map((leg, i) => (
+            <div key={leg.id} className="rounded-xl bg-white/70 p-3">
+              <p className="label text-ink-muted">
+                Leg {i + 1} · {dayLabel(leg.startDate)}–{dayLabel(leg.endDate)}
+              </p>
+              <p className="font-serif text-lg text-ink">{leg.name}</p>
+              <p className="text-sm text-ink-soft">{leg.bases.join(' + ')}</p>
+            </div>
+          ))}
+        </div>
       </header>
 
       <section className="grid grid-cols-3 gap-3">
@@ -131,6 +161,55 @@ export default function HomePage() {
               </div>
             )
           })}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="mb-2 text-lg">Top picks by base</h2>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {TOP_PICKS.map(({ area, eat, do: dos }) => (
+            <div key={area.key} className="card p-4">
+              <div className="flex items-baseline justify-between">
+                <h3 className="text-base">{area.label}</h3>
+                <span className="label">
+                  {area.leg === 'basque' ? 'Aug 1–4' : 'Aug 4–7'}
+                </span>
+              </div>
+              <ul className="mt-2 flex flex-col gap-1.5">
+                {eat.map((e) => (
+                  <li key={e.id} className="flex items-start gap-2 text-sm">
+                    <span className="mt-0.5 text-terracotta-500">
+                      <ForkIcon width={15} height={15} />
+                    </span>
+                    <a
+                      href={e.source ?? mapsSearchUrl(e.name, e.town)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-ink hover:text-terracotta-600 hover:underline"
+                    >
+                      <span className="font-medium">{e.name}</span>
+                      {e.michelin ? ` · ${'★'.repeat(e.michelin)}` : ''}
+                    </a>
+                  </li>
+                ))}
+                {dos.map((d) => (
+                  <li key={d.id} className="flex items-start gap-2 text-sm">
+                    <span className="mt-0.5 text-sea-500">
+                      <CompassIcon width={15} height={15} />
+                    </span>
+                    <a
+                      href={d.source ?? mapsSearchUrl(d.name, d.town)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-ink hover:text-sea-500 hover:underline"
+                    >
+                      {d.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </section>
 

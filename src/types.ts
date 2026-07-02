@@ -1,23 +1,40 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// Domain types for the Costa Brava Trip Planner.
+// Domain types for the two-leg Spain Trip Planner (Basque Country + Balearics).
 // ─────────────────────────────────────────────────────────────────────────────
 
 export type Category = 'stay' | 'eat' | 'do'
 
+/** A stable leg id. The trip is split into consecutive legs (regions). */
+export type LegId = 'basque' | 'balearic'
+
+/** One leg of the trip — its own region, dates, and base(s). */
+export interface TripLeg {
+  id: LegId
+  name: string // "Basque Country"
+  region: string // "Basque Country, Spain"
+  startDate: string // ISO yyyy-mm-dd (check-in)
+  endDate: string // ISO yyyy-mm-dd (check-out)
+  nights: number
+  bases: string[] // ["San Sebastián", "Bilbao"]
+  homeBaseDefault: string
+  /** Towns to query for live hotels (also the drive-time context). */
+  towns: string[]
+  /** How you get to the NEXT leg (e.g. a flight), for the itinerary. */
+  travelToNext?: string
+}
+
 export interface TripConfig {
   tripName: string
-  startDate: string // ISO yyyy-mm-dd
-  endDate: string // ISO yyyy-mm-dd
+  startDate: string // overall ISO yyyy-mm-dd
+  endDate: string // overall ISO yyyy-mm-dd
   nights: number
   party: { adults: number; children: number }
   region: string
+  legs: TripLeg[]
   homeBaseOptions: string[]
   homeBaseDefault: string
   hasCar: boolean
-  lodgingMaxPerNightEUR: number
-  lodgingValueFirst: boolean
   lodgingRequiresAC: boolean
-  splurgeDinnersTarget: number
   interests: string[]
   nearestAirports: string[]
 }
@@ -30,13 +47,17 @@ interface SeedBase {
   category: Category
   name: string
   town: string
+  /** Which leg of the trip this place belongs to. */
+  leg: LegId
   /** Short human price hint exactly as researched (never invented). */
   priceHint?: string
   tags: string[]
   why: string
+  /** Source URL the recommendation was researched/verified from. */
+  source?: string
   /**
-   * Marks a generic seed prompt (e.g. "Local seafood, Palamós") that should be
-   * resolved to a specific verified venue via Google Places before booking.
+   * Marks a generic seed prompt that should be resolved to a specific verified
+   * venue via Google Places before booking.
    */
   verify?: boolean
 }
@@ -58,8 +79,7 @@ export interface SeedEat extends SeedBase {
   category: 'eat'
   tier: EatTier
   michelin?: number
-  priceHint: string
-  /** Urgency note surfaced as a "book now" badge (esp. El Celler). */
+  /** Urgency note surfaced as a "book now" badge. */
   bookingUrgency?: string
 }
 

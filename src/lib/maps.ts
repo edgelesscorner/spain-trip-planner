@@ -1,8 +1,11 @@
-import type { Category } from '../types'
+import type { Category, LegId } from '../types'
 
-// Approximate viewport center for the default base (Calella de Palafrugell).
-// This is only the map's initial camera position — never shown as a place.
-export const DEFAULT_MAP_CENTER = { lat: 41.8857, lng: 3.1816 }
+// Approximate viewport centers per leg — only the map's camera, never a place.
+export const LEG_MAP_CENTERS: Record<LegId, { lat: number; lng: number }> = {
+  basque: { lat: 43.318, lng: -1.981 }, // San Sebastián
+  balearic: { lat: 39.62, lng: 2.9 }, // between Mallorca & Menorca
+}
+export const DEFAULT_MAP_CENTER = LEG_MAP_CENTERS.basque
 
 export const CATEGORY_COLOR: Record<Category, string> = {
   stay: '#c4633a', // terracotta

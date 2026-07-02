@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { BookingInfo, BookingStatus, Category } from '../types'
 import { usePlanner } from '../store/planner'
-import { resolvePlaceData, toCard, computeBudget } from '../lib/catalog'
+import { resolveCardById, computeBudget } from '../lib/catalog'
 import { formatUSD } from '../lib/money'
 
 const STATUSES: BookingStatus[] = ['idea', 'to-book', 'booked']
@@ -15,6 +15,7 @@ export default function BookingsPage() {
   const saved = usePlanner((s) => s.saved)
   const enrichment = usePlanner((s) => s.enrichment)
   const discovered = usePlanner((s) => s.discovered)
+  const liveHotels = usePlanner((s) => s.liveHotels)
   const setBooking = usePlanner((s) => s.setBooking)
   const settings = usePlanner((s) => s.settings)
   const updateSettings = usePlanner((s) => s.updateSettings)
@@ -32,12 +33,12 @@ export default function BookingsPage() {
   const rows = useMemo(() => {
     return Object.values(saved)
       .map((item) => {
-        const data = resolvePlaceData(item.id, enrichment, discovered)
-        if (!data) return null
-        return { item, card: toCard(data) }
+        const card = resolveCardById(item.id, enrichment, discovered, liveHotels)
+        if (!card) return null
+        return { item, card }
       })
       .filter((r): r is NonNullable<typeof r> => r !== null)
-  }, [saved, enrichment, discovered])
+  }, [saved, enrichment, discovered, liveHotels])
 
   return (
     <div className="flex flex-col gap-6">

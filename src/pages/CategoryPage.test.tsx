@@ -1,7 +1,8 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, afterEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import CategoryPage from './CategoryPage'
-import { STAY, EAT, DO } from '../data/seed'
+import { EAT, DO } from '../data/seed'
+import { usePlanner } from '../store/planner'
 
 function renderedNames(container: HTMLElement): string[] {
   return Array.from(
@@ -9,38 +10,66 @@ function renderedNames(container: HTMLElement): string[] {
   ).map((el) => el.textContent ?? '')
 }
 
-describe('Stay feed renders real seed places with AC enforced', () => {
-  it('renders all AC seed stays and shows the AC badge', () => {
+afterEach(() => {
+  usePlanner.setState({ liveHotels: [], hotelsFetchedAt: 0 })
+})
+
+describe('Stay feed shows all live, AC hotels at the actual price', () => {
+  it('renders curated + non-curated live hotels with the actual nightly price', () => {
+    // Simulate the live hotel list from the proxy (curated + a Google-only one).
+    usePlanner.setState({
+      liveHotels: [
+        {
+          id: 'maria-cristina',
+          curated: false,
+          leg: 'basque',
+          name: 'Hotel María Cristina',
+          town: 'San Sebastián',
+          nightlyUSD: 270,
+        },
+        {
+          id: 'gran-hotel-soller',
+          curated: false,
+          leg: 'balearic',
+          name: 'Gran Hotel Sóller',
+          town: 'Sóller',
+          nightlyUSD: 383,
+        },
+      ],
+      hotelsFetchedAt: Date.now(),
+    })
+
     const { container } = render(<CategoryPage category="stay" />)
     const names = renderedNames(container)
     // eslint-disable-next-line no-console
-    console.log('RENDERED STAY:', names)
+    console.log('RENDERED STAY (live hotels):', names)
 
-    for (const s of STAY) expect(names).toContain(s.name)
-    // AC badge present (every seed stay has AC)
-    expect(screen.getAllByText('AC').length).toBeGreaterThan(0)
-    // prices render in USD (Hotel Mediterrani €80–150 → $86–$162 /night)
-    expect(screen.getByText(/\$86–\$162/)).toBeTruthy()
-    // eslint-disable-next-line no-console
-    console.log('STAY PRICE (Hotel Mediterrani):', '$86–$162 /night (was €80–150)')
-    // never an invented place
-    expect(names).not.toContain('Hotel Imaginary')
+    expect(names).toContain('Hotel María Cristina') // Basque leg
+    expect(names).toContain('Gran Hotel Sóller') // Balearic leg
+    // actual nightly prices shown
+    expect(screen.getByText('$270/night')).toBeTruthy()
+    expect(screen.getByText('$383/night')).toBeTruthy()
+  })
+
+  it('shows a helpful message when no live hotels are loaded', () => {
+    const { container } = render(<CategoryPage category="stay" />)
+    expect(renderedNames(container)).toHaveLength(0)
+    expect(screen.getByText(/Fetching live hotels/)).toBeTruthy()
   })
 })
 
-describe('Eat feed renders real seed places with urgency badges', () => {
-  it('renders the dinners and the El Celler waitlist-now urgency', () => {
+describe('Eat feed renders the researched Basque + Balearic places', () => {
+  it('renders every seed restaurant with a "books ahead" badge on the marquee ones', () => {
     const { container } = render(<CategoryPage category="eat" />)
     const names = renderedNames(container)
     // eslint-disable-next-line no-console
     console.log('RENDERED EAT:', names)
 
     for (const e of EAT) expect(names).toContain(e.name)
-    expect(names).toContain('El Celler de Can Roca')
-    // urgency badge for the critical booking
-    expect(screen.getAllByText('waitlist now').length).toBeGreaterThan(0)
-    // prices render in USD (Casamar "tasting from ~€79" → "~$85")
-    expect(screen.getByText('tasting from ~$85')).toBeTruthy()
+    expect(names).toContain('Arzak') // San Sebastián (Basque)
+    expect(names).toContain('Marc Fosh') // Palma (Balearic)
+    // marquee/splurge spots surface a booking-urgency badge
+    expect(screen.getAllByText('books ahead').length).toBeGreaterThan(0)
   })
 })
 

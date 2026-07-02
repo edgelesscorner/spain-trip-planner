@@ -1,9 +1,13 @@
-import type { Category, EatTier } from '../types'
+import type { Category, EatTier, LegId } from '../types'
 import type { SortKey } from '../lib/filters'
 import { SORT_LABELS } from '../lib/filters'
 import { HeartIcon } from './icons'
 
+export type LegFilter = LegId | 'all'
+
 export interface FeedFilters {
+  /** Which leg of the trip to show ('all' = both). */
+  leg: LegFilter
   savedOnly: boolean
   sort: SortKey
   // stay
@@ -16,10 +20,13 @@ export interface FeedFilters {
   interests: string[]
 }
 
+export const NO_CEILING = 100000
+
 export const DEFAULT_FEED_FILTERS: FeedFilters = {
+  leg: 'all',
   savedOnly: false,
   sort: 'bestFit',
-  ceilingUSD: 300,
+  ceilingUSD: NO_CEILING,
   walkToBeach: false,
   walkToDining: false,
   tiers: [],
@@ -52,8 +59,19 @@ function Chip({
 }
 
 const TIERS: EatTier[] = ['local', 'splurge', 'marquee']
-const INTERESTS = ['wine', 'coves', 'swimming', 'historic towns', 'culture', 'boats']
-const CEILINGS_USD = [160, 200, 240, 300]
+const INTERESTS = ['beaches', 'coves', 'coastal walks', 'culture', 'wine', 'pintxos']
+const LEG_TABS: { id: LegFilter; label: string }[] = [
+  { id: 'all', label: 'Both legs' },
+  { id: 'basque', label: 'Basque' },
+  { id: 'balearic', label: 'Balearics' },
+]
+const CEILINGS_USD: { value: number; label: string }[] = [
+  { value: NO_CEILING, label: 'Any price' },
+  { value: 600, label: '≤ $600' },
+  { value: 450, label: '≤ $450' },
+  { value: 300, label: '≤ $300' },
+  { value: 200, label: '≤ $200' },
+]
 
 export default function FilterBar({
   category,
@@ -72,6 +90,28 @@ export default function FilterBar({
 
   return (
     <div className="flex flex-col gap-3">
+      <div
+        role="tablist"
+        aria-label="Trip leg"
+        className="inline-flex self-start rounded-xl border border-sand-200 bg-white p-1"
+      >
+        {LEG_TABS.map((t) => (
+          <button
+            key={t.id}
+            role="tab"
+            aria-selected={filters.leg === t.id}
+            onClick={() => patch({ leg: t.id })}
+            className={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
+              filters.leg === t.id
+                ? 'bg-sea-500 text-white'
+                : 'text-ink-muted hover:text-ink-soft'
+            }`}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
+
       <div className="flex flex-wrap items-center gap-2">
         <Chip
           active={filters.savedOnly}
@@ -156,8 +196,8 @@ export default function FilterBar({
                 }
               >
                 {CEILINGS_USD.map((c) => (
-                  <option key={c} value={c}>
-                    ≤ ${c}
+                  <option key={c.value} value={c.value}>
+                    {c.label}
                   </option>
                 ))}
               </select>

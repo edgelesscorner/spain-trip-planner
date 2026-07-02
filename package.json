@@ -12,7 +12,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "gen:icons": "node scripts/gen-icons.mjs",
-    "check:keys": "node scripts/check-keys.mjs"
+    "check:keys": "node scripts/check-keys.mjs",
+    "check:amadeus": "node scripts/check-amadeus.mjs",
+    "check:serpapi": "node scripts/check-serpapi.mjs",
+    "proxy": "node server/price-proxy.mjs"
   },
   "dependencies": {
     "@vis.gl/react-google-maps": "^1.5.5",
