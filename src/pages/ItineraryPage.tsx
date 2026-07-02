@@ -52,7 +52,7 @@ export default function ItineraryPage() {
       <header>
         <h1 className="text-2xl">Itinerary</h1>
         <p className="text-ink-muted">
-          Assign your saved places to a day (Aug 1–7).
+          Assign your saved places to a day (Aug 3–12).
         </p>
       </header>
 

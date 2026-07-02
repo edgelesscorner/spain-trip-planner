@@ -78,7 +78,7 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
             {livePriced ? (
               <span
                 className="shrink-0 rounded-lg bg-terracotta-50 px-2 py-1 text-sm font-semibold text-terracotta-700"
-                title="Live Google Hotels price for Aug 1–7, 2 adults"
+                title="Live Google Hotels nightly price for your trip dates (Aug 3–12), 2 adults"
               >
                 ${card.liveNightlyUSD}/night
               </span>
@@ -95,7 +95,7 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
 
           {livePriced && (
             <p className="text-xs font-medium text-sea-500">
-              Live Google price · Aug 1–7, 2 adults
+              Live Google price · Aug 3–12, 2 adults
             </p>
           )}
 
@@ -137,7 +137,7 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
               onClick={stop}
               className="btn-primary mt-1 w-full"
             >
-              Check Aug 1–7 rates ↗
+              Check Aug 3–12 rates ↗
             </a>
           )}
 

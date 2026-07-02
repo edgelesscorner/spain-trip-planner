@@ -64,8 +64,8 @@ async function lookup(name, town) {
     new URLSearchParams({
       engine: 'google_hotels',
       q: `${name} ${town} Costa Brava`,
-      check_in_date: '2026-08-01',
-      check_out_date: '2026-08-07',
+      check_in_date: '2026-08-03',
+      check_out_date: '2026-08-12',
       adults: '2',
       currency: 'USD',
       api_key: KEY,
@@ -89,7 +89,7 @@ async function main() {
     console.log('Get one free at https://serpapi.com/users/sign_up, paste into .env, then re-run.')
     return
   }
-  console.log('SerpApi Google Hotels — coverage + Aug 1–7 prices (2 adults, USD)\n')
+  console.log('SerpApi Google Hotels — coverage + Aug 3–12 prices (2 adults, USD)\n')
   let found = 0
   for (const [name, town] of SEED) {
     const r = await lookup(name, town)
@@ -110,7 +110,7 @@ async function main() {
   console.log(
     pct >= 60
       ? '→ Good coverage. I can wire live prices into the cards (via a tiny proxy).'
-      : '→ Mixed coverage; cards without a match keep the “Check Aug 1–7 rates” link.',
+      : '→ Mixed coverage; cards without a match keep the “Check Aug 3–12 rates” link.',
   )
   console.log(`\n(Used ${SEED.length} SerpApi searches.)`)
 }

@@ -40,14 +40,14 @@ const ADULTS = '2'
 const LEGS = [
   {
     id: 'basque',
-    checkIn: '2026-08-01',
-    checkOut: '2026-08-04',
+    checkIn: '2026-08-03',
+    checkOut: '2026-08-07',
     towns: ['San Sebastián', 'Bilbao', 'Getaria'],
   },
   {
     id: 'balearic',
-    checkIn: '2026-08-04',
-    checkOut: '2026-08-07',
+    checkIn: '2026-08-07',
+    checkOut: '2026-08-12',
     towns: ['Palma de Mallorca', 'Sóller', 'Ciutadella de Menorca', 'Mahón'],
   },
 ]

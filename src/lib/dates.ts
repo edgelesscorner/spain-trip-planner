@@ -1,4 +1,4 @@
-// Small date helpers for the fixed Aug 1–7 itinerary. Dates are handled in UTC
+// Small date helpers for the fixed Aug 3–12 itinerary. Dates are handled in UTC
 // from the ISO yyyy-mm-dd strings to avoid timezone drift in day labels.
 
 import { TRIP_CONFIG } from '../data/seed'
@@ -24,7 +24,7 @@ function toISO(date: Date): string {
   return `${y}-${m}-${d}`
 }
 
-/** Inclusive list of ISO dates for the trip (Aug 1 … Aug 7). */
+/** Inclusive list of ISO dates for the trip (Aug 3 … Aug 12). */
 export function tripDays(
   start = TRIP_CONFIG.startDate,
   end = TRIP_CONFIG.endDate,

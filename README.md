@@ -19,7 +19,7 @@ follow on their phones during the trip.
   side-by-side), and map.
 - **Hard + soft filters:** Stay always enforces **air conditioning** and a
   **nightly price ceiling**; everything sorts by best-fit / price / drive / rating.
-- **Day-by-day itinerary** for **Aug 1–7** with a per-day timeline, per-day map,
+- **Day-by-day itinerary** for **Aug 3–12** with a per-day timeline, per-day map,
   and drive times.
 - **Bookings tracker**, **running budget**, **notes**, and a **packing list**.
 - **Urgency badges** that tell you what to book first (e.g. *El Celler de Can
@@ -159,12 +159,12 @@ converts them to approximate USD at display time using a single constant,
 re-rate everything.
 
 The euro figures on Stay cards are **typical** nightly rates, **not** an
-August-specific quote. Each Stay card also has a **"Check Aug 1–7 rates ↗"**
+August-specific quote. Each Stay card also has a **"Check Aug 3–12 rates ↗"**
 button that opens a booking search prefilled with the trip's exact dates.
 
 ### Live in-app hotel prices (optional)
 
-Stay cards can show the **real Google Hotels nightly price for Aug 1–7** ("Aug
+Stay cards can show the **real Google Hotels nightly price for Aug 3–12** ("Aug
 1–7: $270/night · live on Google"). Because the price source (SerpApi → Google
 Hotels) needs a server-side key and can't be called from the browser, this runs
 through a tiny local proxy:
@@ -176,7 +176,7 @@ through a tiny local proxy:
 
 Matching is **strict** — a card only shows a price when it confidently matches
 the right property *and* a real rate exists; otherwise it shows "no rooms for
-Aug 1–7" (genuinely booked) or just keeps the link. It never shows another
+Aug 3–12" (genuinely booked) or just keeps the link. It never shows another
 property's price. Results are cached 6h (≈3 SerpApi searches per refresh). For a
 deployed site, port `server/price-proxy.mjs` to a serverless function and point
 `VITE_PRICE_PROXY_URL` at it. Converted amounts are approximate; always confirm

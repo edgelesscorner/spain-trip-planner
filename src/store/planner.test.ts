@@ -12,9 +12,9 @@ describe('Save → schedule → book lifecycle', () => {
     s().toggleSave('casamar', 'eat')
     expect(s().saved['casamar'].status).toBe('saved')
 
-    s().scheduleItem('casamar', '2026-08-02', '20:30')
+    s().scheduleItem('casamar', '2026-08-04', '20:30')
     expect(s().saved['casamar'].status).toBe('scheduled')
-    expect(s().saved['casamar'].day).toBe('2026-08-02')
+    expect(s().saved['casamar'].day).toBe('2026-08-04')
     expect(s().saved['casamar'].timeSlot).toBe('20:30')
 
     s().setBooking('casamar', {

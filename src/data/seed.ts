@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// Two-leg trip seed: Basque Country (Aug 1–4) + Balearic Islands (Aug 4–7).
+// Two-leg trip seed: Basque Country (Aug 3–7) + Balearic Islands (Aug 7–12).
 //
 // Eat/Do are REAL, currently-operating places gathered from research (Google,
 // travel forums, food blogs/vlogs) — each carries its `source` URL and a filter
@@ -19,10 +19,10 @@ import type {
 } from '../types'
 
 export const TRIP_CONFIG: TripConfig = {
-  tripName: 'Basque + Balearics — Aug 1–7',
-  startDate: '2026-08-01',
-  endDate: '2026-08-07',
-  nights: 6,
+  tripName: 'Basque + Balearics — Aug 3–12',
+  startDate: '2026-08-03',
+  endDate: '2026-08-12',
+  nights: 9,
   party: { adults: 2, children: 0 },
   region: 'Basque Country & Balearic Islands, Spain',
   legs: [
@@ -30,9 +30,9 @@ export const TRIP_CONFIG: TripConfig = {
       id: 'basque',
       name: 'Basque Country',
       region: 'Basque Country, Spain',
-      startDate: '2026-08-01',
-      endDate: '2026-08-04',
-      nights: 3,
+      startDate: '2026-08-03',
+      endDate: '2026-08-07',
+      nights: 4,
       bases: ['San Sebastián', 'Bilbao'],
       homeBaseDefault: 'San Sebastián',
       towns: ['San Sebastián', 'Bilbao', 'Getaria'],
@@ -42,9 +42,9 @@ export const TRIP_CONFIG: TripConfig = {
       id: 'balearic',
       name: 'Balearic Islands',
       region: 'Mallorca & Menorca, Spain',
-      startDate: '2026-08-04',
-      endDate: '2026-08-07',
-      nights: 3,
+      startDate: '2026-08-07',
+      endDate: '2026-08-12',
+      nights: 5,
       bases: ['Palma de Mallorca', 'Ciutadella de Menorca'],
       homeBaseDefault: 'Palma de Mallorca',
       towns: [

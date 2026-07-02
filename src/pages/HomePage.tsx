@@ -172,7 +172,7 @@ export default function HomePage() {
               <div className="flex items-baseline justify-between">
                 <h3 className="text-base">{area.label}</h3>
                 <span className="label">
-                  {area.leg === 'basque' ? 'Aug 1–4' : 'Aug 4–7'}
+                  {area.leg === 'basque' ? 'Aug 3–7' : 'Aug 7–12'}
                 </span>
               </div>
               <ul className="mt-2 flex flex-col gap-1.5">

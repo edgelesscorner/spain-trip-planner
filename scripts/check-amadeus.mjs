@@ -97,7 +97,7 @@ async function hotelsByGeo(token, pt) {
 }
 
 async function priceFor(token, hotelId) {
-  const url = `${HOST}/v3/shopping/hotel-offers?hotelIds=${hotelId}&adults=2&checkInDate=2026-08-01&checkOutDate=2026-08-07&roomQuantity=1`
+  const url = `${HOST}/v3/shopping/hotel-offers?hotelIds=${hotelId}&adults=2&checkInDate=2026-08-03&checkOutDate=2026-08-12&roomQuantity=1`
   const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } })
   const data = await res.json().catch(() => ({}))
   if (!res.ok) return null
@@ -138,7 +138,7 @@ async function main() {
       found++
       const price = await priceFor(token, hit[0]).catch(() => null)
       console.log(
-        `  ✅ ${seed}  →  "${hit[1]}"  ${price ? `· Aug 1–7 price: ${price}` : '· (no offer/price for those dates)'}`,
+        `  ✅ ${seed}  →  "${hit[1]}"  ${price ? `· Aug 3–12 price: ${price}` : '· (no offer/price for those dates)'}`,
       )
     } else {
       console.log(`  ❌ ${seed}  →  not found in Amadeus`)

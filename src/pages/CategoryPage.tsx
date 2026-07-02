@@ -157,7 +157,7 @@ export default function CategoryPage({ category }: { category: Category }) {
 
       {category === 'stay' && (
         <p className="text-xs text-ink-muted">
-          Every real, air-conditioned hotel with a live Google price for Aug 1–7
+          Every real, air-conditioned hotel with a live Google price for Aug 3–12
           (2 adults), in USD — curated picks first, then more from Google. Run{' '}
           <code className="rounded bg-sand-100 px-1">npm run proxy</code> to
           refresh.
@@ -190,7 +190,7 @@ export default function CategoryPage({ category }: { category: Category }) {
               {category === 'stay'
                 ? liveHotels.length === 0
                   ? 'Fetching live hotels… make sure the price proxy is running (npm run proxy), then refresh.'
-                  : 'No hotels match these filters for Aug 1–7.'
+                  : 'No hotels match these filters for Aug 3–12.'
                 : 'No places match these filters.'}
             </p>
           )}
