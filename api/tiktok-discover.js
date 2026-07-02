@@ -14,7 +14,10 @@ export default async function handler(req, res) {
     // Cache at the edge for 12h; serve stale for a day while revalidating.
     res.setHeader('Cache-Control', 's-maxage=43200, stale-while-revalidate=86400')
     res.status(200).json({ candidates })
-  } catch {
-    res.status(200).json({ candidates: [] }) // graceful — feature just no-ops
+  } catch (e) {
+    // graceful — feature just no-ops; ?debug=1 surfaces the reason for ops.
+    const body = { candidates: [] }
+    if (req.query?.debug) body.error = String((e && e.message) || e)
+    res.status(200).json(body)
   }
 }
