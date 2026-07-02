@@ -31,7 +31,8 @@ function loadEnv() {
 }
 
 const ENV = loadEnv()
-const KEY = ENV.SERPAPI_KEY || ''
+// process.env wins (Vercel/hosted); fall back to the local .env file.
+const KEY = process.env.SERPAPI_KEY || ENV.SERPAPI_KEY || ''
 const PORT = Number(ENV.PRICE_PROXY_PORT || process.env.PORT || 8787)
 const ADULTS = '2'
 
@@ -173,7 +174,7 @@ async function fetchTown(town, checkIn, checkOut) {
 const cache = { at: 0, data: null }
 const TTL = 1000 * 60 * 60 * 6 // 6h
 
-async function getHotels() {
+export async function getHotels() {
   if (cache.data && Date.now() - cache.at < TTL) return cache.data
   const entries = []
   for (const leg of LEGS) {

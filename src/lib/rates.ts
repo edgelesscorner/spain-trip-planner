@@ -22,8 +22,10 @@ export interface LiveHotel {
 }
 
 const RAW_PROXY = import.meta.env.VITE_PRICE_PROXY_URL
-// `undefined` → default to the local proxy; explicit empty string → disabled.
-const PROXY = (RAW_PROXY ?? 'http://localhost:8787').replace(/\/$/, '')
+// `undefined` → same-origin '/api' (Vercel serverless fn; 404s harmlessly on
+// GitHub Pages). A URL → that base (local dev sets http://localhost:8787).
+// Empty string → disabled (tests).
+const PROXY = (RAW_PROXY ?? '').replace(/\/$/, '')
 
 export async function fetchLiveHotels(): Promise<LiveHotel[]> {
   if (RAW_PROXY === '') return [] // explicitly disabled (e.g. tests)
