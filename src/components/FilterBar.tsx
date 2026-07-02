@@ -11,6 +11,7 @@ export interface FeedFilters {
   savedOnly: boolean
   sort: SortKey
   // stay
+  stayKind: 'all' | 'hotel' | 'rental'
   ceilingUSD: number
   walkToBeach: boolean
   walkToDining: boolean
@@ -26,6 +27,7 @@ export const DEFAULT_FEED_FILTERS: FeedFilters = {
   leg: 'all',
   savedOnly: false,
   sort: 'bestFit',
+  stayKind: 'all',
   ceilingUSD: NO_CEILING,
   walkToBeach: false,
   walkToDining: false,
@@ -68,6 +70,11 @@ const LEG_TABS: { id: LegFilter; label: string }[] = [
   { id: 'all', label: 'Both legs' },
   { id: 'basque', label: 'Basque' },
   { id: 'balearic', label: 'Balearics' },
+]
+const STAY_KINDS: { id: FeedFilters['stayKind']; label: string }[] = [
+  { id: 'all', label: 'All stays' },
+  { id: 'hotel', label: 'Hotels' },
+  { id: 'rental', label: 'Rentals' },
 ]
 const CEILINGS_USD: { value: number; label: string }[] = [
   { value: NO_CEILING, label: 'Any price' },
@@ -118,6 +125,30 @@ export default function FilterBar({
           </button>
         ))}
       </div>
+
+      {category === 'stay' && (
+        <div
+          role="tablist"
+          aria-label="Lodging type"
+          className="inline-flex self-start rounded-xl border border-sand-200 bg-white p-1"
+        >
+          {STAY_KINDS.map((k) => (
+            <button
+              key={k.id}
+              role="tab"
+              aria-selected={filters.stayKind === k.id}
+              onClick={() => patch({ stayKind: k.id })}
+              className={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
+                filters.stayKind === k.id
+                  ? 'bg-terracotta-500 text-white'
+                  : 'text-ink-muted hover:text-ink-soft'
+              }`}
+            >
+              {k.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center gap-2">
         <Chip

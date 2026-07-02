@@ -25,9 +25,19 @@ const ENTRIES = [
   {
     leg: 'balearic',
     town: 'Palma de Mallorca',
+    kind: 'hotel',
     props: [
       { name: 'Hotel Cort', type: 'hotel', rate_per_night: { extracted_lowest: 310 }, amenities: AC },
       { name: 'Hotel Restaurant Bon Sol', type: 'hotel', rate_per_night: { extracted_lowest: 280 }, amenities: AC },
+    ],
+  },
+  {
+    leg: 'balearic',
+    town: 'Palma de Mallorca',
+    kind: 'rental',
+    props: [
+      { name: 'Spot Apartment - Entire Place', type: 'vacation rental', rate_per_night: { extracted_lowest: 200 }, amenities: AC },
+      { name: 'No-AC Apartment', type: 'vacation rental', rate_per_night: { extracted_lowest: 120 }, amenities: NO_AC },
     ],
   },
 ]
@@ -43,7 +53,11 @@ describe('buildHotelList — real, AC-confirmed, priced hotels, tagged by leg', 
     expect(hotels.find((h) => h.id === slug('Hotel María Cristina'))?.leg).toBe('basque')
     expect(hotels.find((h) => h.id === slug('Hotel Cort'))?.leg).toBe('balearic')
     expect(hotels.every((h) => h.curated === false)).toBe(true) // no curated seed hotels now
-    expect(hotels).toHaveLength(3)
+    // vacation rental included, tagged kind:'rental' with a distinct id
+    const rental = hotels.find((h) => h.id === slug('Spot Apartment - Entire Place') + '-rental')
+    expect(rental?.kind).toBe('rental')
+    expect(hotels.filter((h) => h.kind === 'hotel').every((h) => h.kind === 'hotel')).toBe(true)
+    expect(hotels).toHaveLength(4)
   })
 
   it('excludes no-AC, restaurant-only, vacation-rental, and rate-less listings', () => {

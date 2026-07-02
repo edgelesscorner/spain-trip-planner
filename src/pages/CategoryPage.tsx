@@ -75,6 +75,7 @@ export default function CategoryPage({ category }: { category: Category }) {
       // Real, AC-confirmed, currently-priced hotels (curated + live Google).
       let entries = liveHotels
         .filter((h) => filters.leg === 'all' || h.leg === filters.leg)
+        .filter((h) => filters.stayKind === 'all' || h.kind === filters.stayKind)
         .map((h) => {
           const seed = getSeedPlace(h.id)
           const seedStay =

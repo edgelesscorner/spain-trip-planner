@@ -7,6 +7,8 @@ import type { LegId } from '../types'
 
 export interface LiveHotel {
   id: string
+  /** Hotel vs. vacation rental (Airbnb/Vrbo-style). */
+  kind: 'hotel' | 'rental'
   /** true when this matches a curated seed hotel (so we attach its notes). */
   curated: boolean
   /** Which leg this hotel belongs to. */

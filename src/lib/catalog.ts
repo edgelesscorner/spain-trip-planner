@@ -182,6 +182,10 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
 // ── Live hotels (real Google listings, AC-confirmed, priced) ─────────────────
 
 function liveWhy(h: LiveHotel): string {
+  if (h.kind === 'rental') {
+    const rated = h.rating ? `, rated ${h.rating} on Google` : ''
+    return `Vacation rental in ${h.town}${rated}. Available for your dates (Airbnb/Vrbo-style listing via Google).`
+  }
   const cls = h.hotelClass ? `${h.hotelClass}-star ` : ''
   const rated = h.rating ? `, rated ${h.rating} on Google` : ''
   return `${cls}hotel in ${h.town}${rated}. Available for your dates.`.replace(
@@ -216,6 +220,7 @@ export function liveHotelToCard(h: LiveHotel, seed?: SeedStay): CardPlace {
     return card
   }
   const badges: Badge[] = [{ label: 'AC', tone: 'sea' }]
+  if (h.kind === 'rental') badges.push({ label: 'rental', tone: 'accent' })
   if (h.hotelClass) badges.push({ label: `${h.hotelClass}★`, tone: 'neutral' })
   return {
     id: h.id,
@@ -223,7 +228,7 @@ export function liveHotelToCard(h: LiveHotel, seed?: SeedStay): CardPlace {
     name: h.name,
     town: h.town,
     why: liveWhy(h),
-    tags: ['air conditioning'],
+    tags: h.kind === 'rental' ? ['vacation rental'] : ['air conditioning'],
     badges,
     enrichment,
     photos,

@@ -21,6 +21,7 @@ describe('Stay feed shows all live, AC hotels at the actual price', () => {
       liveHotels: [
         {
           id: 'maria-cristina',
+          kind: 'hotel',
           curated: false,
           leg: 'basque',
           name: 'Hotel María Cristina',
@@ -29,6 +30,7 @@ describe('Stay feed shows all live, AC hotels at the actual price', () => {
         },
         {
           id: 'gran-hotel-soller',
+          kind: 'hotel',
           curated: false,
           leg: 'balearic',
           name: 'Gran Hotel Sóller',

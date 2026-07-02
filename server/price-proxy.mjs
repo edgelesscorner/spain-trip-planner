@@ -116,19 +116,21 @@ export function hasAC(property) {
  */
 export function buildHotelList(entries) {
   const byId = new Map()
-  for (const { leg, town, props } of entries) {
+  for (const { leg, town, kind = 'hotel', props } of entries) {
     for (const p of props || []) {
-      if (p.type && p.type !== 'hotel') continue
+      // Hotels must be type 'hotel'; the rentals pass accepts vacation rentals.
+      if (kind === 'hotel' && p.type && p.type !== 'hotel') continue
       const name = String(p.name || '')
       if (restaurantOnly(name)) continue // dining listing, not lodging
       const nightlyUSD = p.rate_per_night?.extracted_lowest
       if (typeof nightlyUSD !== 'number') continue // no live rate → not available
       if (!hasAC(p)) continue // hard requirement: air conditioning
-      const seedId = seedIdForProperty(p)
-      const id = seedId || slug(name)
+      const seedId = kind === 'hotel' ? seedIdForProperty(p) : null
+      const id = (seedId || slug(name)) + (kind === 'rental' ? '-rental' : '')
       if (byId.has(id)) continue // keep first occurrence
       byId.set(id, {
         id,
+        kind,
         curated: Boolean(seedId),
         leg,
         name,
@@ -149,27 +151,28 @@ export function buildHotelList(entries) {
       })
     }
   }
-  // leg order, then by price
+  // leg order, hotels before rentals, then by price
   const legRank = { basque: 0, balearic: 1 }
   return [...byId.values()].sort(
     (a, b) =>
-      (legRank[a.leg] ?? 9) - (legRank[b.leg] ?? 9) || a.nightlyUSD - b.nightlyUSD,
+      (legRank[a.leg] ?? 9) - (legRank[b.leg] ?? 9) ||
+      Number(a.kind === 'rental') - Number(b.kind === 'rental') ||
+      a.nightlyUSD - b.nightlyUSD,
   )
 }
 
-async function fetchTown(town, checkIn, checkOut) {
-  const url =
-    'https://serpapi.com/search.json?' +
-    new URLSearchParams({
-      engine: 'google_hotels',
-      q: `hotels in ${town}, Spain`,
-      check_in_date: checkIn,
-      check_out_date: checkOut,
-      adults: ADULTS,
-      currency: 'USD',
-      api_key: KEY,
-    })
-  const res = await fetch(url)
+async function fetchTown(town, checkIn, checkOut, vacationRentals = false) {
+  const params = {
+    engine: 'google_hotels',
+    q: `${vacationRentals ? 'vacation rentals' : 'hotels'} in ${town}, Spain`,
+    check_in_date: checkIn,
+    check_out_date: checkOut,
+    adults: ADULTS,
+    currency: 'USD',
+    api_key: KEY,
+  }
+  if (vacationRentals) params.vacation_rentals = 'true'
+  const res = await fetch('https://serpapi.com/search.json?' + new URLSearchParams(params))
   const data = await res.json().catch(() => ({}))
   if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`)
   return data.properties || []
@@ -183,10 +186,18 @@ export async function getHotels() {
   const entries = []
   for (const leg of LEGS) {
     for (const town of leg.towns) {
+      // Hotels + vacation rentals (Airbnb/Vrbo-style), each priced per leg.
       entries.push({
         leg: leg.id,
         town,
-        props: await fetchTown(town, leg.checkIn, leg.checkOut),
+        kind: 'hotel',
+        props: await fetchTown(town, leg.checkIn, leg.checkOut, false),
+      })
+      entries.push({
+        leg: leg.id,
+        town,
+        kind: 'rental',
+        props: (await fetchTown(town, leg.checkIn, leg.checkOut, true)).slice(0, 12),
       })
     }
   }
