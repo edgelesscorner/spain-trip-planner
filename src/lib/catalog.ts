@@ -91,6 +91,7 @@ function bestExternalUrl(
 /** Build the display card (with flag badges) for a seed or discovered place. */
 export function toCard(place: Place | DiscoveredPlace): CardPlace {
   if (isDiscovered(place)) {
+    const fromTikTok = place.tags.some((t) => /tiktok/i.test(t))
     return {
       id: place.id,
       category: place.category,
@@ -100,7 +101,9 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
       tags: place.tags,
       badges: [
         { label: 'verified', tone: 'sea' },
-        { label: 'suggested', tone: 'neutral' },
+        fromTikTok
+          ? { label: 'TikTok', tone: 'accent' as const }
+          : { label: 'suggested', tone: 'neutral' as const },
       ],
       enrichment: place.enrichment,
       photos: enrichmentPhotos(place.enrichment),

@@ -11,7 +11,7 @@ import {
   type CardPlace,
 } from '../lib/catalog'
 import { filterEats, filterDos, sortPlaces, typeLabel } from '../lib/filters'
-import { suggestAndVerify } from '../lib/verify'
+import { suggestAndVerify, discoverFromTikTok } from '../lib/verify'
 import { ENV } from '../lib/env'
 import FilterBar, {
   DEFAULT_FEED_FILTERS,
@@ -50,6 +50,8 @@ export default function CategoryPage({ category }: { category: Category }) {
   const [mode, setMode] = useState<ViewMode>('cards')
   const [loadingMore, setLoadingMore] = useState(false)
   const [suggestNote, setSuggestNote] = useState<string | null>(null)
+  const [loadingTikTok, setLoadingTikTok] = useState(false)
+  const [tiktokNote, setTiktokNote] = useState<string | null>(null)
 
   // Lazily enrich the seed places (no-op without a Maps key).
   useEnrichment(SEED_BY_CATEGORY[category])
@@ -122,6 +124,25 @@ export default function CategoryPage({ category }: { category: Category }) {
     return all
   }, [category, enrichment, discovered, saved, liveHotels, filters])
 
+  async function handleDiscoverTikTok() {
+    setLoadingTikTok(true)
+    setTiktokNote(null)
+    const existing = [
+      ...SEED_BY_CATEGORY[category].map((p) => p.name),
+      ...Object.values(discovered)
+        .filter((d) => d.category === category)
+        .map((d) => d.name),
+    ]
+    const found = await discoverFromTikTok(category, existing)
+    addDiscovered(found)
+    setLoadingTikTok(false)
+    setTiktokNote(
+      found.length
+        ? `Added ${found.length} TikTok-popular place${found.length > 1 ? 's' : ''}, verified on Google.`
+        : 'No new verifiable TikTok places found right now.',
+    )
+  }
+
   async function handleSuggestMore() {
     setLoadingMore(true)
     setSuggestNote(null)
@@ -179,6 +200,27 @@ export default function CategoryPage({ category }: { category: Category }) {
         />
         <ViewModeToggle mode={mode} onChange={setMode} />
       </div>
+
+      {category !== 'stay' && ENV.hasMaps && (
+        <div className="flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            className="btn-outline"
+            onClick={handleDiscoverTikTok}
+            disabled={loadingTikTok}
+          >
+            {loadingTikTok ? 'Searching TikTok…' : '✨ Discover more from TikTok'}
+          </button>
+          {loadingTikTok && (
+            <span className="text-xs text-ink-muted">
+              Pulling trending posts &amp; verifying on Google — up to a minute.
+            </span>
+          )}
+          {tiktokNote && !loadingTikTok && (
+            <span className="text-xs text-ink-soft">{tiktokNote}</span>
+          )}
+        </div>
+      )}
 
       {mode === 'cards' && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">

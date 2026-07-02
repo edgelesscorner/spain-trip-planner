@@ -12,6 +12,7 @@ import http from 'node:http'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { dirname, join } from 'node:path'
+import { getTikTokCandidates } from './tiktok.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 
@@ -224,6 +225,18 @@ function startServer() {
       } catch (e) {
         console.error('hotel fetch failed:', e.message)
         res.end('{"hotels":[]}') // graceful — app falls back to curated seed
+      }
+      return
+    }
+    if (req.url?.startsWith('/api/tiktok-discover')) {
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+      const category = new URL(req.url, 'http://x').searchParams.get('category') || 'eat'
+      try {
+        const candidates = await getTikTokCandidates(category)
+        res.end(JSON.stringify({ candidates }))
+      } catch (e) {
+        console.error('tiktok discover failed:', e.message)
+        res.end('{"candidates":[]}') // graceful — feature just no-ops
       }
       return
     }
