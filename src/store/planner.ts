@@ -266,7 +266,18 @@ export function createPlannerStore(storage?: StateStorage) {
       }),
       {
         name: STORE_KEY,
-        version: 1,
+        version: 2,
+        migrate: (persisted, version) => {
+          const s = (persisted ?? {}) as Partial<PlannerState>
+          // v2: LiveHotel gained a `kind` field (hotel vs. vacation rental).
+          // Drop any pre-v2 hotel cache so the app refetches listings that
+          // carry `kind`; otherwise the Hotels/Rentals filters match nothing.
+          if (version < 2) {
+            s.liveHotels = []
+            s.hotelsFetchedAt = 0
+          }
+          return s as PlannerState
+        },
         storage: createJSONStorage(
           () => storage ?? kvToStateStorage(appKV),
         ),
