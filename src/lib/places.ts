@@ -98,14 +98,18 @@ export async function searchText(
 }
 
 function toEnrichment(raw: RawPlace): Enrichment {
-  const photoName = raw.photos?.[0]?.name
+  const photoUrls = (raw.photos ?? [])
+    .slice(0, 6)
+    .map((p) => (p.name ? photoMediaUrl(p.name) : ''))
+    .filter(Boolean)
   return {
     placeId: raw.id,
     coordinates:
       raw.location?.latitude != null && raw.location?.longitude != null
         ? { lat: raw.location.latitude, lng: raw.location.longitude }
         : undefined,
-    photoUrl: photoName ? photoMediaUrl(photoName) : undefined,
+    photoUrl: photoUrls[0],
+    photoUrls: photoUrls.length ? photoUrls : undefined,
     rating: raw.rating,
     userRatingsTotal: raw.userRatingCount,
     priceLevel:

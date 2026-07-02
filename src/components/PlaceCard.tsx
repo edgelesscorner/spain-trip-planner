@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import type { CardPlace } from '../lib/catalog'
 import { usePlanner } from '../store/planner'
 import { mapsSearchUrl, augustRatesUrl } from '../lib/links'
@@ -40,22 +40,9 @@ function DriveTime({ card }: { card: CardPlace }) {
   )
 }
 
-function Thumbnail({ card }: { card: CardPlace }) {
-  const [failed, setFailed] = useState(false)
-  const photo = card.enrichment?.photoUrl
-  if (photo && !failed) {
-    return (
-      <img
-        src={photo}
-        alt={`Photo of ${card.name}`}
-        loading="lazy"
-        onError={() => setFailed(true)}
-        className="h-full w-full object-cover"
-      />
-    )
-  }
-  // Fallback only when there is no real photo (e.g. no Maps key yet) or it
-  // failed to load — we never show a stock photo of a different place.
+function Placeholder({ card }: { card: CardPlace }) {
+  // Shown when there are no photos (or all failed) — never a stock photo of a
+  // different place.
   return (
     <div
       className="relative flex h-full w-full items-center justify-center overflow-hidden"
@@ -76,6 +63,65 @@ function Thumbnail({ card }: { card: CardPlace }) {
           photo with Maps key
         </span>
       </div>
+    </div>
+  )
+}
+
+/** Swipeable photo carousel with dot indicators; degrades to the placeholder. */
+function Thumbnail({ card }: { card: CardPlace }) {
+  const [failed, setFailed] = useState<Set<number>>(() => new Set())
+  const [active, setActive] = useState(0)
+  const scroller = useRef<HTMLDivElement>(null)
+
+  const visible = card.photos
+    .map((src, i) => ({ src, i }))
+    .filter((p) => !failed.has(p.i))
+
+  if (visible.length === 0) return <Placeholder card={card} />
+
+  function onScroll() {
+    const el = scroller.current
+    if (!el || el.clientWidth === 0) return
+    setActive(Math.round(el.scrollLeft / el.clientWidth))
+  }
+
+  return (
+    <div className="relative h-full w-full">
+      <div
+        ref={scroller}
+        onScroll={onScroll}
+        className="no-scrollbar flex h-full w-full snap-x snap-mandatory overflow-x-auto"
+      >
+        {visible.map(({ src, i }) => (
+          <img
+            key={i}
+            src={src}
+            alt={`${card.name} photo ${i + 1}`}
+            loading="lazy"
+            draggable={false}
+            onError={() =>
+              setFailed((prev) => {
+                const next = new Set(prev)
+                next.add(i)
+                return next
+              })
+            }
+            className="h-full w-full flex-none snap-center object-cover"
+          />
+        ))}
+      </div>
+      {visible.length > 1 && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-2 flex items-center justify-center gap-1.5">
+          {visible.map((_, i) => (
+            <span
+              key={i}
+              className={`h-1.5 rounded-full shadow transition-all ${
+                i === active ? 'w-4 bg-white' : 'w-1.5 bg-white/60'
+              }`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   )
 }

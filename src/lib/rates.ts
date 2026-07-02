@@ -18,6 +18,8 @@ export interface LiveHotel {
   hotelClass?: number
   coordinates?: { lat: number; lng: number }
   thumbnailUrl?: string
+  /** Several photos for the swipeable carousel. */
+  images?: string[]
   link?: string
 }
 

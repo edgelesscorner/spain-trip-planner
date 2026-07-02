@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps'
 import type { CardPlace } from '../lib/catalog'
 import { ENV } from '../lib/env'
@@ -53,8 +53,29 @@ function MapFallback({ cards }: { cards: CardPlace[] }) {
 
 export default function MapView({ cards, center, height = 420 }: Props) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [authFailed, setAuthFailed] = useState(false)
+
+  // Google calls window.gm_authFailure on an invalid key / disallowed referrer.
+  // Catch it so we show a helpful fallback instead of Google's broken overlay.
+  useEffect(() => {
+    const w = window as unknown as { gm_authFailure?: () => void }
+    w.gm_authFailure = () => setAuthFailed(true)
+  }, [])
 
   if (!ENV.hasMaps) return <MapFallback cards={cards} />
+
+  if (authFailed) {
+    return (
+      <div className="flex flex-col gap-3">
+        <p className="rounded-xl bg-red-50 px-3 py-2 text-sm text-red-700">
+          The map couldn’t load — this site’s domain isn’t allowed on your Google
+          Maps key yet. Add it under the key’s <strong>Website restrictions</strong>,
+          then reload. Your places are listed below in the meantime.
+        </p>
+        <MapFallback cards={cards} />
+      </div>
+    )
+  }
 
   const withCoords = cards.filter((c) => c.enrichment?.coordinates)
   const selected = cards.find((c) => c.id === selectedId)

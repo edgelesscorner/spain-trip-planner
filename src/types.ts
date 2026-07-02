@@ -98,6 +98,8 @@ export interface Enrichment {
   placeId?: string
   coordinates?: { lat: number; lng: number }
   photoUrl?: string
+  /** Several photos, for the swipeable card carousel. */
+  photoUrls?: string[]
   rating?: number
   userRatingsTotal?: number
   /** Google price level 0–4. */

@@ -33,12 +33,21 @@ export interface CardPlace {
   priceHint?: string
   badges: Badge[]
   enrichment?: Enrichment
+  /** Photos for the swipeable card carousel (may be empty → placeholder). */
+  photos: string[]
   /** Best external link: website > Google Maps > AI source URL. */
   externalUrl?: string
   bookingUrgency?: string
   isDiscovered: boolean
   /** Live Google Hotels nightly price (USD) for the trip dates, when known. */
   liveNightlyUSD?: number
+}
+
+/** Photos from an enrichment record (multiple → carousel). */
+function enrichmentPhotos(e?: Enrichment): string[] {
+  if (!e) return []
+  if (e.photoUrls?.length) return e.photoUrls
+  return e.photoUrl ? [e.photoUrl] : []
 }
 
 export function isDiscovered(
@@ -94,6 +103,7 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
         { label: 'suggested', tone: 'neutral' },
       ],
       enrichment: place.enrichment,
+      photos: enrichmentPhotos(place.enrichment),
       externalUrl: bestExternalUrl(place.enrichment, place.sourceUrl),
       isDiscovered: true,
     }
@@ -162,6 +172,7 @@ export function toCard(place: Place | DiscoveredPlace): CardPlace {
     priceHint,
     badges: uniqueBadges,
     enrichment: place.enrichment,
+    photos: enrichmentPhotos(place.enrichment),
     externalUrl: bestExternalUrl(place.enrichment, place.source),
     bookingUrgency,
     isDiscovered: false,
@@ -185,10 +196,16 @@ function liveWhy(h: LiveHotel): string {
  * price + Google data; otherwise build a factual card from Google's own data.
  */
 export function liveHotelToCard(h: LiveHotel, seed?: SeedStay): CardPlace {
+  const photos = h.images?.length
+    ? h.images
+    : h.thumbnailUrl
+      ? [h.thumbnailUrl]
+      : []
   const enrichment: Enrichment = {
     rating: h.rating,
     coordinates: h.coordinates,
-    photoUrl: h.thumbnailUrl,
+    photoUrl: photos[0],
+    photoUrls: photos.length ? photos : undefined,
     mapsUrl: h.link,
     verified: true,
   }
@@ -209,6 +226,7 @@ export function liveHotelToCard(h: LiveHotel, seed?: SeedStay): CardPlace {
     tags: ['air conditioning'],
     badges,
     enrichment,
+    photos,
     externalUrl: h.link,
     isDiscovered: false,
     liveNightlyUSD: h.nightlyUSD,

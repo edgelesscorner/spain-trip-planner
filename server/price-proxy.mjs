@@ -141,6 +141,10 @@ export function buildHotelList(entries) {
           ? { lat: p.gps_coordinates.latitude, lng: p.gps_coordinates.longitude }
           : undefined,
         thumbnailUrl: p.images?.[0]?.thumbnail,
+        images: (p.images || [])
+          .slice(0, 6)
+          .map((im) => im.thumbnail || im.original_image)
+          .filter(Boolean),
         link: typeof p.link === 'string' ? p.link : undefined,
       })
     }
