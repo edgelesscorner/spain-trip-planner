@@ -78,6 +78,8 @@ export type EatTier = 'local' | 'splurge' | 'marquee'
 export interface SeedEat extends SeedBase {
   category: 'eat'
   tier: EatTier
+  /** Venue/cuisine category for filtering (pintxos, seafood, fine-dining, …). */
+  type: string
   michelin?: number
   /** Urgency note surfaced as a "book now" badge. */
   bookingUrgency?: string

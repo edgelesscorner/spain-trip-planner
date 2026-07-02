@@ -10,7 +10,7 @@ import {
   liveHotelToCard,
   type CardPlace,
 } from '../lib/catalog'
-import { filterEats, filterDos, sortPlaces } from '../lib/filters'
+import { filterEats, filterDos, sortPlaces, typeLabel } from '../lib/filters'
 import { suggestAndVerify } from '../lib/verify'
 import { ENV } from '../lib/env'
 import FilterBar, {
@@ -59,6 +59,17 @@ export default function CategoryPage({ category }: { category: Category }) {
   const patch = (p: Partial<FeedFilters>) =>
     setFilters((f) => ({ ...f, ...p }))
 
+  // Distinct category types present in this feed, for the filter chips.
+  const typeOptions = useMemo(() => {
+    const set = new Set<string>()
+    for (const p of SEED_BY_CATEGORY[category]) {
+      if (p.category === 'eat' || p.category === 'do') set.add(p.type)
+    }
+    return Array.from(set).sort((a, b) =>
+      typeLabel(a).localeCompare(typeLabel(b)),
+    )
+  }, [category])
+
   const cards: CardPlace[] = useMemo(() => {
     if (category === 'stay') {
       // Real, AC-confirmed, currently-priced hotels (curated + live Google).
@@ -94,11 +105,11 @@ export default function CategoryPage({ category }: { category: Category }) {
     const filtered =
       category === 'eat'
         ? sortPlaces(
-            filterEats(seedPlaces, { tiers: filters.tiers, tags: [] }),
+            filterEats(seedPlaces, { tiers: filters.tiers, types: filters.types }),
             filters.sort,
           )
         : sortPlaces(
-            filterDos(seedPlaces, { interests: filters.interests, types: [] }),
+            filterDos(seedPlaces, { types: filters.types }),
             filters.sort,
           )
     const seedCards = filtered.map(toCard)
@@ -163,6 +174,7 @@ export default function CategoryPage({ category }: { category: Category }) {
           filters={filters}
           patch={patch}
           count={cards.length}
+          typeOptions={typeOptions}
         />
         <ViewModeToggle mode={mode} onChange={setMode} />
       </div>

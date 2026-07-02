@@ -57,18 +57,27 @@ describe('Stay filters — USD price ceiling', () => {
 
 describe('Eat / Do filters over the new two-leg seed', () => {
   it('filters eat by tier', () => {
-    const out = filterEats(EAT, { tiers: ['marquee'], tags: [] })
+    const out = filterEats(EAT, { tiers: ['marquee'], types: [] })
     const names = out.map((p) => p.name)
     expect(names).toContain('Arzak')
     expect(out.every((p) => p.category === 'eat' && p.tier === 'marquee')).toBe(true)
     expect(names).not.toContain('Bar Néstor') // a 'local' pintxos bar
   })
 
-  it('filters do by interest', () => {
-    const out = filterDos(DO, { interests: ['wine'], types: [] })
+  it('filters eat by type (category)', () => {
+    const out = filterEats(EAT, { tiers: [], types: ['pintxos'] })
+    const names = out.map((p) => p.name)
+    expect(names).toContain('Bar Néstor')
+    expect(out.every((p) => p.category === 'eat' && p.type === 'pintxos')).toBe(true)
+    expect(names).not.toContain('Arzak') // fine-dining
+  })
+
+  it('filters do by type (category)', () => {
+    const out = filterDos(DO, { types: ['winery'] })
     const names = out.map((p) => p.name)
     expect(names).toContain('Bodegas Binifadet')
-    expect(names).not.toContain('La Concha Beach')
+    expect(out.every((p) => p.category === 'do' && p.type === 'winery')).toBe(true)
+    expect(names).not.toContain('La Concha Beach') // a beach
   })
 })
 

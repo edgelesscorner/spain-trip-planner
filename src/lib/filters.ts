@@ -57,16 +57,17 @@ export function filterStays(stays: Place[], f: StayFilterState): Place[] {
 
 export interface EatFilterState {
   tiers: EatTier[]
-  tags: string[]
+  /** Venue/cuisine categories to include (OR); empty = all. */
+  types: string[]
 }
 
-export const DEFAULT_EAT_FILTERS: EatFilterState = { tiers: [], tags: [] }
+export const DEFAULT_EAT_FILTERS: EatFilterState = { tiers: [], types: [] }
 
 export function filterEats(eats: Place[], f: EatFilterState): Place[] {
   return eats.filter((p) => {
     if (p.category !== 'eat') return false
     if (f.tiers.length && !f.tiers.includes(p.tier)) return false
-    if (f.tags.length && !f.tags.every((t) => p.tags.includes(t))) return false
+    if (f.types.length && !f.types.includes(p.type)) return false
     return true
   })
 }
@@ -74,20 +75,54 @@ export function filterEats(eats: Place[], f: EatFilterState): Place[] {
 // ── Do ───────────────────────────────────────────────────────────────────────
 
 export interface DoFilterState {
-  interests: string[]
+  /** Activity categories to include (OR); empty = all. */
   types: string[]
 }
 
-export const DEFAULT_DO_FILTERS: DoFilterState = { interests: [], types: [] }
+export const DEFAULT_DO_FILTERS: DoFilterState = { types: [] }
 
 export function filterDos(dos: Place[], f: DoFilterState): Place[] {
   return dos.filter((p) => {
     if (p.category !== 'do') return false
-    if (f.interests.length && !f.interests.some((i) => p.interests.includes(i)))
-      return false
     if (f.types.length && !f.types.includes(p.type)) return false
     return true
   })
+}
+
+/** Human labels for the category `type` values used across Eat + Do filters. */
+export const TYPE_LABELS: Record<string, string> = {
+  // eat
+  pintxos: 'Pintxos',
+  seafood: 'Seafood',
+  asador: 'Asador (grill)',
+  'fine-dining': 'Fine dining',
+  traditional: 'Traditional',
+  tapas: 'Tapas',
+  market: 'Market',
+  'wine-bar': 'Wine bar',
+  'cider-house': 'Cider house',
+  cafe: 'Café',
+  international: 'International',
+  // do
+  beach: 'Beach',
+  cove: 'Cove',
+  'coastal-walk': 'Coastal walk',
+  hike: 'Hike',
+  'old-town': 'Old town',
+  museum: 'Museum',
+  landmark: 'Landmark',
+  viewpoint: 'Viewpoint',
+  winery: 'Winery',
+  distillery: 'Distillery',
+  boat: 'Boat',
+  watersport: 'Watersport',
+  garden: 'Garden',
+  'day-trip': 'Day trip',
+  nightlife: 'Nightlife',
+}
+
+export function typeLabel(type: string): string {
+  return TYPE_LABELS[type] ?? type
 }
 
 // ── Sorting ──────────────────────────────────────────────────────────────────

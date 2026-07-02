@@ -1,6 +1,6 @@
 import type { Category, EatTier, LegId } from '../types'
 import type { SortKey } from '../lib/filters'
-import { SORT_LABELS } from '../lib/filters'
+import { SORT_LABELS, typeLabel } from '../lib/filters'
 import { HeartIcon } from './icons'
 
 export type LegFilter = LegId | 'all'
@@ -14,10 +14,10 @@ export interface FeedFilters {
   ceilingUSD: number
   walkToBeach: boolean
   walkToDining: boolean
-  // eat
+  // eat: tier chips
   tiers: EatTier[]
-  // do
-  interests: string[]
+  // eat + do: venue/activity category chips
+  types: string[]
 }
 
 export const NO_CEILING = 100000
@@ -30,7 +30,7 @@ export const DEFAULT_FEED_FILTERS: FeedFilters = {
   walkToBeach: false,
   walkToDining: false,
   tiers: [],
-  interests: [],
+  types: [],
 }
 
 function Chip({
@@ -58,8 +58,12 @@ function Chip({
   )
 }
 
+const TIER_LABELS: Record<EatTier, string> = {
+  local: 'Local',
+  splurge: 'Splurge',
+  marquee: 'Michelin / marquee',
+}
 const TIERS: EatTier[] = ['local', 'splurge', 'marquee']
-const INTERESTS = ['beaches', 'coves', 'coastal walks', 'culture', 'wine', 'pintxos']
 const LEG_TABS: { id: LegFilter; label: string }[] = [
   { id: 'all', label: 'Both legs' },
   { id: 'basque', label: 'Basque' },
@@ -78,11 +82,14 @@ export default function FilterBar({
   filters,
   patch,
   count,
+  typeOptions,
 }: {
   category: Category
   filters: FeedFilters
   patch: (p: Partial<FeedFilters>) => void
   count: number
+  /** Distinct category `type` values available for this feed. */
+  typeOptions: string[]
 }) {
   function toggleIn<T>(arr: T[], value: T): T[] {
     return arr.includes(value) ? arr.filter((x) => x !== value) : [...arr, value]
@@ -148,21 +155,24 @@ export default function FilterBar({
               active={filters.tiers.includes(t)}
               onClick={() => patch({ tiers: toggleIn(filters.tiers, t) })}
             >
-              {t}
-            </Chip>
-          ))}
-
-        {category === 'do' &&
-          INTERESTS.map((i) => (
-            <Chip
-              key={i}
-              active={filters.interests.includes(i)}
-              onClick={() => patch({ interests: toggleIn(filters.interests, i) })}
-            >
-              {i}
+              {TIER_LABELS[t]}
             </Chip>
           ))}
       </div>
+
+      {(category === 'eat' || category === 'do') && typeOptions.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2">
+          {typeOptions.map((t) => (
+            <Chip
+              key={t}
+              active={filters.types.includes(t)}
+              onClick={() => patch({ types: toggleIn(filters.types, t) })}
+            >
+              {typeLabel(t)}
+            </Chip>
+          ))}
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
