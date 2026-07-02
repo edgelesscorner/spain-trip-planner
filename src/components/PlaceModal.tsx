@@ -6,7 +6,7 @@ import PhotoCarousel from './PhotoCarousel'
 import PlaceMap from './PlaceMap'
 import { BadgeRow } from './Badge'
 import SaveButton from './SaveButton'
-import { CarIcon, StarIcon, ExternalIcon } from './icons'
+import { CarIcon, StarIcon, ExternalIcon, TikTokIcon } from './icons'
 
 /** Detail popup for a place: photos, full info, and a map of its location. */
 export default function PlaceModal({
@@ -34,6 +34,7 @@ export default function PlaceModal({
   const rating = card.enrichment?.rating
   const hours = card.enrichment?.hours
   const coords = card.enrichment?.coordinates
+  const fromTikTok = card.tags?.some((t) => /tiktok/i.test(t)) ?? false
 
   return (
     <div
@@ -61,6 +62,14 @@ export default function PlaceModal({
           >
             ✕
           </button>
+          {fromTikTok && (
+            <span
+              className="absolute left-2 top-2 inline-flex items-center gap-1 rounded-full bg-black/80 px-2.5 py-1 text-xs font-semibold text-white shadow-sm backdrop-blur"
+              title="Popular on TikTok"
+            >
+              <TikTokIcon width={14} height={14} /> TikTok
+            </span>
+          )}
         </div>
 
         <div className="flex flex-col gap-3 p-5">

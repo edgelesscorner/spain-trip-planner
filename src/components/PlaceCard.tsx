@@ -7,7 +7,7 @@ import PhotoCarousel from './PhotoCarousel'
 import PlaceModal from './PlaceModal'
 import { BadgeRow } from './Badge'
 import SaveButton from './SaveButton'
-import { CarIcon, StarIcon, ExternalIcon } from './icons'
+import { CarIcon, StarIcon, ExternalIcon, TikTokIcon } from './icons'
 
 function DriveTime({ card }: { card: CardPlace }) {
   const base = usePlanner((s) => s.settings.homeBase)
@@ -40,6 +40,7 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
   const rating = card.enrichment?.rating
   const googleRange = formatGooglePriceRangeUSD(card.enrichment?.priceRange)
   const livePriced = card.liveNightlyUSD != null
+  const fromTikTok = card.tags?.some((t) => /tiktok/i.test(t)) ?? false
 
   return (
     <>
@@ -65,6 +66,14 @@ export default function PlaceCard({ card }: { card: CardPlace }) {
           <div className="absolute right-2 top-2" onClick={stop}>
             <SaveButton id={card.id} category={card.category} />
           </div>
+          {fromTikTok && (
+            <span
+              className="absolute left-2 top-2 inline-flex items-center gap-1 rounded-full bg-black/80 px-2 py-1 text-xs font-semibold text-white shadow-sm backdrop-blur"
+              title="Popular on TikTok"
+            >
+              <TikTokIcon width={13} height={13} /> TikTok
+            </span>
+          )}
         </div>
 
         <div className="flex flex-1 flex-col gap-2.5 p-4">

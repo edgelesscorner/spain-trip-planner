@@ -19,6 +19,7 @@
     "bake:tiktok": "node scripts/bake-tiktok.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.5.0",
     "@vis.gl/react-google-maps": "^1.5.5",
     "localforage": "^1.10.0",
     "react": "^18.3.1",

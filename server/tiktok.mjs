@@ -218,15 +218,22 @@ async function extractCandidates(category, posts) {
 const cache = new Map() // category → { at, data }
 const TTL = 1000 * 60 * 60 * 12 // 12h — TikTok trends move slowly enough
 
-export async function getTikTokCandidates(category) {
-  if (category !== 'eat' && category !== 'do') return []
-  const hit = cache.get(category)
-  if (hit && Date.now() - hit.at < TTL) return hit.data
-  const posts = await fetchTikTok(buildQueries(category))
+/** Scrape + extract for a specific query set (no cache). Used by the baker. */
+export async function runDiscovery(category, queries) {
+  const q = queries && queries.length ? queries : buildQueries(category)
+  const posts = await fetchTikTok(q)
   if (process.env.TIKTOK_DEBUG) console.error(`[tiktok] posts=${posts.length}`)
   const candidates = await extractCandidates(category, posts)
   if (process.env.TIKTOK_DEBUG)
     console.error(`[tiktok] candidates=${candidates.length}`)
+  return candidates
+}
+
+export async function getTikTokCandidates(category) {
+  if (category !== 'eat' && category !== 'do') return []
+  const hit = cache.get(category)
+  if (hit && Date.now() - hit.at < TTL) return hit.data
+  const candidates = await runDiscovery(category)
   cache.set(category, { at: Date.now(), data: candidates })
   return candidates
 }

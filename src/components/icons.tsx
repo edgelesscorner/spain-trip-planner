@@ -88,3 +88,9 @@ export const StarIcon = (p: IconProps) => (
     <path d="m12 3 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z" />
   </svg>
 )
+// TikTok music-note glyph (filled). Marks places surfaced from TikTok.
+export const TikTokIcon = (p: IconProps) => (
+  <svg {...base(p)} width={16} height={16} fill="currentColor" stroke="none">
+    <path d="M15.2 3c.35 2.2 1.6 3.6 3.8 3.75v2.63c-1.28.13-2.5-.19-3.62-.83v5.9c0 3.02-2.2 5.05-4.94 5.05a5.05 5.05 0 0 1-1.06-9.98v2.77a2.34 2.34 0 1 0 3 2.26V3h2.82Z" />
+  </svg>
+)

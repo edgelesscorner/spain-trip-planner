@@ -192,6 +192,51 @@
     }
   },
   {
+    "id": "ai-parque-de-atracciones-monte-igueldo-san-sebastian",
+    "category": "do",
+    "leg": "basque",
+    "name": "Parque de Atracciones Monte Igueldo",
+    "town": "San Sebastián",
+    "why": "Recommended for panoramic views",
+    "tags": [
+      "tiktok",
+      "viewpoint"
+    ],
+    "type": "viewpoint",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@your.vacation.guide.pdf/video/7603361590364179720",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ96pnLpi6UQ0Rwshthamc4qg",
+      "coordinates": {
+        "lat": 43.321318999999995,
+        "lng": -2.0098019
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 9190,
+      "website": "http://www.monteigueldo.es/atracciones",
+      "mapsUrl": "https://maps.google.com/?cid=12169461395010472130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Tuesday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Wednesday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Thursday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Friday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Saturday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM",
+        "Sunday: 11:00 AM – 2:00 PM, 3:30 – 8:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3nJ2AAb2NUIIZkd-HbWOX8-1UUpKBW0d9OmdullESHDT-ohIhC7kob9MT8JDL0OUYm7Z4kpSKTQJXbtPpjLexcdgNGcNmA__5tpH4VIEHOp8y5BpElSXoKoNcWvEejIFJsd30O9IumWLzrDF8CNmUGXaUBp-bh1cTJIyQ-pyppNCOzzj7zq8wdwbUoGGQwOItVXN-yyTr2RpZlEvjAgRTIfWdGYdV6LF5j2uPVKanQXmAx1a1nohLYQZNYz1MgIsy-u5LS_-3bR3zUwYJRGB4F4GlC_jbdKAR9tYDnAY4AO3kGFUcAky-V48to4AfaD-xsAAuX5sdGxhzbyoVfApTPQBjzW2VZtbip80Hsz6AXcTn83Zz0ITwmBYKf_fZmQMMyg0RmN2ASLdUQUex8d1yTQILRVfnAtn4So_PFztd4ouw",
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3meaFX6U2wbbqvfJ_fNOhoBa_MlZg8mIaw6fa0A9CDfEgYwt5ZZ8AM2zO1C8ythJ7UZqnRUIO4_h0GXQ2Quv5fylqDnWoYjl5knrtWDc7-YVMqxzcPlStupAB_svFJRN0CpbsinBilUqhttIGaWER3cv_0Kg1fD3Dj8UMMuh0pSt5Xz3Rcs9kmVeMuARGcOJ98yyOMAqB8kUAxhjikz9aUvAN4cORaLSMMKG4K2bHTwHCAqvmQB15fsKgDjnm39FKLVClPV_00p7ay1ZzWdsHQye4JNMzz7JsNnOXrxQMymfQQCsFi9h5u7sm9bzHUuLDfodCJb4w7LAEVPaMsJjo9mFoiKpKSgB0rKUbkcvNpcmACasp_KzrMFw7KgKYm2YfUDDLWVdQYHsA5104mSohqMbDwoIVF_JhUSfzgP3i1Y8A",
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3nWjmLqMd9vVaceaN5yH1kfBky_vIUVlzv0ywsaKBH1cVXqhIhZcNFHlFgZdNCJ7c2ly5epWeFUMFCqB32Arv1ZWnZg0sgwfROUK1sd03UiL2u59n_IzxD6an5IKszLyUQ7_gjLMGlK01hAt-QHtVQneFiEx0HMXhayeJk6Cjtqbx3x6U0wsdZ81DVcOCARr3idw1iYYhGiTz3ACeQd2Wc0-RGuCAUTtdxOwyNCI5oXcR6Xwm9tieV6tTZjWHifCmxL_dX5z1WIzOH5n-WamgJOdC2_fatjkb_08mQ_9FW0UKe3JqROkgnd1UsTMl9gMSur_8wbNIkA2hY1Mvb65QwHOjpu0eg1FBuCmezCMR_oprEtQvfD2NmG01nrt39Q6eDqQmdt0tVJMo4SVSCiGjepPqbfbvGGXks0gteTaefF3vU",
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3msFz17pI1l5qo562GfVSXg7wJ5fs8JlDvVVrWsum6viQ8W1BoTB2gdE18t4MThZIbYnGYSNAq7dvKgdtFW2QQNqOcjZXPRvvVqhxBxM01HO9GEYQAmCt_wvH3-qqFRIKMF-hkF-h3ZRSbn5oN9PakrPqEx415hQJeSvDFfa_H34IHf6oB7BflY-XHKctiLjmBEUKs7AX8XQN5mz1DA-_ODPUlMupnBYDgUMgtbHF0oS5xnou2UVzvhB6Ic13xJ8GGsggUSE9_51VYGYer8BgONA88QMbSIXtIm3O-Bcq1JDUYF43MOgthQiIva4_MTUahViQJCBg8sn1qaKS9nK57w4d4MEQ188dsPlM_8r9Bftbc_L7Xi5NI_-7qvPmYLOK19cgCmJJUfnFGnG9nnDjG3U1oelTPRZB_DY1Mk7Nih2w",
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3npT0mFC9Ued5jCckIhzr-Jdg8sOiqyKcEAd-XWE9u7kTb9wGjPBj6dQFUi7ivYzg6-N6GGllvrt1YI_m_81IWHuMwO0qVXWx0odv3WzxWHNVT6EumyIMMD1vCEzKQ4N5Q30qHAP2ABy9BV3H-FHDh2ca04SL1yRom06l4fanKVZ_nGI3XqkwhbSzsLUryAoHtJFL-_ZuCdg-faIUm_XRTlEy7YzepxvVVW670SAjuiZaJfmelWdqtR80pHQjtEUIQSaAFheEfLJHO0ZDNq8R7Cfs2RZgGe4DMgL-APNKbOZewdCXEeXUIGa1GuGufgzP9eFs2zVOD7XnuxIUWxIxUgqnWQIDwP8Cbz86OZrPB3z36pSTg6DsgYehpTCRRj9GXn0QJlSKf4y_UvWypIBCKnbPLRTNebLS-fhU35EcBlg5A5yWKE0E6bL1jHBH5k",
+        "places/ChIJ96pnLpi6UQ0Rwshthamc4qg/photos/AaVGc3kM3CswAQ5M0_miqINPzGhHP7S06lgneFLiBbh847yi2KHCl8Ky88KY7Oxrpc-GyskQy_JrNHMlA9Gu4PhLDEAkK4R6uPvf2YxJJbZuRbyVvCTGrYOAwazw29HBkHL4EJjiOivdzRgCLwxLDG2Jprst9C-5s9EG1WicxGxZAUY-UxEv0T1zI_d5_wQHPzdayhdnsIRQ9BdOphMYUkxJIml7IepiF12y5IKReDWumYhRDs-Do-y0mCdE4z1oXtZeOQfedB82SJot9XhtiOeG2u8kmpUygTiME7Os3spmY8tMBYF5ItS2fc9UN62wJe_31HhVKt54WYeJpexUuZ4XIxNuz0vZeMB9jK6cSh9-Z-684U_5Itlw4258_WlI4jGVSSxUpkN10zKJ5xhLUatYXphPGBBuiBF9FH9BPDN286v4fw"
+      ],
+      "verified": true
+    }
+  },
+  {
     "id": "ai-santa-clara-island-san-sebastian",
     "category": "do",
     "leg": "basque",
@@ -1372,6 +1417,209 @@
     }
   },
   {
+    "id": "ai-elkano-getaria",
+    "category": "eat",
+    "leg": "basque",
+    "name": "ELKANO",
+    "town": "Getaria",
+    "why": "Famous for whole grilled turbot and Basque seafood tradition",
+    "tags": [
+      "tiktok",
+      "seafood/Michelin-starred"
+    ],
+    "type": "seafood/Michelin-starred",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@just.tonyh/video/7538951501138431250",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJH9GgGaLIUQ0RhEde7VfKpQI",
+      "coordinates": {
+        "lat": 43.303045499999996,
+        "lng": -2.2049776999999997
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 1746,
+      "priceLevel": 3,
+      "priceRange": {
+        "start": 100,
+        "end": 0,
+        "currency": "EUR"
+      },
+      "website": "http://www.restauranteelkano.com/",
+      "mapsUrl": "https://maps.google.com/?cid=190781038226458500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 1:00 – 3:15 PM",
+        "Wednesday: 1:00 – 3:15 PM",
+        "Thursday: 1:00 – 3:15 PM",
+        "Friday: 1:00 – 3:15 PM, 8:30 – 10:15 PM",
+        "Saturday: 1:00 – 3:15 PM, 8:30 – 10:15 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3nREPTOujQ2yP6scd0GoLP4IzKVbq7OLCkxDkicxu8O4rRwD_laD7BOXteSRQql24VdShsaOovzDdbBFLFuJCk9lTEPWJGUYoNyN0VRNnJ6FfSr3MJuTB2I1zxpjs_DKzTSKFFW3zIKShR-uYr10KEM-3Ag_ors5F4OqVCYqFe0WuI1AhMLR91Hri3SFPd3_u6zqDW2zXUdpZ29B-X4NeOs5lQds4c47sc1z_W5cSWxf-5t1dxpgBjo2p-uVSmpPoHLFULLEDXNiswSrt5Q15bJ_KkegIk7JgxHcq2BOzCppgOpyZkMfwgdoFqac_lu3hw9Eo9QCFp-2udYynQpd53AYsSgNHR7ToCL-FbE4oEzYrgnjGtKK7ryxkoVhUn50EAaDNa7FwzjGdWXjiEV0tNaXUPNkO2eetVFTP0mBoM9sunm",
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3mmOveZh2zqwN16Q8HWjXGLF8xCtbs_n4qfSR6YeSbpo9JNIlM-Xv9Vh9cysWj83fLualp3yFUlhNeyHlOpViXzgPKi9D31nQEUZZnSwFR_MtOxHt8W6E1pcJI7RGLXnRBg3-oQ-7Hl21vne2hpJXyZR0GZ3z7lpMsDBjvQt5OnWJrZ17jvsgRcsQIe20WQ_U9mhOOb5OsARe3P7DXCJPX11gdZIxu2oYISwHWqEC8MuFuK_B7Se2wkCVMJRewtjhcoEmTH35ubxjsb_22ay4WfsAbuXFZoveUr5PwblI9at7JOXBth3KbFSUhGUUMyjT9eEe8Ec8UejuzLX-Kw5DoaTVVLYVLgGmEpbimx51dTqMclueXeVJT57W1adkmxm3SR4JCoOozI3iM0URIxuIaQL9Fo9G3pHCEILhXKe5fT9ne1pAb4wXK6p0-vjw",
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3lpGbwlbn-YOObBwR3FOd3TGnzLSLwE_RW8ewoe0B2Vr3atpnMaCOwt7-thskUdzns0SYx5TBMIMRIdKvSffifwW5FU16ArZFNwrPJDbxhyMOCOUU873LYYEPFHWEgYV5qoGqBch5yE_zuoO4-JSVepPzjtg7Glxx8nsoaXfS7cGWbXTymHRhmcRPWE84GXBtxfCuafOSogy4hJhwVpeXXsut3RzDm5uyP89B3gEOw4peiQ8qmBX4Hmv9mE_UWXgdgvfkQXjcty1ytSFms1C8XagtiGAuQ6_uRNL4cKKuawOLXli18UQ6Mra3eg29i5uXY9zfaRKeMQVkNIwKY3VgNTwuftuoJ8nDw02PFokvNvovtlIedW8IWIBKip2bxGvFgBiSeuL0gIA39AWjQ1ysG5oP8qHRk_-B9vGQs2vQVdU3oHteoDU_9035Cq7sJ_",
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3niHL29gPptc77tEjGetkReQEK6jWvcdtaYrFvsNZfPVCKjUu9kFh8hImjjqq0TNkvrQJfC14nTyea1lbBOQ42FRm2hBdeWi7yQ-FS8O_jYWEC1Fu8YjlR0j0kKIEoImQzFSr7mXU62rF81xsjGYCXhJ71mzzUNqf8TRpwW_d-vv5GvmHuMLEjksUavSllyjs-fi6nk8bEqvita77LV0tG0MoXoRk6ZauSWyJ9_KpYyg5mNX3we-x4kHsN6Z7g0uxYpo3MGGuokNYRfzGx4O88pQBo6Gizsx7u8xd9aLT4VM6EBWFZH4KOkKf73_txor6LNAtcMMravpcJRJQoVO8bg4jBl9Zyz1_TRC7oiT_5aaTEfLcKT3eRORNj36wwT8WCXzMiz-YX6E9p6XEojHxL8V9Y9ZAwJpn1W93RspIe7hgZToILSZxCqM5Irog",
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3lwbYN5pvg9_qT8D_kjBscb9gHNTyXrAJNv2oAft8L1bniZAathZr8Up1pMAtuc1DxRqUOK4lQfRcxiJoHC_XkIw8zHh2DWhIfv_xMhEYKrgFAt6UNagJUeAKrh6O8FdB6nPcU_UurYty8ZtJefSnV19H-0BTHNnGLIMeqaAPpuRchuiRvomu7TQxg6e7oP7dVXegh_5-3arQCF2umT2hYybTigTb669DAEWhqz6UcdFj-Lss-3SNJxN_0AQsVCj0pHE15Trm-wolQTVxvKmaHnP9RaJ3yGZowKPHFG07N8Q95aWOcpQYWgAf1PUXh8DrQ6Q5tDKS999kHXj6sfQZnZS-pY0pyChwP2ls_vfU26esCj1wwRiaon601XkzxM7NP2n8ExQBNMyrYzJBtD0_N3Twa5NsFLbf6quFLI2iHBTbTPGk8vSWEQQm0vJzYd",
+        "places/ChIJH9GgGaLIUQ0RhEde7VfKpQI/photos/AaVGc3ljpDyP4UD-oXfmmLc7ifWz37rr-ibAinkUcuTEEQ59b0S_pVcGd6B_GmhYRZflvsqcoIfLPg4JoLdHN1S82SeXvYCOEyojxw-Bl47qRgKKyJGbQ7-TDgl0KFK2tSCM1P5nW1ssqntiYb8YGSr4JG5vBU6VOqYjHqSQDwF0-x2pfbdMesTsDcUEdkpTbCXaKIBHREUI8y2OWPs-39op5DAVqzUCKG6wCWOLpo1jdbRZsRSmrSxkHUw80HY0O4xeX47alYvzP3gK3GK_nhWOy7w3SfjORE2RO9PBB-omjaQ6WCzjVs5ijQlVsULJ-Mc7Ntvu_8xsBjLa3bbOJyVEqFB4Za8SgETq3-gCyqFfrIY0Yy4yQimsYgvDKeG5f-Mm3Go7w5fLLIdzNqBu_ZHjchNVig4Wc7fQZuS1as9hE6tcw9r9ylfZ_Pl4dIMUSYgv"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-kaia-kaipe-getaria",
+    "category": "eat",
+    "leg": "basque",
+    "name": "Kaia Kaipe",
+    "town": "Getaria",
+    "why": "Extraordinary grilled turbot, fresh and perfectly cooked",
+    "tags": [
+      "tiktok",
+      "seafood"
+    ],
+    "type": "seafood",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@eatwithseth/video/7564570345588460830",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJlaW_XZ_IUQ0RhWhoONqUhwk",
+      "coordinates": {
+        "lat": 43.3047282,
+        "lng": -2.2034138
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 2204,
+      "priceLevel": 3,
+      "priceRange": {
+        "start": 100,
+        "end": 0,
+        "currency": "EUR"
+      },
+      "website": "http://www.kaia-kaipe.com/",
+      "mapsUrl": "https://maps.google.com/?cid=686681133167437957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 3:30 PM",
+        "Tuesday: Closed",
+        "Wednesday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Thursday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Friday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Saturday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Sunday: 1:00 – 3:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3k9Lc7v01TfaADqVF90-Z7r8Z67d_ch3bXftFaHmkrhz69HxH8N0ZrNOGlyf20G94NYnROhhn-_Q0yd9sNXFctS_OHlypMcqrr1s2iOC_ojZk-ibJOiX3VEjbfIR-mMbXA8W1SAECHMnfKKhKzyVBmZJSRMCqmt8A0CV3aFKiR9dChb8_X2ZSRMB6e-DTAt7IW6e8vLK7IE_QxSKRbVkuiwb3mLxMRxBlpST_NeDxv_pd8Yj00xIqRoeIvFXvfCDHI_37oFcE_ewvkmK3uL2a3zzBuOvvkUMYy_wbBzzCTL2C3CX5MUAIPqRFK1_duJfpT1x5dLO2GRPy-cOwsg94eO0RSC5WrCRJiHGjFbncR7b9Hxg6TJxbLudxozMrkAzPNp4eUOjY7GoXyFNv0LC-dvw6hieT5dPY8okrWWfnSVHVFx",
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3kS4SBU_XZO-OMhH_QdT1N14GAIx9CfABnRYxOPuH14VzjaIjDhpFDQEe8omQHgCAgTpqmOoxUXfS0GQWsGAI0__8Y4fXBrC2hrq8DrTMW0MN9k_k_I-lCUokXAt42GzFfmnYNKM97gQ_Q7w1uw91XuEW7-vMZ1I2lgu6ATo60eXT6wgNWSQBKHO8YMxpYeZUxxEOXEehfes4fo-24JdykQsSNNbIYUWtMhzQrWZ5QE97MS9kFHCgIsO7an9_D0iZQnZik5tHLzxCL28YUm0qC3hulmsEI25RAbr6Ybf-Z58QCFpe-OJEvcE6N_CtofqvrV710fL5PUoHfkdWZys7NIQvBevHV7SymIv1sDfGCWa1jIqNk4ITEoBYssg8RnZYts2UXjI3bmvy36HaNXAmq9k1t2F2g3EFnBhC7rDuKlBaHm",
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3kZMZhT_OTseA68rXSxYd9ctH7l8AJiPWDIkmlwt8Y4orRyFJwzhyKu5EIjmTImTmpY17FvWQn1dP_I9XKrP6J3HdQqRqZ04DEmbH18QGKC8RRin8ooeEGB_B246LmiEA9IZ5cQMImAK3ON3fGvsc4TBixdRt8vEhJh4qWmi4C9GW9b6GWJn0ybCVS1mqNNZM8t8CJ3C3UnD2b2RA42hKF2odavNTwBicAU3PZfdfxbYiV_OTmUp_K8dp-9R_E0ks1LJYZWH5OdGFq_QgYpkHeK0t0u4W59t8Tdc--bw1kpk1vOL_Q2kyIlqlpKriSbFLH367qCSwgvi-t0HX7Fi6FV1KUYk6JKr4xYRl9VC8cL6kdThAPv2rtsR2C0PMMTSO51gVIVG6uiVFwBULCQ8O7YZvm2FRTX_okZAdMhLGwWzP9NHgY-2WDPkh2SXBRe",
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3mShAaIOFCDKR362sHHmHPoL8g1DzxkLeHOzWFMp7uGOR7a5WVhytgeUpeRQKjvmPmEQbB4d9nCoyf3DLPrddsv5CPwXnlVL1XvO92pQ4LKLGY9Db5bYerIq-QkPEE-AxN9cskyHp9YQ8jm5oXQIc9VLczpyu3qi1eFPWqfWitcS0f14_hjowN1aUKM6PAB6uMzjSSLcss5AOdZjWPftlsCrlyiiO5ablgnhSzQxlNmJhMhvhor4Xxv-j2QOnCtckpxdSuhu-cYZfHGxyv3MmphlVMl9_EF_0kROTX1LkHSoT_MRTtSeT29n7Tp7VUTR7H0HByGzdyPDPfU7Y0q6BrTmSIYrn1lvlUKX8C8HV6_pQzlYNEAcykmINf174hqSYDtqGir4DcWix05ZLRonjQd6YYgArUDTBUBEKvHMrjpPz4P",
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3lKrS2haLZKp6ZzPkJ1jqNoED6RfaZSykxxn60TCoQ84xJ6zxBGQDtro2OfwDkrqjVn13wj8ZnhWZeQjVTh8hPtvyS8JKG0FKV-i-vu-qKnI3C6d-Ildz-B-G8HHU9oe3D4QBjDzHpqLFOzX4tJAVOG3ujdqLxrmgwdFjKOICNFLs1RyGCZju_ZeVBMNg9yHSer_bdkKQZhY9I9uh5CvLg4XVIW7Wx7PclryhhUsqX6-aHgvzEyAuCjGdq_ZYxydunIPm1mlLa4iOX974ulCguE_F1FGtwcvZ6wWc-SiOzeZriX6OqaIluaGLPJJYsqExyrqNOrPKZbVpIF_AgGYeNL5CMWn723as72G3o6ub1Stp-dUeCcmmoSEf39EfwP8V3Oy4z_DnBRaS4G_AiMs4oa3EoWrEEHJUskv6sfc-7lRgtWgkqobVE5wPD_SsU9",
+        "places/ChIJlaW_XZ_IUQ0RhWhoONqUhwk/photos/AaVGc3nWJZ9dm2AYovykeyjmvCI3KWVhF3L0qI5qyilSQpoAToCLgFifYeMOp8bqduSnZgaNb5T2niQ2_g8hOIBJDKbNC2sezYDhQPntJDlMnGJdomJR_izBsZ-DOIH8msb4ANiB6VnoKfkrG5J45IGQ2Z-0Eocj6BZ6F-RLPUQPtJ2E96kq1hugrEX4nvTYRf_zyGzEPnIoaY1qQnwqsX3Vjp6KH5gEqZpOfqeqxrx2dg6bbDGxn7AJjwD9kkj1KWUbFXUTyCwlrwaUOU2APDnoFqY638nin2WmCsqPEEnwCdxPwD1ufv0bmtwTyZkH29MEuQ6wqcB7PRuo2hkMW4HO9cBTedmbh-cuSa9zDt53NbjuzKeKNrW-hUerXTmQofs0HQcnUrk6xxrBKeTkjJzGId62lgthljKM29dqlN1GW6wdoGKjwmmgAzcY2z35qQ"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-txoko-getaria-jatetxea-getaria",
+    "category": "eat",
+    "leg": "basque",
+    "name": "Txoko Getaria jatetxea",
+    "town": "Getaria",
+    "why": "Chef's recommendation for Getaria dining",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@eatingwithexperts/video/7561221646774766879",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJN4NrQJ_IUQ0R0LDqMHLWwEk",
+      "coordinates": {
+        "lat": 43.3048186,
+        "lng": -2.2032418
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 1286,
+      "priceLevel": 3,
+      "priceRange": {
+        "start": 40,
+        "end": 80,
+        "currency": "EUR"
+      },
+      "website": "http://www.txokogetaria.com/",
+      "mapsUrl": "https://maps.google.com/?cid=5314483346232488144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 1:00 – 3:30 PM",
+        "Wednesday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Thursday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Friday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Saturday: 1:00 – 3:30 PM, 8:00 – 10:30 PM",
+        "Sunday: 1:00 – 3:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3kqvSewIrjwbS6W1HNLBmT9ZcOHVWlme1EeCwS6IdyWuwXZClkjIi68F06F8G8O8Yy7jgyNbkMYp0T1kGaXBKzr4IHR6uL9Z32NsPhtC112V9TFmcokanrzMiNZGsnrhQcBBr2C1oh4nVtlq45_YQ6hgRoFcNMtX-mUm_TO4U11m6p_AoNMh0NjW2PhS9DpfR1eCIYKWYRFmZaAiMx7PCa0DmfTCvoZG2EmUwOgm_NyEtAXfqTOkoM2KiribeHdpMqsfPH5SQuovdRPa3Yd0po3X7Cqc6tLIOrrMrni1GinwtessBkpy68v5w_bpxcxmPTo6UjQOjU6o_rUuYZAKbYLbvBgZtfozI0taccfmPT89OMvpnnT-0u3mFz6THGhDFzv6oVESqoF4ajRmdPpPOTdFSEGJfnBFlqH2hzdvigghnQR",
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3kWIcRysUFtmNFt4hsjISVMp16UBgiQ73vvP770OXmB_4GUa2lgyY3xaPjGX-AeqpAIIK3GZaweLEutCrw5Kt6PuZZ6sE3AsXRqN36ti8zKi9xOR4VgA4Ut1enrZbPfRGdUr1kyJgyLUEkS63cpbDIT0k-hf6UvhEHn28W8iLfk-3Yk4ZIeInhVLtmPjcT_Gn1-XU8FL_nj2Kvi60YK0g6qNb_mB17ewvp8FivPU-nIVzvWvYA0N7evgc34uFAnSpASLfEz_L0cfVcIbZg99TR2fDEylTV2amCfSsnmMmuzNlGi9DGo-nWd6zlbiOoju01Hv5EUjQ37J2x1VhjILzLo5jYoQBGg5f6ZwJRKB5D2dn9JRBHyNJKnIL0Ea9Tr-u3Gqk6YnB3Jrvyt5u5JndZ54lWcZhYltdGDuxJJFnQugw",
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3lj3oEyrkG2S1GO70-Wdf7pPGAoTYILGeqcrlzOLm1hazBM8LhHlQ1VUX5Ya9iazg9Si7Sb7kQKql2KEtW4n2aTXgU_tY4his-6n1DfRZLWv4gxYrmZGc8wwJIaNEm3Hafs0EULMgYudytvHd3pd-vqu5QkDM2cfwmDsn9GDU3sa15tyVKBMCKfdlAdqUrGRxrT3geuGAA-MPOotJBv7uxazLOCmT8km6tmBRXTOesrznP1gQyQJL5CAZ-UUOyDJRQm2GLUcRU7BQvhbM9NI2BZZQ1jQLYLUUQ9jH9VdNEJG6KvtGZZUkds_Jgr9osu_X3pIiFcB0vnLXzPSVTR20BLu9OZMOjaCybg68FqvHcf-bY0uAMxbH1ZK2rzjsVE_JJe4hyA0tJkUNlzgk2zDUWoFB-0aD68bED_FB0taKJuuSLFjoYC9PmQpuDo-2gh",
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3lCoOvqBV78KYwFaEcpv5tXouxUk1WorjLa0JMpGFhDUAf6-3hkNF-ZnpH6dYO8VI6fhwA9IeV-Ahknw-fijkoOSXoii93AMr00kTBgdTszAs1DNkUw5kG6HP7vxD7zDiLUsUEbDATK9iUnHSCKNOGcqZ8N1nbGnTe0HpJGvDEfoqf7zt7E5fKFyYmOULeqco7GPsNgGclREIyfJWGU0E7dWRK3EQJwfNCLvEnoEPTjrPoR85V0xxsbbDF4_TD-Yxof1k3NoqZeNAGYSfpXCzIF5pxNMCTeu3KChP5nwRHnsT6ddX8hNactcrtwbB4G5TJWZucsRotc85hXIOW7SP6sWUjwlbR6BMkadtINlW7t0ozzo1ES_w7hGaRH6bT9BfchLf7spGGffod5vbX0H2HpLbH5EGJ8pgHJa5z9a-8LiP6MfXQ9VcFrA9xYV6az",
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3lvGxVI4FfVrVxLxJETkltmIBz163yxEnh-kUnsdwRgNCmWAoSfEDfbLNc6NXztyVyJIZKcayAAM_IrskyBy-a4hizFnICmJr5XplWS8oaibz5nhjao8bDaMbM0jG3DQl-FZSp9cgBxRno_HcMYXo3ZfkHjiEZRyoBSysHr6llu6ypNLpNTOWWtcdWWRjnTK3oJGbl0zb6pJDczU4VBJaCjYpG9wFjmRN5YeFa35pO7GaeNVhvYBpBfJQGzqr9VhE7n52QLhh5YnwEtHfhkL5R3hCRjFzo1-AUSdFYG7PZwZH0-5mOpaX66yTgowH3akd8JvEQTlTqyrk7hAQd7316sXWA8qrCgsEarlZiiP-zanKauAa0PrsRIzfkw-8cLxC5BTjwGDMXBD6mpEp2VEZobUcexzNa_1JSWtPqH8-q5AQI99M2y8N2BLJisFXTl",
+        "places/ChIJN4NrQJ_IUQ0R0LDqMHLWwEk/photos/AaVGc3laCuD0b1nvThTw52MQPSHVvRfLih2qDN6nl3JLipQe6G-q_qej8Hiy9spsEd1JXRfdu9Ah0icfH3eYC8GUUrb5_3XIIrKZZ352eXklQ6AuK6LbU7FwvlrQOuo1WxO7LsKAeWoLO0IyD7RNEiZINRpQZBnVVIKgT4yWexD8Rp5G_7TQiWdQOYGIkB4p9uTSd7eRqEe2CHfxwALeoX6tQe6CY-sBpGmu7XUJNhJ0KV9zUQzUhPKR1xnrUZh3y8htBNvuzlafjUXlZVjIdnojwhNkSMeYAZsvX6wU9lNGrVlPGf4GN8mSaeHqBBFoMEixrn96gf28mkVHe7FWZ4Qy5g5UVj3mtCJucC3gPQ1rbSL_CVrtx7V8EA8PVquK8B1zgvinfNz5Y8x3NvoWxmCMBRpMWRri_s_I3pV_pxYe_VJLpQEojVYx6kmMO8Uob9Mx"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-orburu-san-sebastian",
+    "category": "eat",
+    "leg": "basque",
+    "name": "Orburu",
+    "town": "San Sebastián",
+    "why": "Creative vegetable-focused hidden gem restaurant",
+    "tags": [
+      "tiktok",
+      "vegetarian restaurant"
+    ],
+    "type": "vegetarian restaurant",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@descubredonostia.com/video/7640562192667987222",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJsclCi--7UQ0RVP3_amqS7ao",
+      "coordinates": {
+        "lat": 43.3140557,
+        "lng": -2.0015074
+      },
+      "rating": 4.9,
+      "userRatingsTotal": 661,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.instagram.com/orburu.taberna/?hl=es&ved=2ahUKEwje6NvhsIX4AhWHyYUKHddtCOwQjjh6BAhJEAE&usg=AOvVaw3YFvcTtB75m64ve8cvwNty",
+      "mapsUrl": "https://maps.google.com/?cid=12316661541687524692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 1:00 – 3:15 PM, 8:00 – 10:15 PM",
+        "Thursday: 1:00 – 3:15 PM, 8:00 – 10:15 PM",
+        "Friday: 1:00 – 3:15 PM, 8:00 – 10:15 PM",
+        "Saturday: 1:00 – 3:15 PM, 8:00 – 10:15 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3mQl_6Ab3K894WK-pkUzCumDIJ8RuOMvuXfI9fZmtOL27zzl0b8-Kpsw0G6_FwlOi1vFYv89qPma2XFIW2MKE3blWLQBjibf-n0lMxSQY0sIPM8i9r89ITp31eYosn7iZei7qx4ApwXrbt0Gg6BYtKsJ3HEkGJAJ53Rcpa-RpzQhiQelf13p1ezxjjMhy5jgDtOFw0ZCBY-wfWBVEty4pN7r_fZZ5qUX3oD9KsDAsMT4YPhJCE19GeHzjaOGWY5aYQgyjBjz4NFbkGer-l1jlMOg1FN-67nvmHtOESOF37zx09SN5Im5spAhaDj8RNPp6RbBi84HE3KFnz4fixBMi4Ui4_55t5AkWaMnIr4nmOc8UcVsrZJnAKHLExxJjGSav2TvYNApG1WO4ANa_bBh447Dw79tBqaKMr1y-kn3BYSosuo72wG9cPLoPPzaQ6J",
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3kh-5EAGStPzqWwkjFmUSjinBedXkxgZsjhrEGcYVxzIXpNqIKqmxS1tnnzzBJnnXmoYBkUORa0eqyUjl9FxyvrCv0sojkeb7iF4phsVxZ3DbfYD5qYzXaHAHLX79vxpq6B4nNyA3hqrHCqb4q8fFjkwZnWp_7RWcslRKJyWtM1AvZpqsZkiax3BAi7Grlfkw95KgxRhTJ8G6NfaKc4kXICff8PCvZZBuQjrBkKbBkvC-yEMUsKzriNxZw9Uunh8_GFKLEXD-wncfqb9EuhC-qTTiW8OpVUyo6j0EZv6_fAMV1ifN-6vPpu4FFgpggqc2h7SW-vZpsiG8NwM2HDtqba9qvHGr1T5A0y45onrU-XVHYDbYrDRTU3O09sBogQNLCopXo4FtuqDnnHRBcXcpJgd7H1jmHrCxL-V8iv9Qxx5rjN",
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3kkSq5OCzxsJC4YApsMqYEBPcWUnP78wZwy-hzT2OlK4b2ABnF4XViHViAT4TGyrEnwQMuIX3b96rZ32GzZztEO2KEGwoA1377D63pogE8cjMdZipYHIbiXSiBtYzT74_KMsAonw0GXz-fODw0ixxcHoQjFIUfhRcKQUSUmkgj2kslKVXXRt1J8irfcwe-B6oP3Hf5OvongK96lZ69xqsnNcLUSAsUAZ8Y0sET1HeTeugcBaZblTrznUZ5FC06h-EdFv_fq7L1wADjFlo5vQp7eiDI3lZT_rfUQYpOXTkJfSMq2Wq8KjHCa8OppwSMlPwhHRppj-ky6CcTvJVO5oftd01TF838E8cRIxyjH79bx92RjKVpz3F3k44zspdukhhfx_kDMjUZ4ys1U_20uBTTukWBpo9vmATonRzIvd8UtMDHvIXXUaalfC82_kA",
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3mrGZzcDVDjAOVeL-gSP98U9LVzvqOnLRsREi4_l7z4ll8WMLuvHjzF_eaXeaGOcYnQCm99-HmWX0Ne3sxO5Gq6ktsPw6PW6DQ9BmG1ZHgsz2j4ukpm3WuTEhJQZdYe5Xwfc8m8o8cO88aK3glnZ0RQribFliqDxQQ-KBSY7PLZjNMw4PYmo8qPeap2dTaRIpFzrcwdisUgAgrS5eexzGrZ4rtRV_19-allFnrxMI3GUxQoblF0v8PEdQLfi6mxcc-f2ly8K02oPCaeyx221fkQEXGgwU45cdLnyEmMv4FKCewl5-TR9toDjQcUJsrG7OdXG913kb0ayGN2oJyxhlc5DR7yl2BO0ikCtHa3g0fMFgHlxS2CdBeDokMSpoOrQQuk3pDqJbctYLKO-tiQAOnGMa_llxzRdR1lArYRnHuDblRtJywPO-mwAIsTDg",
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3moxYDPgtO5LNDAqw9XCSaFVeN1q3RV4xh-2wdkcVwsQuITmv1bso3sWJgFnIx1C154lF3pjQBzQeMM70Er1662HIv0whdmOx5hayiUV2Vla-M4BfuuYBfDW73Sx43y8DaCowVuXT2x3fCzy2_oWW2Or3_BiEHa8_Ytrnk-j6HJcyJVVL1wAlzf54jqTr02Dl7edfGnebbJTxmu65hkwcF2Wzv2VOHqmNMnmFLY8NTozzZP1Z6X2cd9HmbdSnrmkT7Ks8ZEeI_MFxzE-vzsvKpZXkl_aWA5aTkOe67UZ_Q9isabZ_-Q-Ai7oKy-YT41uw3HALwjoMZkdMB9ENQRVDMOCEzfOQ93KACcyoxZ-oNJfRPOs2OdH3u7qIMmPEYLErqEDd5j9hftupLlq-8qB6qyf0wzW_SnQ0tth8MGxzQKi2tNxmQ3D9EbonCZgTJl",
+        "places/ChIJsclCi--7UQ0RVP3_amqS7ao/photos/AaVGc3maRbWqzdgChdeDTcpH6SOMZlbCq0BCOwdWTn57Hc8w00Y2TNG65cV2I_mvRIF_-YKcvO8PQzqS1kBInp2etqCVGGOWlZxEMDT8IdgsUrmr1XvE721nVLcFTcblI6kpJ2IE0WjABk60z-Qr24XOGHEOk-gvgWPjne52DiIhXQ5bnbk322a_sInZQwYzdkqp8JS4RIVvhMuU7EsK8uFbgZxgkD1QXpTHGhjHL8W7NWfqQxSCFyEsAF1-tDLyhvcH4dm4C_6qXrWWDq6VM-nOvEvJ2mSzY-FWBBVtRBP-umA6CQtGAEKMfChy2oke1U8GtLIESYsVC9UfZaqwG2E7x_8-2wVbVTPMTT6UeL2WPVSeyKartnEcLJgP0p0rO9EB-HbPhqeFZNkZsN8yuu7sGCPMaDHJpRI6hR4VYNgUVTupHV8uJXmmhwtouxKFhQ"
+      ],
+      "verified": true
+    }
+  },
+  {
     "id": "ai-gandarias-san-sebastian",
     "category": "eat",
     "leg": "basque",
@@ -2417,6 +2665,106 @@
     }
   },
   {
+    "id": "ai-el-astillero-getaria",
+    "category": "eat",
+    "leg": "basque",
+    "name": "El Astillero",
+    "town": "Getaria",
+    "why": "Good quality-price traditional grill in Getaria",
+    "tags": [
+      "tiktok",
+      "grill/asador"
+    ],
+    "type": "grill/asador",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@cocinaconmai/video/7410868222766894369",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y",
+      "coordinates": {
+        "lat": 43.306429099999995,
+        "lng": -2.2018823
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 1816,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 40,
+        "end": 90,
+        "currency": "EUR"
+      },
+      "mapsUrl": "https://maps.google.com/?cid=6226084727830420186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 4:00 PM",
+        "Tuesday: 1:00 – 4:00 PM",
+        "Wednesday: 1:00 – 4:00 PM",
+        "Thursday: Closed",
+        "Friday: 1:00 – 4:00 PM, 8:00 – 10:30 PM",
+        "Saturday: 1:00 – 4:00 PM, 8:00 – 10:30 PM",
+        "Sunday: 1:00 – 4:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3mdLfrXmy3yYCjILYDhr4qOG9fE67k6Xz-vKZkshTAUnDyhHcTk81szdAbZqGw663Iv4kG8Ver8VWbmBLZ6a0D746hKNdI1O7VTiHtHa7rl5TyWmv78RKEq-ihC0UeWlcpFohzdJQoTp31aTVQq4QAyXjxpsitwHGwwnyUkWidAN-rDqqQgFte5lf81dTT7tyALxeclfSY2u78hg_Gn6Miliy8lncveCeVpLxfjJybWrvxyMK-nRHGMqgt3HPKKY_9Ax8dObSjppmF2nXarLYiBFUxAL0-k0y8M-J3NXj9pZTqJdMR33_9o-WqEV2v6VjjY9rAKz8yCMkDRkHKlX0HZWhVBymlZeSr3ykDUdZ_Dbg9p9yso3uNH023mzLFYSsr7jQjO3gs3GAoy4o553nAZLBeLYY41S9UemIroHQN9_1qn",
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3lpORFlhrzz6raTJUWega7NItsbzMj_0y8Kno83uWkGVkVSrdlAlaV6KOzeK2jNTjqIxnyp0oMtAAd4dsmU-4cJEkExVm6n1FqSVgF1gjujZgqwkQU2Ujqg5sJSgsBzb1OftQVIvwASE3-zahgohFuxaEh4M-7vM1KojKff1uKK7TBnUCjt1hRIdCwcwT_ehxhnctZshtv9j7OLmo3DVfE9H_CJ7rA3Er-FuNymD1Emy1j-AB15yqEnoT9r-XgKtZ912a-YrCw4H7I2D7ly5oAMuRDj87y_ZluIn_vJ20980S1XTOl94bcBQtRxNYIAgkvNlqzSj7pBXwywt0_Ut9j_Tx0mdb4402OtMfgo1awKeu_cOCzlXDliHOu75u6h_WVriM73aHSpybHiCWuRA61rxPXepgs4f3ThiwiapidyPg",
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3mN3VwedSbsbWwPEMA6LlGVWGuOOD2--XhhbEt-g5SNB9EzYopoOIDG3pxnqUbuKzdSEI78BOkaUDd_WjigDS9A5pHMlQETK2ELWHPVSWCG-Eyi7j82-aeONUEruRTjZSVe0XpsUiECygJYc-HnsJ9CIxI31GHIC6_Tc_-aGWKoO8UWA0WHZ3RXQVIYkwYCiYCTa-WFtwPbmx6H70zq25Wh2VS4LVZI8heF_YFq82WamxKVbJcWC3dHvhFDpAJEXfyG0y-06gGa108opFn4hDWDAWi7yS8qkL1F022HTUWkGANSehliqNMxId5i70alpRHyE_Sf0V4IRx1DKmiOZbs22FSqAjKgRs9nj4loLK80-IzlajjoPUfgGYLHV0L0wjCg3iX9JzCvgIAoL5yqH9SXszU0WqbU_5TpO1l__MvOCDM3Et12OIaY7bi-9hZZ",
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3mulMedOUPy6xU_LBqdWbGofX9sq9ctATHr8sKp7c1Oln4dU67UkUFzfXVMVAcGyRb4ooLxmIBduJFnagcH8iNhBImUqfpBbb-3r1Gp22LXcmeSm5nOiHknQXK83L7ctXbU-sRhn9MMFK4VEfu0RyV33BcXSRDj7amPrqahyTyEXtlj5CeW10vIlRWwKsH7RW89hv-9c2opF2ffhAHTi-EqcuDZUY6-dUR3d9iWqy0qzYHERWoLoImNhr9f2-wzmkJS-miF7JWFWAsaQaPvDL-UebRHONlRLCpsQSnfk31-b2hKsm2Io2R-CJdQENToSzu8KeqZmyLMzrd9mI80KO7YoLB9q-xNBGlXuAfQqvBpl2Kq_ow4v-6GwERSKvW8Te0WBuqUjW2HdnfDbeJ5DhYPngd2I2qkhjreC3z-JQHN8Z6mK5Kfz5jZep6KqpXj",
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3nxJCoOCQFm0T4FnTdiwLc2JW0OG1FcTvw9lNCOfE1wswhK8yLNM2KgOPyej3K7Q8LO0BgOoalHITyRzdLIL_zHnltn3gixwYFLMOwAh07U-ZDS353jYpGA-Gf2An6LCGWm36IONcv0FY5WTCIRtx-6ulNFXCWiSDJh5_WlBehucH4OqtJZfWSEh-53KT3W7WU9Bw4M2w4PSgQU8dRhDIhJKTQsCBQiywQLccfCxFtkdKU_jY-SkOCyDOXyIOdFLH68qB7wXuTZ3V4qbckOZbbB7_EQ9e-4pSoOVfBcumDGRmKt3AXntLquQfkJd8a1YJGtSxNMbCp8hs3iZptoTWz1SC0ACMhs91PJFGO6qXnW-ogNkejKAj6HKZpAgmn57TB2fVmHIp-d9KRkgRnonNYoWOQN0q4UKq5z7MPo4FW3K7Lyu3-HzbNcvFPXOA-y",
+        "places/ChIJr-y_rZ_IUQ0R2hrRnxJ_Z1Y/photos/AaVGc3kW-uDkVtEE-73Iu7UHG85xNtF4TZ7XKGncUFGHSq_w_9pd_iFWXtf_h7G4OPh9rY0VXWqCyM6qc1t3gUDJxVgbTF7uARNHNosHYKeS9ck6FFVMEnTM9RbjUUz55VzSXBrRYNdRNBQahJ3bRC4sjReJ17L0sKApgKSxQh0CCT8XAJexqE2538Q0zA_ebOB79e5qWADKrbGhLUTQS3oxZFKf12QdDc5LNw2qsNn6iJXLb-u5ut2lhwbODHMHrZMcD7MqddDr_SDpsTzj2It2bpuzd_oAL1Po26ZpcXK9_tb55tD45RAlHpB8AHh8p3wGl0an3gn1g0M87FzA3rIKNU4Kyaj4VTfO7RzUgZXWDrmC45M2HM73Bb14M5fAx3ou2BYZwvloq2B_b2zJiFBeR2U5mgXWsZAVH9wuJCtHoxEhf8zRTrhw-58L8GKa0Ej_"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-maruka-gastro-getaria",
+    "category": "eat",
+    "leg": "basque",
+    "name": "Maruka Gastro",
+    "town": "Getaria",
+    "why": "Fabulous dining option in charming Getaria",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@sistersandthecity/video/7413392038856510752",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJdXUku-PJUQ0R2hCqlA0OHZk",
+      "coordinates": {
+        "lat": 43.3037923,
+        "lng": -2.2040892999999997
+      },
+      "rating": 4.2,
+      "userRatingsTotal": 528,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://www.marukagastro.com/",
+      "mapsUrl": "https://maps.google.com/?cid=11032990113619120346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 AM – 12:00 AM",
+        "Thursday: 11:00 AM – 12:00 AM",
+        "Friday: 11:00 AM – 12:00 AM",
+        "Saturday: 11:00 AM – 12:00 AM",
+        "Sunday: 11:00 AM – 12:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3nugGwQmyuQPyZL1pb4_z4jdeJ1m7CPA8d908jp8SDtVAsIgCNqFf02AuvWYNoFFdn5Io88j1dxM4dhuwlX_P9jfgI0RV7t0-o5cldH26R1X0DhuOyHTAu32arzFCfDcf94j5e21ruLqUfBmkQnUq6thMuAVZzkMZreOh23T1ULMZLsUXxNTtgRbaFQZeF_OUn4xgkc5xef6XmfukmwGAGdV8juaB3I-Tk7asIubEAfDHitTPBYqE6m5_n2fSa9_89RiH8UnNliY2biam2VRMjSTHqNELEMEtcvBcEWva56gA1VbHuY5TDCKn5Im9eESBKjFVVAQubgebD5W9b0yjIN58Hlx8K9zgxKs0u2JEtgfmYXXYmxvD9DBKaR67WX9Bp7liCFANT99lTYZZUtN8YMK57vy4NbyofkzXKs45X6RwrH",
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3k7zNe9vjQUb9nlLeXIzdRYGZLB8daUqDJSE8_ffWmApzlWEwgjBTLuxnOGBXctna1vFywEvbk3z4cf0qAnsQrVXgd14R5VxRhc_SD_EwEINoj8ylNDLFXWXCknemNNdVfZiBLidcKXhTcFy5LC9Jr0o0R0JBgtbGJXpX875HklnluzMigsBymnXI2A1MXwruke4mANiwvsnr5PgUjDLTA04J-0yWVirtfgg6ZJEx0LP4kWn5UBr6qWdYhVwdvp3gyM9XdrvDmPNlmqAh_LPeeb8ozUw5vDr_ij2_x6_BBfwM9k4qmhn6Gcb2Gtpf7jergPXzuLasjQwe3FQTLsIg0OnuOIwjwGQP7UdbmPVH13OezmKnEPWMUSvK8vmZvB253mViOq0hnTfkdRuAN9w95HU8DgtGW1ofe4IXJfw_uh8g",
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3lzKO2qi1UDCPVhS43eBRyskxszHusApxQ3_wi5XYBJBNr9hflUt2jXvWLlG9g8j6urf4WmZ92hqgZLTgrSzbexcCT7CA-YEAT6Gk7hI3d8A-tvL_ZjNMnQU_w2nmFbCR_VK8wGuwPL_rbIC8eQzh0Ny8FGzpzCXO8C9gbvIYXFDqTX3LaKBinCDxPuSW0X_K1LBxVm0ERpfRlVeakupM6gRGr2Pm4i1kJhSfcMWVJO2Ggf2S6uO5pwkebpj_sVO-Ha8dcBTPTYidxJeX2NBzbZFguk_E7GbV90Hxad0JP5yS5OKwJJ3bfBCXZN6BuwuXSoOKmWXvZNm5XBddILkoNwpfysz_ZKYA_-5aBMLJtq-Ssidsz4Lii25JIRns3PC3khk5WmXMp5A3cFljM831aRDXtyUNoP-bmlSJrVNpPyWgU",
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3lLeRaTeaZ001YshynJFOYYBiQ69m6MzfbexHAby3YCqqJmautgWzOgYBbx82YiTpesa2TvNQV9itTl0-42X89UHxAOkD7gpZ6JDBlgRl9TjuQQbFxdsd1HKCVCmJMw7eZZkOfPtTKfR7Eb_gXBxveZVRDHoh5P0bmXuAYQq6OLmaFWFXGUMDhyFpQqPXSrSl25ZEHqRVbCIGpMsv1b_PsfR-TRyT2VtvHovtYf9CEkuskjOrNWk96IPgSybGMpy7iTlmz5diYfcoDrrDBK_RDv0YkYo4aNXWxWH2g-J7pr0EvVbeLFakwyvflTIHAhcxSk7ZoaxZBa4rFeT0zfXT1MPDld0dDhnC1UDwTWmKasN0ACmYE7LiDkfaDDk8Fgy4in8RH6K_iPRLvGSWgozFtZtSvGhuyh5n1QfoEZJncnTA7jNW03p3Ubyp1bQA",
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3ndcKcdMdJDResJs0enP1NRvvZp2YoF_MPIizbYWaLJSv1Dp-ke8AI7Ty8-j2yu9kZNV1nvW8xix_ZmEObFEOYEByaq6iVLNq2YZomiQ9j2HA18cCUJavQyasZ7KsiA5PkiaCbC5ThRTZJysHvYiHbuVl1hEzPECwQ4s5GSik1z5WxLvFdECkzLY7_ip5_jgoHTIZXOWZPCndBA97oGN4iT5OtM-z3E5VzISpoXD29s63seLnUOmAT3gi3IdaF9eQhC3N16u-jUumTaLfQxaVSPnwcdKjyA8KD70hqMe40cMKRb93QNAiS3Ol3zPGXpvNo5owQO-yLJ5Y_31cc6qokeB-xgMhN-f21ITjJMMJCRtBPUvQRlKSW_bhEme7FB0xgVNkEmpSUmZw0jopI16P8mmSdvDVOa64ikhLtUDeCgv3iT9QexVIbp78r8siH7",
+        "places/ChIJdXUku-PJUQ0R2hCqlA0OHZk/photos/AaVGc3mdPSDQvI-4j0W9zsskn7JizJrYCaJy6XIEItkVwAvBvdkJEdSaZGg9UDh7WJGYF0n3ZN1vGLxkfVHr5c_HHA8ScEqaz4kgzdQ62K740KTr_DIWnqxyst2bExKnb3ImRo-9R80it9mYUbVskgN80sM1JOYTVHJQsfARyv5ha1SSBCcv1YeHXqP4Q7npEl9zWeyqiB0HjHESLJyg35LPGNAaE7-zj9td0S8x99W5Uzuop0bW7xbEWrqT6Lh1OhISTb9YgzfAKdHV8R8j3kmReTs80oRN9XZ_EUDof2_6o2N58NGCULtZQ4OIVNPH0ONM7D-tzPjqFLCbjRGEX1ffSGqevYzq3x1ZZmBMceVEyc-G_QFDJ85nu-MXK-MUGiP9Pn4NeYX-GfEYaiiS6fsOfu0VmkGHb7ixIjzyUw8EGvpQPdUMXOlMJqekGJ0NcA"
+      ],
+      "verified": true
+    }
+  },
+  {
     "id": "ai-cala-macarella-menorca",
     "category": "do",
     "leg": "balearic",
@@ -2721,6 +3069,50 @@
         "places/ChIJzWfBUTgYvhIR_SxjOEJNXOY/photos/AaVGc3kQw2tnQhoi_2N890bgBhgeSXNX9BUna7xR3yxRsy6sXroS5dP1pJmXxV7UMXfm9Y6QNVyO0Mxn0kuU73sqXcB2vi8kuQh_DOqCP5Ja5SOzagFhHbR3d7tQBA8s2zG0H0pE8aem1571Q5OmD2E7aUhcIG_82hOAxtKPWH0cZ64SskE7-ELi2DO2XcL78vS_flsIsK4qHaw1mRADYjPzqbUv-_BRTqqoK1NgJZg4FYp3p56XEJTnvhVPMk_U9_WiiAeBcfZIvVCcce5-7F0t3CPBaVWR81nbgrySFSdYnBQ3Efln3rNz4JbEe3kaZUTe4xKvzkyisu2mIvqPc8OcWP8LPQGMkC0KFQIe5AGmp8W9frhVLeo7yVWCM4zC9QNIbxZN1oCbb-7HQVTRGDe8aojUzfLfDicEcI9PKfprYBm7FYGC",
         "places/ChIJzWfBUTgYvhIR_SxjOEJNXOY/photos/AaVGc3kckcMSAUZa-HLqs8R-SyvbhjbPeDBXp0BAe61sjcL5jXjP3QWQyaKMXd640lCNvsuLe7gGOJbsyZ3FGUzZh-EZsLssM5pQnXZqTdE5aeOZ2Nigim3QadGa6UFc_6Ru9q3a18jKGJg6A1hDHAiUd54WjFodlwhr1B6qhnY7pxPdu6iwis6fhpTOlluLGmZpa1AK1nLSriWHNZ13kkJgdqn9qsIKkIbCgfDcM3MyAqmm4ypij3gSgsQ3PL26_3_ktNWA8WwB2sPllvG8i0UKcB9f6jaIxOmfHh8RCBAbFrKo1oF71iaZCaQWXALo9vqON6dGCues5KIceq_mcBsVt7A5kRjLK9Hrb8rJQolK_XaHrMGtkF0nN8zCv1_hZ4oTtDhMdkuVUGAjweDH4GnXg9ZZlnZbPqOzDeo8q8KvisRfiA",
         "places/ChIJzWfBUTgYvhIR_SxjOEJNXOY/photos/AaVGc3kJkvUcZHZbDdTS2UiCd2fEfR-AUdN2IFAHIUHzGauPs6VH9vATQtnQipEGTaoPcq6XQEm6npdQQASlYlbGgw5v4cPQVmP90fAhlnHDZx_FbBmQFVwePWRlGa9XOGPMnIUpvlrCO3NqblgjH7LX_Vwd7v7wGyJf6GuyzFqV9KtM6EmnSkTBJQRgr95IyevaXWNhu5fML8m3DmKS2DYvWJDNRKYnU3bNT36CL0r6fmF3VGcuY7FCiWSlDA_uGj5WKfiewB6nggZn1vkg9Ew6LJcUAv4RvkDrFZWacBBzWrxJefoO45JESvCLpgb5fiSkMqhnbFAmaUgzN5wniQ4elenZEgQ99ybNC_1LL44n4n1dtBNzkuUE5AJArpcNKccqUsvvMNG-YptECY9kiBsYhuuHIHDlpcAgmA4muM-SLFy4DA"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-mirador-de-sa-foradada-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Mirador de sa Foradada",
+    "town": "Sóller",
+    "why": "Recommended restaurant with amazing sunset views",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@kara.didit/video/7635348287473667350",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM",
+      "coordinates": {
+        "lat": 39.7519622,
+        "lng": 2.6291298
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 1268,
+      "mapsUrl": "https://maps.google.com/?cid=10636511190872227462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ],
+      "photoNames": [
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3mGRxrcvSJ8RpCPtAiYW3U0GQCmy1Bv5vkFxt79qGDK7FMyHPCGqEBBTAxdrvmDCwuJ8PODSgL50eOsxbXgbyqO0oI5qEU5z4K7n5yHQfuKWadTNSc77_g1xN_BXkk-sW1aForXA6eDgEKgr3MGi894SoBuZxcJoi5fYY3o51lbvrMQET69RaeOLI587Bf45ZE_xDwnMYQVT7vVLJUdSoInhpEBHdynIPF0HTBsQ1Hw7sllxkacX_jL4NwYITygyLEsOj7Gs10iTaGzKVZXzDQRVZnPNEbeLAc20MPnZRsg0GPvsIyb1OigG5djGxP9nGt44x2dLMt1oQugTCZfdpyxjt7FkcpDREBe05gvVgtEzmXBixxaLKiakh5z_OB92hiD4quOSYFgCOj5SDCVQH194798RYecQ0VHcaQpXzKMEKQ",
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3lRLX5Y2f9wHe6A24V_dM7RhNerzA-D1C0WFnyx4PK3JM7EDvjmgXGKuiIlB-_L9nuRPV_dyAv8X_6jLCdPN-wtDSfgBCCiloHgVM4VpalozHZAQXTpO5IrUV1xQxeTYV6jc3r6rXYUEKFq2U5F2_EdAC4Zvso3Zrp7gB_nte6Cc-j6w_M8hReMKjz_5Hvv6h3y8sUWNvJQCa37z2N8tF2s3n-4GW9_jiYVSRXvcQxHVVxK0qPaglXx-54TkRUEh6UYBH07GQ44btXmZjDjgX72MyCQXMDIliGj0JZz-sd--kaGDfxfVFbKrPxPlQRMiOX-YKHDP1QfxJkmckPIhjE1k_98iytGjfAIheizYeJYbjuhZOdvaSPOZ-S6UQ-6HiNeT6dSp_QBK8S3RvubVrpMc7T0vmFUbSpkS1ErwJxjW2vd",
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3nMaa8hLhMW_-pPj6dTT9cZMBuyVHLY52iSDUNk-ffMQzNPt-VN1fFFXg3R-GigRFJI1azw6GCiFU1IlyK1AMVvjJf7hFpKflZ-dCfZYq4_mg7qgn1Y08D21vHw9C30ebTbTFbX4L8-xZzRtjl3I0JA4pcoWJEKLbNkno0OHJAsat2u7dHoQoLyCPgiTiPYBg8gzZ14dinZG5NE_is3wrYHSHEhTMpkicjca380RXCMdMqwV9X8fDxtnyB8Eo9b20pYOJtolYhcvu2OL_SQx__ThO8XwYY0Djw3t6fbmbJYmR6DRRBom3sTnbSBvv5Z49jASGSD6KTJ2_cgJz9i8Ksy70mpvR4duImFjnYx3SbqQQjTOp-Alj1zzusY-tTYspz2xuWtS5B0pR0X-K-OjNv44Kyf8v9bIPsY0wWhqFyPssdhtdYJ_CW2JWk8McgJ",
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3n4pTabudwRB8VuwsEJ9BLIBTOU1YrRl4-uMmYy39IsoQWcOhUbW168c-DkMif3CLhdCXuqRruSn_4MhVjw0XeR1A3MUbaBgCW-HHdMAecNA9GgOJHTLqu4WX5C6C9-qTFRxLpbvyuEkVCJ67DqWb-NVkwSII98JYnCcKEbjc8zqWXPpdx3U0ULdwB17KXBZkWcQUEqYm0PBWz1s0Va8m9T7tX2Hb0qrJZMvJgsGOirPKhe9aZUSYTeGCWUHCbOGIwg_VQQiCpPfpD_I33sZiVFUHw2WX9POHiIoQfHYnrbn3smj8oIVyCmAfPji2_oUu7N59O4FBCXy2m3rRNIbThEHA-5wyzaJhHHEd3eSiFvKD5yVgTp4XK1oOT5ByBAW3ymT2EPRTF9KrW7i7SsNJEm5VhY37yerk_wv-ojin2nhA",
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3kf5NLyuvbkcSFyPo51L70xQFkYLDwNohv4TaNR-0F-ayi9Zrbl3r8VzVmIKpHnIwJbFvSiguSfGkIvOrym74bnWHu7ALd4mhXiUJiveSAf4TOo--dXUwMcMXny60riXW9ExFl4UvRgiW4xO-Ez-sKoFqOaEoIhVEBL50OejRe1H1b8Px91G-kBBPhcxs3dSChmegVM-_aArLDf87hzKzjjUFHvvDUVS-wrr9Vk1SWxe5upm7Kdl0NQJjXFq-QIbtLefMr7iHYx6wmbt8zsFq6CqgW_1CaJgj5N2Yoq8zS9NLbRr7uibxC4Nmkqlli1rJDpm29yj0Y3gPyluOVixnmnwy3PUO3sEUVWNyA38JXzpQRlH589dX4L-h8yZn3uQqP6jwB4Fvm2SXxq4xuRUAhhuZttM4Vyjt9u4AJ3GYUberFu",
+        "places/ChIJ2Q9fvhPvlxIRhv5nzZJ6nJM/photos/AaVGc3n5NxAiq9O_DdfvEEYY0SsmL9lw32UhH2nkbDUK1o7ivKjhlZU3-xZ0YLwzBXScnsp58vbehZqPVk7TONX5L2J-XZ_QSm4t0ioLrfwMDQt0VzTwCxolzt1cddMYdb8nsSqNZLRqbK22g54gP35l6oC_fXxuFTo1lWqylUU4RgaSDI0H1obiT_wELHWDPaRcS3o9Wx6DmIcGDaECIJVQcTcpl7fneFzem0ZbPceYP05P-R22KzXrObeu1Xv0d6IM53-7TsxZm30yCjLhMSDqQePi3HqoXCoTsWVq300xNQPm9Yyin0kwnjZYEv-8XjTURie3KD9gl6jBR_G4G0GT5gxS6JxPIoruYymZxhYNvZ1aP12JR46wYuCt8-_vDgz27PsCWW9MXG4HOYHSeK74jbKLG_A5OpzZaD0mDEqeQltoDMgWT77tcSrt-gkeJ3KD"
       ],
       "verified": true
     }
@@ -3699,6 +4091,757 @@
     }
   },
   {
+    "id": "ai-groenk-bistro-grill-deia-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Groenk Bistro & Grill Deiá",
+    "town": "Sóller",
+    "why": "Recommended for Mediterranean comfort food on charcoal grill",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@svadore/video/7645058442469707021",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJeQTmlB3vlxIRtgG29575F6Y",
+      "coordinates": {
+        "lat": 39.7469815,
+        "lng": 2.6492712
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 909,
+      "priceRange": {
+        "start": 20,
+        "end": 60,
+        "currency": "EUR"
+      },
+      "website": "https://www.groenk.com/deia",
+      "mapsUrl": "https://maps.google.com/?cid=11968308995916431798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 11:00 AM – 10:00 PM",
+        "Tuesday: 11:00 AM – 10:00 PM",
+        "Wednesday: 11:00 AM – 10:00 PM",
+        "Thursday: 11:00 AM – 10:00 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3nGsKjl0DCZrKOYBtqAe6gPWdTchNuDozd5-OgqeriRC8eD0eT8nGXIhYQGj6-pqLXUnfAzP660EUnl9FBv3DWEEOeVfI3Rw-TFNVmPKdkH3Ayw9n98CUM9TtrVLDa7nvwwPR0ib2M0hRrgSE2g1kGuS7hHsHkRSOPUr68zJfUa9vF3tye8H_SHF9j04tgKk8t_NjUCEjzPdctPU8giDyrUQy7bMqsAUSA7Y-8zw8r9RPs7MrdcHvUQAIVv_xSryCTE8I2BrJ45S4PrQ06q40auv_GWzOSbFttncBpkadHtZDK1mrhpdD0s0NKlld1b3YgyMO9wv7WIq_TplpLsrM489Xc0BpEhALT6aKJkWpH_rV5yDbbRURD_0_3JIUjuBt27K-lyUzadal9MHEsZCKUjEWVB33uBAbhSJ0MBAd9pZFSOn7wMyYRZIS-k-w",
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3mjlXJa54m2MaJBJfYt31r1ufF51kmAc8IfQINq7ypnL-6kcscKfpLn54aO123QAAnmIObBVbZg-qiLVhQ_swCmqgCE8rCDAryt2BnwVwXJtcqDxF-sqssiGli3j_hT0eMfpyCXP51pYAZqfybW5-QfwLU7tNyhmu9OgmossLbxCqXmCWFkCrKc8zxO3uwfF3VirWnFKe7lz-ty6MMwUUEe1R5pkr4YPyh8CU7kRSui3kJkrUuqMVqDQ9GaSI-tiEBMKwyoImqQwejKSmVh6l-g8un03erFyQkvDS9ikpSNXAi5REytd3SLO2G837FEvhVBoX7piUoKyg-qwD9r79wGNErvCv6WrS5FdHyU2WFVZfm78um6j8HyjzgrTU7CykbpOFEKIlvoNUlIY0DFlHSPdNNIg9yrBn2BkyjQuaIMhSazMO6BlgjSM0c34g",
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3l4Emq1iqftizrdU6sSqg2oh5GClhMECp_tBH2hxIQvgIsBnon9lJ3HM3Gql-atxm8v0qnId-tNBis_5hFf4mBtq6M6r0dqxWrE6xAOAd5f8vHzHfezXLxiVsNZQKQDKGbDAGuEx-9GGPWjninwehjtfpRy7XgJapfGB-_iJEL6mfqlDPJ_hzuklCzaxdomnaH6CT882dl6v96U_U9bOgWBabUO_b655uuT_7rooU3Ct6usRhK3vw0HHLWetGyhyd1P34Jm4GPkK--EwuiVwQUfLVjIr6Za4mzo5PPEkhdAqCaw_fKHRHKd454QeOZN0JuN3KnmaUzBKDdG7AkJ3b3QNtREm5hMyb4Sa7M6jD2r-6Xk3szynF-BWtFqWPDh3JibZPvP6RZS0b3Wm11bHOIBG22r6lz_3fgyFqovr5QRQ9S2E0qQw_0sFwIjkQ",
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3kRTbyOgWSynBniQn9_dNx6DCOzZQXaODIWjdeJ4Y52wz01bkKUq7Rbz2AbMRELCWtNFlhbwH6y7RGGoXHiunvQj1E7Nqc0Ud4ZDHwRKkpOtQGbwg0eR3Txbe0a0EoWJmmB7bXXIE_gnnLTfWi89DPFvdZma3prMbaWPMDkVG21MOce9HBUW5zRV3pLibNkCPeuLFM8vDSz-xE31kdfWp5aBnxKHVOK8HG9GAP9wdfEE4yesuw0rtc1utHh_g8lTfE0hTCUqLdmoW5UlSTZFqVs1PtJl6DsZI34t-TktSBLK0MAJyWh-k-B581k1PTGW3jcrOdWBVtMYIYb4srFbNlkZ0fbiXv05fFOmHVk02EWy3piwSpz1ducqMZMIT6nAdPudQ78CfEkF5Z7h3kIcBouQik2F0UvNOYanN57n1KdPlxMTaFhKSDssB7iZA",
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3kParALQWXF95tC3Rv1sz6hs2qMh11_kteslt8zWirjM70yTlLOOrAO82ynPnjLQRP1OaB2qYrfUvnxv-SylJgeJGlHTEOfTbbwYk7DqGrZZV0DAE8H9hNYRbBnRDcckCi7J_yJtGWWQW3ctv3zfFmCjShDxSNuybWfMJSbFNujrYejd1iiHAUu_MIBq8SGNYqnyd_bgbi7BpNDx0OwPcXKp-2ORhYPU0raoGRkCobGDZuhbQD8NMKfmloAASEPl3gJeMjcXfVmr4sJWM3AWD0FMP6OKfQUIBMMMu4GgXNCxNNuR21OuLxFDnqN_DHsY-N0doxTw49i0k-uRltMRtEyigAkz7pslF8N4BChkBWVwZeVzRrvjQZYBZbBDqQDaED5TWzIjFlX3gPfv_WrW3Fvw0bwSlJewjCasti3NPumbT7LYdC85eKE3wAVIhaU",
+        "places/ChIJeQTmlB3vlxIRtgG29575F6Y/photos/AaVGc3kZpQXyO46t-Y9vy0hglOqoleCsPdos-JKbR7IRdNhCtJCk6tHwkfnHVZ91pkvWcFkOlBHZSrWXP8Qr89qDgHucYEQCv61SxMVhBeYOEe8MNziIxf4lAjOCDMFF_sB8AOEsZbEYpHhio032iyWB0iR4baUaFd4JeKE5xWk4pnHmqygmD80fDQIdv4ynTY3WHnF61mLhVo05Q1fGcAR-iHt4rDT5BFzAJo3EfXWEI_D_rg3irzpareg2qxGNVQnsHB6lT4OUu1O-SyBxhia8Awm7QIZYjdEFL_TQeETD_gzqs1Tey3O5gmwHoeQ6JWSAKfkSNQklVJHOiCkyLqYT4Yrv2ZRRjZ9vfkzSP2A0kmqYC4ElcBibljRLNPPQGndGRk3-eLJsxWY6e0sbFOkkG0jO1ddgL-A_bhpYJ6DYSL-S_5mtcATCBBD17nyWp67b"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-santosol-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "SANTOSOL",
+    "town": "Sóller",
+    "why": "Must-visit sunset bar with cheap drinks and house music",
+    "tags": [
+      "tiktok",
+      "bar"
+    ],
+    "type": "bar",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@chlogirly/video/7643711047173524756",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJt-TX8CvllxIRLxmCRZx0gw4",
+      "coordinates": {
+        "lat": 39.7937122,
+        "lng": 2.6968687000000005
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 258,
+      "priceRange": {
+        "start": 10,
+        "end": 20,
+        "currency": "EUR"
+      },
+      "mapsUrl": "https://maps.google.com/?cid=1045807753009961263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 11:00 AM – 12:00 AM",
+        "Wednesday: 11:00 AM – 12:00 AM",
+        "Thursday: 11:00 AM – 12:00 AM",
+        "Friday: 11:00 AM – 1:00 AM",
+        "Saturday: 11:00 AM – 1:00 AM",
+        "Sunday: 11:00 AM – 12:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3nrgf5GgIM_4nx1WaU_0tnSkv8WDKk83du841LbRCt1bzf6-KJx1rfjr9O2-VDT_Nnatyb-TlEVqp75omwcdUqp4Vu8Mwwz6QmzrOS5rYt-lbybqQUjK-oRg3YzLA_HNRXLGI_SZ_Idxn9fFg-GyoNNSS4o-L2G-WBBEpSMn3aOkEnI0Ver82kNkUhRNe6076FuSome5R_9UiyNfdJdcSzDl3hXqgStr70m02aaO9lhSwXLFjdxL0pcs6PSyItSXB6iS4MQ083hy2GOQVg9yiwWTQmDjX74a4f5DTjpVNmD1UeEAuighqmG6wAtS2MIx0FaAbdKO9c0STE4KGZBXD9fIOf2hdYlKbhavP9nhO6e11o4Sg8z_p8u0448cj75eVPQC3a1o7fnKgynVGRaWfIcCEB7_T4UVe1-QNuGFToVKutp",
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3nhmn9Z9Bdp70-vm4vwBPnp7GDjgS5DYpwcijMIDLNH_E1SFQT3I8SjoG8b9W-wt4-eqeAzOdlWdeGlaf9q38sSdgbt3hGZHCe7YZUdEiW4Sk5jnwEkqY8nCFKAm19FQLaM1_vQ7xvNWRTKW4CC20lWlq1HFHCP8u4mC5KTdA135FjylbXOvWT7rYAg0GKdyhfHK8uFLFEQsDzrysZ9dZDjrdFnovwtwqezCv7NRoyB8cE6SQCuLMJ5uyi5IWNLSXzIHrNVLYIav19z066ZT1e8Exl7j_5R4OiNeTn9s8oe-67ZDSXzNEd6YVmZwVa_LRzj4TiMGat8Lhfq-rQ3sceK630YOahN0a-A-xMn7OUkWPHZ3cRbJwtOlr4Y8ceTdGYK1lIqutmgoM2MlyZT3iH0U1VMabwFrKiEorzEb356AQs",
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3k_KTpfoNZPoBy5fy3-Btm9jPCvDOummcXKus2Li7xWj43URz1nOCjgIVx70SlixvVg_tZ06Zh1gAhgsKaEv29T8AAjxShRnh_KOGEnpuirjO_T-9C3x5yburj9hseORlma9rL9uP-5I8_7RT-5bQFb9xidkHVWcGIojG-dnZHL3Ndtnsxwaobxr9t_Z9A3Qyh7-YwjEFGqwyuQJk-O_UIj01PpbygTHJSyHBS_b0JW7aLwNxeTlnCAnuROkZRwldcgxuVdBrgv0QEcj9SH-HK0xWCjfLWebb6LHvpcaexY2NkO62INC4gICpuQnd-AshDxCkqBuQP0ON-dibk5C27Hz5z72MykUXd6Us1K34_z0znRMg36fqcUtwoRBijBva1jzXj970Zbsv1NnKjT7AhEZK40cqwUhj70Uu1X9xF10SzQ",
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3lU3sPu3ClKPd_oBHccMKhs5NxmJ_0DiVV_sA47cwr9Ltz1jHhXOd7DkbeQ2Uk8lSVejV1IlEdwVT9waoswTQ5Fps7CZCobDS_nxDhK07fYozYfVHKBKLNPAMiHHdE-qKZ8zPTbt2ju40pqnhaKFSV5D7vzJk5ZnvwewbZt3gEYSFAIty2cMQaQmlKNZ3m5r6ObL3-ODxE_7_lhZkUsfHT0iW3bR1oqY17Zoo6rqPM8zJWkDzWG3gbnDVsfl1y58EvEQfHe6wP_auJ8g3Uha4FZzNK1M85YSSgIKZXQwgFH-wP2QilwF4JNx9e-2J-kzzir7CEmPdGWjzi4D86j4i1kabHjD3FPivDbW7DtEccZkqXYPgJldZxsWLORL9ZQWbtnBmXNlujTHi_2i4sb6hvRvd45dnbJ4gmm2eIigLgy6YSsYk7WtnzwIdqqG3SU",
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3n_hRzzgBkgUswLR8PQK9Qxe-o4qsXrCqKVEaSLL7pTA55P_T_TyP0NDbHto5Pm8ePDvHfyUuYu9pSTTo7HMpuahCjgabGAALbEZidO6BZF4gCIKA91YLwqJo0d60LkaWGnmy8FjO0sGppBnY_BrtUAdwIJLAmawjRhZoNvQbkwdZGKJssUSNqrlIg2HnEmAXl2vGe4Zf4EgZbmUWDc56lviTwfiKh29ejGoncxNPY8yPxphjFtB2-z4rFGmTuQhKCDi8ZlCzh-st8eQUZAvGnPIXK5XAOiO4dvc_W9b1932z58H-32DmN4LfeSZzJB8saVYOhBmoyH39pdXF5oSDog6P4H-EtfulQ-jhg0e9TleZR3gBLZzdymXpXwlLsFbPf8vJ7bByrTWF2PPJUlH2nK8Mjc8mOhdBb3Ktt7p7VLtxFV",
+        "places/ChIJt-TX8CvllxIRLxmCRZx0gw4/photos/AaVGc3mMEn30P3wyJJgEWUPv7PEJYLzv4LqJXsHsCmB_xG0R23XHsGK1GMg4ia9oXVBvcxb4T6LcBo8QfnOBgp6RQHDgkeKKNq-Wu8ZFy-gu30CvcN0r71tvAG5ZfdajGr0GF8FyvC1Op-FOXvMjIQ59l-wlHviy7OAi2vKASsjGHJyqvYaG8R97OnOXTBvccGo0VrTC4iGzoOV2RNAAlSU3R1Gob9wJitjDYU0hLSJ2wp8DNRnVgnqIz_yq9LoNl2f65CJIKYkzU39WADpmvAa5KCf5sy7onR0GaH935TieiKlCH9s8Ny46HrS3HIXsnMyU9kdu39wtAWtl_ZkUH5sP1xGTNcxiUkGZa4oDtRY51me0DXA_G-DV_i0S7Z4hZwLTClyjn6JGI_ZehZiYl-WYMctUjuBUuNDI2o47WJTlar3rH0Y"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-jumeirah-mallorca-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Jumeirah Mallorca",
+    "town": "Sóller",
+    "why": "Recommended as best hotel in the area",
+    "tags": [
+      "tiktok",
+      "hotel"
+    ],
+    "type": "hotel",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@yamildoval/video/7415688276146720033",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJzZSyCuHllxIR7lvcapvidNk",
+      "coordinates": {
+        "lat": 39.802331599999995,
+        "lng": 2.6958482
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 1129,
+      "website": "https://www.jumeirah.com/mallorca",
+      "mapsUrl": "https://maps.google.com/?cid=15669398160669432814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3mXjMbCMPmVXxRcsYymQeUUkd9b0gSf5Ep69EH5uEBbfnJl1xNlbiiKm_ejL-JeOXXv06oZF0kaDUDz9JGCTHzrVDIGjzWQVgtgwT72DFiHejIHPH7iBM9OUrbVMhDGso73tHQVr0olYBaPxdK2i3HLgnbVFlhIMAozo-PBdyofJJhp9iaR23TbQ4i0oiLiEG1NE5bqIMbKZymI4sN5FB6aKEJbQ_UKO3zIZegW7O3wUpnMCPDf2hph-BKbBbV9_lj-wvUlu4DjpgUvbN_2Dw95emwvxWPahh7v7lyG34nJJZD23mSh3dKEZ7zPzeCNJEWouqWRsurDmOE63B6BtshJ80UtkJueoFl4-l8iAeCpykFJh-YL7egdvtPud7Goy_UcAwuc4x6Hax359_wJKAlEAtYAlaumgvsn_OOqMyDAKw",
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3mMYqDawOnD7wvlgNdnmZNy3LoXoJFwxlEMBOV7novOriIRTugucLAcvCIyl7HD-GUkDwWxanJ9H4s_QJ4yyY-HxBdEgOOD0khozn8Mzb0X8YwiMtRVZoL2tNTNeiz-e2VgaPe_8GxvsKj1_ielvFw0wCXOQTkTIOkCMqJFhySimsGlr5se12WVU7CnXE9UwtoFV1owrI3Jiygd_L6Uc2l7JBEg7k0dlJZJLq-J-KfoCZ1CGMyNgtQKCE-91Tkiagngumke-QQK0UiBjjVvp_7Y-wA6cE24wDJ55TKUkb4nFWyHKpXGIG-hLUiYO6pxm4BWvX55Bp4ZpXbkyMRsPHuY-IRXsMS6RlO0bXZC8IngheWu3YEe41z5EqF2efiWynsYROZJq7JOT7f_34JQvd_fygEQlxhgtoOip4g8AO6Zfw",
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3kLfXrFgeSEJwmszVJtSZ2BkLaWQBBP0-WVG7Y9wm0r9pZt0H4D_riKXk9bpmH6aqDk2uCyRgdWBNMpYice5KmwyXMOg8C6Q5D8xQI3hxAdYiXsiBx4-EgIouUSkrN1tVg_jlPmeOLWn_F0D6hti2c0-ymO8Vm2FWoahqBXDSPfo9dSWNeUT6OF_ik2A1ev2x9B6EMa4wdJCIu8Pltm3PTo2jcjfNMcRfmLadOQ_R4wrX91IPZtrsIZJRP07ESU2iRwojbOmrcgE2qg2NgCMhcOxK17pKxrOPV5A00xuJQw0SDC4XMKB-ARiHGTMDC7X4XIBI3E2phLPGNLDXTFPIa-ycL6Jo8J_3LkxvXRyU0X8RzEySwOMQ_k9X9bd4TVCFfKInNdBpk4_xUkjfroLEO5ONvIohB0MVPn89Tm6xLtGPL3",
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3mHFTi0Q5dGRuQV0hiU2IiIEHDER_b8Fvwvy1u5fB6jQjzw_6N9QXBmoVP76JMyPcvuiz5pE533uoN-PM4we4eYwK0LEIvkPBZugw8dGywmEtY3JhhuS1idjOyoGEz4e55gsixfifCFqh6F1FjLw4GzxYHDyii47-mzUDBlbiY7E41dxqcFm-gp0iU4Y7kN1GFwD4QpXouxG0QcvhEMbtqcVrSMGOQi97qQW_4e8oiLnLyrcNdZ1UdajPqZyFUWH4JLdqrz4KSBlr_gn1DBDgq86Gwz1rEHuTTfaKLIFC7B7g_jIq7niHK6KCONuu9Fbd0kiPjUHPsogt0Bmy_TQ-4fOXtJN8gylJVbdM5s50q-AWjt870u1q2ym3kCQ615bP2YFlZIhg1gL9rXxrLkE5X9IWV_jtlDnKmIFubXQLjLxNDU",
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3mTL_lSplUXR3m4if8Oo3_7nmqw2HsyCuMo5SfVVNSXXwGvrs-p5yS1KuJdnpR65M5JQNh9lpZ3LIr-zMkxQnRWZB3mrbT3hPJTtTwZNoMSugK6nXFqJmEbJDGa_U28taSwhrA9K0NJQv-cfQXhFKNnzs--qkFfzJZHK-wU5SgdfPRaL2VxU0e-NRVkyzCSC31t8ZwQdTl-h6DiUDBU2dXUbuGEyzOMcjiHnMy2NbEvYtOY4Vhf4lIOHMlgRs1LdTb6pgBEpLJfahNMeK3uwl2osQLLOXdKd2ypKz_Qe7w0nuCRffxTKAPP6XQcJnR7wk4bPEfMHYdv8tcVQYggHpYVnY0Uy-ieQTYryQN7Ix8-eva6eqWH99DmPJGvbfycVAiSjPwqsVYLc-vnaPAtjEvX4DtXKdJxy-U0n79nbXqRDYoR",
+        "places/ChIJzZSyCuHllxIR7lvcapvidNk/photos/AaVGc3mtSbP5jT1O0MmCfnp072GxAysIcgEf801Z2hr0a_jD2XI0H2sgwxYLU4DJzUXuKVdpRvhmS-s8XE7ZhhSmkVoHHo2xtp8TH0g9eUiM8LW3R6SEOnczDxDmolOPHpRUcs4ma_dNiHaFLbMKzQa7PCLvpZZRamPj-SJP5VV3KXVeTxK264B-Hynkws3_chEjnbYpwhXxLvzwJzsljcrmf_Ou_0gkgAPZsBS3zcJcRz_F_DuWY9pxyG3KCE11kiUAV-o6AWx1tgcUyZDrzzaLi02cWYNxfmSk92-k0HNKR9BBMiRInD8YN-btobOiR6rbDXc8X4579zS2fUcGFT7oXBASVnx8RQbmAM58roCnbpbtswncXNhnk_M694kl48UWuGg285JEATPIM2pr9u8_1Kc1RGuB_KfXbijhWjb8Fwus3g"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-esglesia-de-sant-bartomeu-de-soller-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Església de Sant Bartomeu de Sóller",
+    "town": "Sóller",
+    "why": "Suggested spot for coffee with a view of its facade",
+    "tags": [
+      "tiktok",
+      "landmark"
+    ],
+    "type": "landmark",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@yamildoval/video/7415688276146720033",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ3UikEInolxIR8t25gKChRS8",
+      "coordinates": {
+        "lat": 39.765982,
+        "lng": 2.7154406
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 1688,
+      "website": "http://www.cristiansvalldesoller.com/",
+      "mapsUrl": "https://maps.google.com/?cid=3406306403902152178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3m28x5-G2efO8gfQAeaW__bcKNQ-RPSgqFAw2TA-KWZpzHna4_TOQ6qIqrJzLkS5s9BW_GDJ7DQBC2sIoo5bYXj3icMU6u9cYcv01U2CUuaG0thf8YjxrXRqcZf4C18vq-d6Uxeh7OmUE2UDsknAztbqiopcY5zIPa11oMK2MeN49E306JAOdhW2qJii4jXuE4W8QzQx6nPbTG-tu9-pSCVMmTVQnH92sKkaL5xhAqz_smqBIAn4ODl7YwRuRNzJ_Npah70iEauIhA_OfZOUMT9sUC4kcomYq8MBss2rhHAD5gUFj-L3mS2fdL3DYuRJ_75PT0NS18dh0WCm9WoHxBB_r6FPAX1FRRsPwqjCPB8f-D6V99G4Fy4iQ_MuTidR-fAQ5JT3qAqwOcdeUYsjGgCMls8vqS5K4oaLRQqHej2xeADOOGQKy_C8Rhwk62M",
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3l0htz3hIssBNxnEKCSYJjpXd7UMRqlt4VD4NIzHYYQoSo3cb9Wx-S6S_qp0TLaWPuWiuk1o949AAiRCPjIgAziQ-sOmBvMucpzLb6yldrPTsLDccwFjPs6wDcoSGt7KwigVjxAnVau87RTJTMZCcNIZh1w2mdU63FGA5qZ--NHYaIE1BcyBUjUUBHNn-EDSvuJTHC2gZYPhpuMiB8DexiKGTAFnL2Y5eu54T-ztQMnPVtByWKqWKrEAYGTcOcruPppOpSGsKyvyY5Uuo_EDQi7_NoSIKkwz0Rft3hSofBXTyEnDduIneJO90cvjryw8BzL7SoLHWqHm4mrPib1XHS8BbDYx9f8dCs1FSIFcLLv3Q8iP4q97t8eQCyBpL0oQz_56wGeJWaqlO24CLuZ3kDnG6BvSxhZd4H8HRe_4JMxqQ",
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3mnpk13xUzFAkselPljxsmEdyzJ4H28fOhR_ILVqPW5eb85rSsImlGLi2qDAj3R8uh5VZUOy359TmRskjWuTw8XW5z_MIw_O4EU-g2XMohWeuETAdxAfRJY-FqCm9mkGIHDP0loxeR-DSH5WznpECW9qXMrgp0pksQNvYyBHuPngGwTjqoguB_AA7jaRNPE5ms2aIVTs0-amAXSF859Jnz-KKQIj-u5WUqJLIfd59w7MT0vsk6w6W5MhX31xywRAnhPqa9Bn3DzJzDuBrBYaOzQ8Zvem10dJ4O4mQrFMXT_94jxYyw_5O1ZvjTw0IHm-nD6nio5dM28fKDoUaQG5YHnmNi5IdcfknFFCPHVR8pqWncK6CnA4ssHcgm_qsY_7eDno3yDdC5O9QQfhs-DDqt0X_ko9Z5ljr7dORc4D66vBw",
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3llKcXr4t6GVvFZjgDBFl8gww6rhxWPeOTTQEyV_utYhXa5rKDpFHaQwdbLGeT3cEMAZBL7RZB-m4sO5Q_1iVbXfQljwwDUJs7PfsbvaeRgzdBnRRkaXH4_8KAacx2cnH4pwyqRo53C2WJXN0VEMn-Qy8f7nEZUygpp1rJayHx9i3XTT1tHdorRhu_7QjNWfeLO9Gf2l4MZLuC43SySTLoVEDKvWsjeiZO4F7xw130_H2S-vvfyrnhbM8ljRtI_hfoUdhOttHoaabtoPON-XOW8TMGObBgfLSiJYWGIUxDKIyXfMZDDuFv_XKH0fCzwnSJ3SKpaMDYf-Y_vaEMeqH0sp8N9qJzk295jOjUAmbV18aBcABNp6UnKUfVlmgeuyEfLiFCtlVoEojuGRY1IvPTE4dfgakrIb7co4cbmu5dMEg",
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3n7Ovfn3CuwX69tZcoD61ViyLH_RwBbi09jSsKQwtlJsXVa_8EUJrxqe7K-itQmVzWd6Ag6qUjcdiO9Latm7PhnMOrsjjtZjxAXed983O8p3qo8vWfjnuxY3dRt6D_aXwGYbgtyces23vVINXouHaJ8v2N0Xc1Hwu_lCz1Lz7szUphEhYi3COBHJa6d6aOWcd-XvR5uK-cVHlUIdKhhCL-OxfyELOSU1JnVXAiTtuQgnChATCE_owpgbEbV4_hyOf5RpNAP6QqsbF08qu4tnUeJuMs5LMmxfhbpOeJMIQBdspcxGJOPT-l_DJfRuvW7i8e2V0POur_r3uPYvJZNYkKZE8Gp5X2foSPa1946sTayY5cByounHtkmEn62MTIAOSy8lKyam42oCgKHxpvZRYapOmbn0k1gdI0MgRUfAvZdeCM",
+        "places/ChIJ3UikEInolxIR8t25gKChRS8/photos/AaVGc3lgzHKY_QquwoBkfVe8uIKS9MbEOaoQZBs8cxWn6YF9_cbPHPCXhjKk7OIs9LuYUq6o9CayhHbs4FiVTc6FqCitdX6Tv3ojpiVG3DeC63TJGDsS776OET5th1Hu0kQnEqpWjQnh3ndoHaYGxzU1z-QncCHx5tXa-kZWBkW43BhLecOfdVnuysjHSypXKbg6CkptJV8WzNI7bt-tazQPnP6UyXN5rd7_q7v9uO9t_c1Sh8XET4pF4K9gLnx_BPJmxTH01SzAIjg_w2zmVwDgc4VPp_DSMRAMioJh1iS-JInRQETBToNU7ZC3_v2y5yBnyRnvoSnnaR1SpF2PjzgaOh7TgwbvEFZzGZweF7Ylw6utQCHOA5ZBxDbPTfsZv-fLX9gX8nChPI8UAd8IYF7yLw6FRr9ldUNLeH_5V3lwOI4zSqe1umFvFkuVCYA-fg"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-sunset-lounge-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Sunset Lounge",
+    "town": "Sóller",
+    "why": "Recommended for sunset drinks and food",
+    "tags": [
+      "tiktok",
+      "bar"
+    ],
+    "type": "bar",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@yamildoval/video/7415688276146720033",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJoTQedeHllxIRtF8vniJ_-hQ",
+      "coordinates": {
+        "lat": 39.802331599999995,
+        "lng": 2.6958482
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 205,
+      "website": "https://www.jumeirah.com/en/stay/mallorca/jumeirah-port-soller-hotel-and-spa/dining/port-soller-sunset-lounge?utm_source=google&utm_medium=google%20places&utm_campaign=restaurant",
+      "mapsUrl": "https://maps.google.com/?cid=1511660411595743156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 5:00 PM – 12:00 AM",
+        "Tuesday: 5:00 PM – 12:00 AM",
+        "Wednesday: 5:00 PM – 12:00 AM",
+        "Thursday: 5:00 PM – 12:00 AM",
+        "Friday: 5:00 PM – 12:00 AM",
+        "Saturday: 5:00 PM – 12:00 AM",
+        "Sunday: 5:00 PM – 12:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3lDzwFt6AVE7wwCvZdlfhbYO-iWskeXCqBTEbrzf7YskqPAFZpflqlPw9M0qOu9rB9suWLesgStvSd4Tvef2LzkYwZB_x9UK4u6ramdJ1j71h7AKkgQgmYhC8ADX7w1xopjc7cFhXnJTTl2yu67QmJlnqLYpOxeXN6-f1s47rjMIwkCrJC3qsG_z1FkEykU5qUyJWCK1MIA2YcYH2_gH59AYWu26pgIzmjOSmlUcl0dYyaZ-MyId-lhBeIsh4n7Z_QOXpptlgLVext059Haky-TpB2a0PTWtLBAztIfhj76BEJuKYMsaa3Kr3rmb6sxTDJRCietZPKr6ysuPqxBbzOjZJkSsoQHE3Z3vsRf2xrZHE1Lz_FAo9_aEeEnDPvXRBvtQ94O9muPxwXNoMYHO1mkczpGXYiyEZsW3haUSLYiag0",
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3nradY_QfeOqxC9Q3Qp1v6t6z_0HTeOZfceAY2egSSTavt61qNHoZWyzj063LBnqju7ZsZVrl9xNYfYqGcsnht8BqwnxKncmBfqAEDYfxdw0RTF70lz4-JB30gAaAh6Fskalr3GTodv861s9Yt6Mh_Kq05FP4LJSlWdKovyocUOdWW_KKKSeAqiryOvWaf0l-P7aPrqPhdjLqTRD3R7LNqnuFJUJie40WBcgxRigh0MnCFgCN8HxeBgIqG5Arjf9_2-evzBHAR7CQ_RsPo3qxdQj6JUS1uq0IH8HOZ3OZnlqOajTLvVBLChiHbwLQT8sNfzrX7UQXjU_-eDlFVYYDRGKd7XVmroAjB9NvaXaBDu4MobZTbJjbuYTwQbwnpxuKz5zIhwYo_KVWKZ4eOKUiAdq91zUcg-9wlA2HNSUX3cfw",
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3kNuqo8Y3GuHtLMu4_duKzuQKODlZ6URRpHMzx0AiyMMWKzZTLtmaxnFJ5rzKCFxMuwof0_u3iIFdQlFi7oCncQL7vhEuaK9IlXQwW2bJkJWhrmGPOcsLuHvV8aMflShS-1nN7WGjxC9jxoWgfJDM-SNkSaFP67ByYBakv9pf2qTvMy_IzUlXZm-qpGqjcXTFsgYTMrPr36ARA7x1CmsM3I00rKJm-jBQNCjPg99xWHJ-JgXuEZ9afQWqisoLLJCZiySqiJfTV4A1DomNnWbHvLEtqviI_in2byYaMwKa97JleAaAfsU_AyKN1qIvbVu47igKZaQBvtNf6ZOyj3PFd85i8JOMzCZz2rGzMk3940bRB6JpPuCtyKpi8RJFek3FELWh-iOla_l3CfptJqU-n50woa1T-hU88WxSqSBN9qfe-UZuKeSGH6PF1S25TL",
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3nYhGWr2lIqNwu__HvZ6vzEsDVSYrieS9ggoM-7YDlHfOXQM7L7E16foaiaOhXU7zFlpwu6GjF62zumg0du2SJuJ53wPfosWAI8ApqJewtLHUqfqEYwUQdxLCD2kFNzRlOS2KKlJmKAIRLnXoZJ4xFzyYIT1yafaNE97B2duaRuG6b9FUVpFQqyieUbMoOMj-2JDo25fwck2eApAoYbkhrBQX5Yzcvu3WZ69y33P3sFM8emx_YNS4zXAu574nDHz47XqCfxZ9kjDwv4WdghnEbDwARUjwV9hhGTdKz-ep5S7olTBlBznM7TPZsgc6QvSjjkq59QtpDw2DCp4azUjZeOqUh4Lepx4wT_ZZ-gC2gQGxWWHcLZwVq2k_PDasMYe4GITT-6rCsK5xIut8X6Tr-wxGuoYSgKHXg1EPvO83pDvk0jYyOyv9-qI5QrIaoG",
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3kM53e7VgBwDAMY__FjHIy2gv7Ow0uH8s2Ar5AZGcU_iMuYvelXb7jzTgJxnQWoD7ozsbbU4EhwRDKns1b0BA3dz4Y9OdemwsBK32XWcR0x2QoxX6QDxGi7c5cXhlYJLKe702pzyXxsnRGl_mbijWKxyxkwsw3l3zkgC53V0vrF3Xa3ghrGgzCcMoBeHX_U1nNDjPzO7NblSBz02DvR0QS_K4Z8S0o3wXylbx5ZIe7TA4lwCHCDgPBQpXAr0JXpDM8gJoN8gULffZlKu0-o1xId_TavBR7mAS-feAxdwLNhEK3wMg04Ip3xLZf1Gqla_C4clSQH9uWFr1PxRCaYI8KetJTTu2rF-DXhhxl3AxnUQ7I9HpBdWMtulNABUjUcPwAdmbcKxnMS7nX9KgLbpjQspca4GrYh09FVMcdZ4RrrpZPYcSjs33SiGNpWWKgE",
+        "places/ChIJoTQedeHllxIRtF8vniJ_-hQ/photos/AaVGc3nqZii6v4aaQEJas15FO0EI9M2DCDR-JZt5Epd_Jykg6OO5zBXELfiq8-kihhmCBBvLLV6zZwZI8MJD5KLQStWd9B_aGKCqjj8Q_HwT5DhP5ZK7zBL_dA76nKh0adY1oss4BmTzrTLh6iR65fZeSMx56hsTm-VFXsA1e20-xhl7IGYDOnIcr36FCcUaySF4hkNW5SZAk3ghgvn20St4JVy5iMYe14DHjp1wt6vAjESgHWdmalDaqq4dqxnpDq_lsOnhUwMdY5tCMiBLoMPN-kPB75VmWNtFFdrRIoriOtiT23bkwUsuPxeKCvRg7tJgcp3PDYSJeAY-Ew5aAzELKxEr6lKSAF0uY7fqnIQ2C3aire_eLLNSXD1Ab-Tm5zsPqGFd9d5BBgd4-wD43s1O_21YvZ3QuCv6F9KPkU3T9GPY9CoeRYxYQlaH1C4XMXNZ"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-binibassi-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Binibassi",
+    "town": "Sóller",
+    "why": "Highlighted scenic hiking route",
+    "tags": [
+      "tiktok",
+      "hike"
+    ],
+    "type": "hike",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@_zoeawatson_/video/7629992079095024918",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJFzcpApvolxIRzRVFEc30i5M",
+      "coordinates": {
+        "lat": 39.777142999999995,
+        "lng": 2.7290109
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 137,
+      "mapsUrl": "https://maps.google.com/?cid=10631860506933401037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3mtNt088L9Izl0zl4lrJkuOhSMsym0kSR6FTu_Nz3ocU_l_BvLIrK_Uajua-0DEJ7LzvWvL_tgmSu4CXddghjMXLWcSaHi_B9BGvKua9uoG45yd856LIyJcKciR1RgKgcCl4HccayS6UJA7l2lvRC2LvYdK7L_AvK9kan97Ct8kumNZ7QOc1RM86PrutucveRmAbYmhmn6UMt4rwHOujrTUHTOJ8NTKH-zdGWZiO__30boxLB0jh2veCdhE_lMwdB4Tb-ALjpIKRDA5QiW5XeWgB7RNCgfJPvz_bN6yd1aaSfdoXAPO07n4AG1ME4Cdmv3GiaU71jBHAsdKEDUqJ0K_JtHIBmRc8KAkRLMubj3iQcrkIT96lewDZKhApGax7Dw_eKBBLDhv4n0yrgs_oddb12aiCjKSwr4MALUrUtbzABIBt3mFMQ9NwlZP2mEm",
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3mpkFbLeroKU0rNr_S5H3ETrR0Oofkz9zajL3qsyGTUTfZksVUskRbr4BdQAwaRPW6rEIsRieu1ryUlzBUU3y7mQN5Or8G9DSv_ZmsSTlSBAFwxjVHTwGOeKnAkvVzYFJi2RCnQliP1uwL1HOYe1NmYBefrn8L43DOYPwI3cxQVFE6QHzmn1cP7wyffsE6Z0zxbzVBDrpHVfWETekqynbgcCEexGTu5ln1QPc5gp4wQKiOffzXdf6csQvBaRFRk3RFeo3VAdRjHzz-uwPfvzGCpXu7chwWlMijbKXTBMqmQD6Rz0hQ_RYLyMBG5EiC9gNLfgs644ud17nw49avpOTSNC2YL88YLQorJPFEw8iWjvoqVh2w-5_335m6N6QXVKyMoCTAmS90Gy6Y265kAwb6aPbhVGc0luLlut_R9Nj1s1g",
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3n52ZSG-66Kv-RQmR-MZ4YsFHikc6fKpkeWM-9hSFov5-31kkeCxwxAB9HGG4wlotxazZ6AYFRpKa3-5bMbpfhP5l0x3unQbaK3q1xDiApalw7VDAN8MoKxq4aXKvbm5cI3vJqUR0stEW2KtVigNP9edd9M8bcMi3sr9HdEMuywDX4tZjJVUMLub-c8ftmYJH4gU3S9Xl-_TNtn9wdI6Zrhxe1AsYbiaWmUcOWFJfdveIpTHoriJhcgOo-WsQv1ruo9z1ONNSGiCFb339DGygn5gam4VbppGV__BvwXvehOct-FOQzl_MQj-DZJ70bUcJfTorjF1obSGwXglu8yUYN67KIuOO6m2GFNECXecc_cSZtOQYs6wBVX6IH2SI-tzteovMC51i8seqRiSoCudqr0pk1_JaU2dbJ2YhumMn2ZmFOI",
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3kGK9A7JZ3jTRzVXqaXTEaryrD8iZ7xAZ9w6IzNuUgSyEgJSvnpaJd8E9jpzOTQXPD62jRqzSHjL4Or4p4F9dJPl4WmqBEF9N9DIC9UWjcadY4nxhyxoRhMh4YzbndF20b2zIDPZvRzPlECY1YHCoSt8Le7yhacH_KliZ5oZqNMJYWFQiWV4b0THoVXeivwSOQ4yp3cvex0Vs-UyAqGdSprO5d9eOGh6GYzswjg-uckaKC5CF2X2-BBdxITRyNb8cwDCVJnRZ0sjKBpz6DbJWKuauOVGMxjvRZ_lLGo2yundnge7cYpz-gInZUy4zcc1QCrKz_pJoxZFI6lTQkefOYqu3mMJCPUWLqijqMDgTjm7QhwyVc-1T6wZWN0bVbY8tqYi-THLACNUjsSe9wm5CqoRNqEbLw5bbLFf_f5XiyMFhkRy-S18AOrgetdwb2g",
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3n-BAQBdEWGSK1zgehwVQ9lvsWMkOcVXjNd-6dM5EAArvx_UiM9FU2pXn07QhtKkWkHsAcSYfSLiJ-N02qWgbNVInK5F4XDLTRVlxCXtetQhuKel2cbOsFq5MI0X1ykphcENyT9jxDgKLfdFwE_dA4hiouQ37hUF-8uho3D2MVWOPza9X615Y0GHDYNLpHao7LVnt5uZ9zPBp5fu2zzjpu2i9J7lFkuKiZHJHeRyvdXmiGr6xlYogJW4HrnCyNQuKqJ7VkJlbs3mI758VGq2seSZSQH2J2ft1tH4gxjlF7pScLLeolbaGpbdZPuWMxHTHkjXBlqmd6fcKLBAEenSjVjWOZw6omsA1iIIQjaeQ0goVLZUm2lge14SKFRpTFX_74SXjR8eAWpYov6nSFGzYil3kdbVMm-rf84KAZjRPo5Tw",
+        "places/ChIJFzcpApvolxIRzRVFEc30i5M/photos/AaVGc3n416nOztN-PEIIuQoWM0tTeX1P-duwG9tjss9LKII1R8hVO58sqUekZ9FLRCIbZilu_aYnR7r1UxUNudS0zqWQQW7W-2QfR2dUMTjpWaYwAMlOrBRnWEiqqaPAhGu3X_aZS_huTjMy8cwzyu3VaaLw4dhcm7GgZgDKQH_rpQ4n-CigkCuWoGmDzxYzVads4LeBxyUsK-biMDa4HJhCs9JT6AHZr-WdKEVjmP29pFonXzRu9ywnAMIyCAPsNSJ-_WkdY4gQ-bC2ZY-fyqhEQ0mjtAju7kgHApOdSv_JsHjZYTX5Z3ECkQxgRbe2h2oTXUu_z-kazoNv_Z5z2_zgusclmXqrFldmn9EC24BUYPqdG5p9KHC0sq6l5sThSrh3WXGm7n1GIChkoBn5rZRGtrqOA1quNwiEc3GF0j8pKIVx_A"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-tram-soller-port-de-soller-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Tram Sóller - Port de Sóller",
+    "town": "Sóller",
+    "why": "Recommended historic tram ride experience",
+    "tags": [
+      "tiktok",
+      "activity"
+    ],
+    "type": "activity",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@wander.sasha/video/7617817478982389014",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJywzaGuPllxIRnmQrmuf7yzQ",
+      "coordinates": {
+        "lat": 39.797699099999996,
+        "lng": 2.6954252999999997
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 3869,
+      "website": "http://trendesoller.com/",
+      "mapsUrl": "https://maps.google.com/?cid=3804411282387068062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3nBpK506GTxNL9xP8wpAKICcO2s23NapgUJogoc8oTgpqVhEnWJnwYjZyLf4PpNAmjrm9dDKa3WAMwOoejl9Gm5FFWEcZ6Sr3gCrxeIoPTRc-2PSkjJUUKNyu_9dcfWRp2UZ2p4AY7Oww-95fi4UPMawI5ygJRsBZgST6OkgKtTHP8JbZPpFAd8ip5CDEHku5sf9s70JawJfMAZH_8dZlht15AuO2yR6BM7_n64jAzTBAr8UgYnnbr6mo-5Ks4S5gGd1cUBPOOb4-c00og2wFQLXJiKkQ7_ee-ma2DXpkaOGyjA2AS_LdZ5h0zCOifBErgalUJ76tLBKk6kNIlMgf4PD1NMlrgdn-QxoDzV-BmblEXC-pvpLy78JghjGhctzPq-iS1PTGEU9HYFFOc0ak1bmk9K1NuapdWHEGtgFtQrCMs",
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3m0W2GFQFYlbaimOrV2gzxQGpCDX3E5yuudZv39UPbHEQLFy8xc77c4SxF_nk97xtVR7mZLNc1-eZ4JBievNaHaKH7oVubXl2li3sKO7xrtCP3hNr7a2m6Q2c0BMRFmV6ZagzhY0OkBCF4uPfWnus0JcRIDH5VGZm38CcgbPFiH7JjjQf7BskxvNVS4Ds9B_lMCnvuxqxWf_h8v95d-tbPlvWHETOBdVlhDThsG_dWUGKto8inuDtfCcKcBefloV_Ja9AdHvWcpVg1BO3p1lh58EFmj52RHDD16D20zhhpv4cuIE3WwGEo9eXIor4cVWoIychyA0WNA6yU99-eEuC7dQPKDmXiG8EPrw__GZfiojMV-11eU_2eoO2i4dto-VB8tqo0Jkwq1I6gZfDrHnk2c-m3lPziBjwEjTpCZywhFOrvS",
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3nNMuE6x8VJUJmV40ggP0bb6wln9z89dzsBtaVvovq5aqA5YOtzuWxhfTmGOmB8J17goELjV9lvU2oyItr5f1rnZEwesothtWWXsi72zX7fw6_taEMSZ2qbhn-4OGY2p4qmexbaKFW5TKrzVt9luZBcmK6uDSQMZu5E-e_hkK1hV2mZA828CKPDNw8qUYj4Sa_Q_8DqiVQv60J0vADqUXhORPnN5hcxOIB61iV_xD9dvQrffQ8V7M9E6n5CrEeMhI7USgu20lkjxReTkw8_TYjB0mMtkV4BAQcQ9CvDvWREmY7kJgCgL_X_eQi_bn3wISIYstNUfNF06S8luna2KFHHWAr5HqSXegN7YWMU613d9WAFcbk8oHnvL4xgu0FaKC6-VR2WCmMlW4S81pzcGirYnYAORE3n-ePtBqAbZu4",
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3kKAPIrGKlFGX2Kmgr_hFMEedvxAYRWkg4hU-QfeCcF28MIMCkJkoh67Wv_RePAYj_U2nNM359HJSI2zRQfp2iVZwrrrPVfCm6u-GklM_PxKG5IVoTINdWhQSLndlQe2zgmdeXegRMz-bOwrsNNu9Eu1TvrAVoKWesn1QVXJRgQOjYSH-3tzpibpaYqn2EhLUrFHxklHyQJ2A8_cJRueIP7g5NcJy5S2s6qKaL-jTPqLUj5EGt_rQgvFY1eR7L9l2ovwMrcYxUPPX00hvzCm-oX_Zq0kGkRYNs2ow36fHryaGPFwLaJ8Z3Zq3Y0HqughCLF6fodRiVGjLcI2X1E-7-ORPP0cVrcUNqu-KeSI-zNLaVTZff94MXUE-6gBHoob2DpNkyQ-iIh6B5x3UHCI6KQjOwPotJT-jPVrxKv5zs",
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3lPhmUX_j05j-w3HT6ySF3YBEV-6xQ_jH_9B7TSYXC4A6zyToqlS93sRX4UHL49Z2RN0EpLrRpnL1xlROTyna3zzCs2NzS9AuYDbfJcx-hQbcCMsI93oxLiFITz2PlmX9dOxPP9HAlQUUX1TrU3-2jkzFU398yIhtpQ2E61KhKW3iG7Nyxp6BAn5WUXpWBxwqEZ4_zYzRrF6IVCpkwp6SxDh6pCWtmJZnadRxeb3mLW0L_zkwugcfLavb_L8Vlo1lu3fDLWRZV021ZJLWEvBE4YXM7TGl6vjyRL-5o_Nyyw29CTMBPr4QQa-U2aK2D8boO9UJLzXQ-i7Ajv1T42534CEonfpfynyigiW0XGENmOaHPRm2GTkLb7iMPic_RrRjHaGV6xfNTTLnvcc452vf2_fePQDBioP_eiP1vpmCc",
+        "places/ChIJywzaGuPllxIRnmQrmuf7yzQ/photos/AaVGc3k2msNyoTTEOL7-IXX1y2ItM2vPt9OFOe_Eq1Zp8pmO1kjN309g4uYLNsw8gr_UrCFUTPUJJA-Wkeo2p8aZTzZcKHibxoTMT9zeehhkw8rQBvcxaVzNYZ3N1LN_fme4RfAH1jpEkLyc4Kl_-SrOwX99TOiFa087Xhs8NwoHnIrePxaNx9Wgz_DYMMGzGHWW18h7r6LGoXIa0skCwI7UEsU8pfAhbPhIwiQ6Z8YxZlD_OWs1aqryNws6C9Y5Oa38S-y_foCtd12pHPETpJYqJRF66Jd0OKwfgb9L1yCY1D_9TWydpudntc4t7kgvF41E2oZWou_yt6-jKzE-iHeAS-1P2K58-4Q_Fdnu0gvsh36qomta6KJ3okkDwoYofyN5ttPrq_gHxDFtzFnoQpmMh5KcXIspdSo0p6rGUUErcu8X4Q"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-placa-de-sa-constitucio-soller",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Plaça de sa Constitució",
+    "town": "Sóller",
+    "why": "Suggested spot for coffee in the main square",
+    "tags": [
+      "tiktok",
+      "square"
+    ],
+    "type": "square",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@earthside.hilary/video/7562979648733318422",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJjyHiD7_olxIRVqz7-mEUops",
+      "coordinates": {
+        "lat": 39.7663116,
+        "lng": 2.7151333
+      },
+      "mapsUrl": "https://maps.google.com/?cid=11214548433161137238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3nQp0P5-onSjrfSWT21o1eb_YBMfB_o3fbDEZsuWhWxS2b_wDLz80nqNeRt-AzSdzggsKpW2JiPQ50Uo9C6Xrv4wiAkc9exvYFPNMI7anywu3KwmcSsfNJewknuS_x4Jx4E7OHjU5cdD8T8BNWsqGAOUGRgzDudm-Ffkn4ed-wQ0UJEmDOwel2ueoMf-9NuW5C6yBLsU3y0060vKjsdQsSK58M7LQe4FKyhGgW9ulZQ39OhY25kayF7H0zyUEOCg4zXQV0B7hlkwBbya9lXwwkZfPoqEaSEmmvrIJtqjdrGHTMJYutehsTp_PQf63GcU7pxhaemGZE_Lk_kG5VzuZfCPLbf7DtBNBb6J-M9pwpPIFSEfteXcRjIqWjcmnLyFX1KufrwOjlLCMZe-IFM4XT_RgUHZyHkgezJ1OHJKMmQEXmJ",
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3lgPrb5h0JObm3SYlzLWs2kX-QbwQXDhMImvMxz4nXqjI3VAo43w3cgUUpA69BpWhFv2pspBF8MKWJkAm-FGN7BCRLdJRKb6kaUQKMO5WXnqmhyay5wfHvbjcsP4jTSot_Q04LUMD0LKuZDQECrsHu2wO2CGXUF8Uq5-k__f2oN8PZx_pAL17ob5oOCYyPwNTcD37qUwRHhHr9CAMkc2FjRzDictIrxSRiVtccc0DLtBri5W0CrMlVjyzV60KDUFe7DcAVj8L3GUK_YJSMt0EVYgMCKgUXqCfGb0-0400ucIZ84ddDYuy15y265q4OAVAzxrd52rOd9JTHtI4nzdi5c_VinmlhITKDWY9d2vgO5_JGdNniQ5jf-R5g9PBr52rYIQHe48G8LG6P3_wMS_si6ePwpZ-GidDkgfymWbZuNKQ",
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3mqqRd8b4ZFhFnLWc1O8XRNXJLacOHV7Cb-RUFtVKkHfxyEH2wLMKoyjXn1aoXTYWpUGHzPRfpnNzm6txjr_QiosiaJzMHdsQei7GBpx7kGGuHpolj7V5S-6ndGo5vwWtPmneHY-A48GUDbp1686Dmilco_xwJQorPe0v6LGMXHJik4kPf_Cj_4sevFC_f7hOE3wbJujuNhQAkZ58FcFTGkiUNqWvaB_YWpHwh5R8D52lTwjn6wJpVpKgInfksi4n2gqvr3nIP4_vYIlZ67TNNLrBqpT9lNB-_3i-TLvBDTKQtIiJS2FZEzPlULNeL6UnORFMDsUfG2CPKs721mjD2G6Zofc5LMxHcOWjd15cABz1YDCUU11v3Rym30K_dxp4emG2wMaf4i6CVJEKRKgtnT6hLJIxX0eiHT0RdFGRMTy7mt",
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3mF32vqnLDbaLTrizUSrBiKEX5S2l5PIDf1QpxiTg9jr7KNP19XHs62SkXVVvr8I8uv3_lPpnaIc56R5GKjZ2raJDEnmwbJe0_wIVJKQ2zUoiBqeS4bAMHoYe8Ur5grrpYaL6YfjX5Q_tcdz3oUfAlPMC3jNBmJVX19wGYqh5jLQ_TiFj4SBIxOhZl_lkRKC-C8VOVlYwfkxvDBJ8cIykXGFM38tYJ2D7lIOdNIJ1vC8NUNcR27JlEdGbVbzVWcWuFEBzADrdeEtYMhsiTVIGjbBpY6ZFJu1wYfCFR4yf6aAfRo7m8jdLHJ7cRD19ZeVfu6KbxNaP3u5GFqKHcv08JFoRcdXWtfV_h9dUVEguM9FVOAN1Nw6O5yKpKKl3_tPIheavOBCgLEOX8lfBM_anNirIr4TEZImkmfIJwnUdLYhQ",
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3mjuhBUit74yQAk0yTGP9gAF0wxKp1inuaduPbNSyzMuVCuqUf2oLuhZEfbVZ58FTZmL1Zzwrs9obRUIPUuq5QJ67TVNdMua90N0TVaj_vKaMhN86h8wcEKptWySrstlcbuYQkeCFW2ZNfG6BZqxx78z4PEuYa5LHCtO1campDn3bjhXmdAF7DFSO6bQGNKCiI3HsaaHvT0g0xv6Pxb2hu3cNuvTy0jn2sXi4P6zUFfXxKxsvCJ0N7ch60WyhsVzwP70nyrlX12yWB-ZNrA17AjugAejro9MvGuRQCrqnWm9PWkeACwbdSh3MgHTLtgPdpHdggVdm_POB_gCMuel6WXc-QnvcW4BityVdmtA_JQ_Sqa39vzfW4JF-j6fSmOd3zDuC51_7i9ypb5K0qSIRu3kTGIbFsgWQAmixzxEt9A0g",
+        "places/ChIJjyHiD7_olxIRVqz7-mEUops/photos/AaVGc3l6DcCleJJbt3BOuMRiZvhIC1kK1YdcjhShQ5PITlMNXcDN6EwY0QdSPPBJ0j-uC3kaw3vkPqVK9aZANgSJQetf_njMNGOmIh_ubFrMa8M0_zYVENzP_VOFlEHA2bZyjEJlgJ3NjXVO60WJkw_34r0Ul7BFY4msoFU0B5yI_1zuUDvVwkmKGHeyYPTr3osj86SeL5MImFimu4L4T5Jl6cqWh0LNJSOPYRtcUasqdN5bcB4Y5mtAnuZ4prCqYj_8-hhQ7ADmmNk0zjhWw5vuq11OuVVUqlVVVdrlS9OD4cHnKT8RpYdoy172pvdmw2cWZD24d6BeqhjaexWv07u00EZ8CoOclHSEprx1GHvRZhob3IBgDKsmcBFQgDW4F5_O_ObblnDpQGk0pXRv4qzt_3JeboISMgflAG6CndfxR3G9MGo"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-lithica-pedreres-de-s-hostal-ciutadella-de-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Líthica, Pedreres de s'Hostal",
+    "town": "Ciutadella de Menorca",
+    "why": "Highlighted historic stone quarry landscape",
+    "tags": [
+      "tiktok",
+      "landmark"
+    ],
+    "type": "landmark",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@isoladiminorca/video/7653563973589110038",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJx2XQzIAEvhIRMJzrT4ih1kI",
+      "coordinates": {
+        "lat": 40.003812499999995,
+        "lng": 3.8689375
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 4289,
+      "website": "https://lithica.es/",
+      "mapsUrl": "https://maps.google.com/?cid=4816214458347789360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 9:00 AM – 7:30 PM",
+        "Tuesday: 9:00 AM – 7:30 PM",
+        "Wednesday: 9:00 AM – 7:30 PM",
+        "Thursday: 9:00 AM – 7:30 PM",
+        "Friday: 9:00 AM – 7:30 PM",
+        "Saturday: 9:00 AM – 7:30 PM",
+        "Sunday: 9:00 AM – 12:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3mGysJxwCnnx1WwhVesyERCyiqmXa7qcUVq8TJRHsqudAYkRajf2_0adhLptYScsQD0iOJbAGELykvBYiCkrCM1eumimO_hGUU2YNOFCXxQfAy224a49ToEga4rKJDqKT8CEOskPyiN0stDqn8lFXDJFG8fmtoDXxbPyq2slxAyYKBoubyqQCmhgxgTHFOPTmCCitAeIQ8kPFv4RRtdBuc9wgXz7K2Q09WibKjkzPUf4qQvGLUMImV0SDxlXcupzQTh-LUy6t62HN6CYTwrx3khuQs4b1ifcbc_Pul7yZ4PfdhfBGdPKZhXKN6mvV5FNmtrxv7DJ8PJ1fsiJCfN81Gvf-4CMNF4q8x0ZRU4cR5SNDxTWpzr-wgWrHF2Aaczd8XAN_gMbhpx2KgQ8qrjUmrBN0yT4337SPBLKCSuO9J4iQ",
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3l7sapqdmduT9m0ZKYaMtAqbotU5rMJJQW3mPgPVw0DukXZQ2mQ9eYcmyKo5MoDaaOvTVWiYRfqC_YiLF2kctW5Jgz2S3r40o90Rz2YZjXQNXEA0PQ4ilnZ_BhtU9hhTI-plkcF3xyPtaYyqnC9pMwJ8sRdpHfNXGo2Am1e8tForvFr6lzPdfF5S0cn_YQ36rAxgXXYogn36uVJ80rE46-jz9LL5IdCbVhhjPkIFjxTvxq4mvvDLq1cG2AvVL-ldZ0TYZyk_bu-uVqSpo7GKT_3ybSYHGrPJNEdYxfppL9pi4HgFeVPW4jjhSJv-mO7Q3nVSulhEYWAArA_1RxM_EwSSGux433bEqQJUHPsT7A2sp7cRBLCt1K1VzYBY_iOpZN03Hrf91umcHb85TDiqVMk9RngqyzCu4PxRhDvjZNo",
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3nDpHLo7kkuPoAyl4UbVeYukwVFlSNSjgfuzawnzYfZBCkf9we0tyZiK2qoCTUoMW84w-3L1fwKo4dUQVkY2DmIZ_1_RTDqWPFaK6oNtVm5-pvabTaAFuNP4JxBHvTLQZAEj9YbynUMaeJn0qpfGtZOHTGx6f5UrI_6jEBra2Z_6zfrzpsDET14V-eFcQ4cFYp7mC-BRbx3pERgIIZQRLfQ_x_d0wnHZneNq6U5bM2OEaAvub7g_ZevdO-mtS12stuR-VgBsw0-z1tKGrK0B4IMoP0O5ft-XChVW_MVFl4lzOgxbrTz4QpUAaEOlBwjZ4KkXrewS36NJL_BEHJtRM4bEbqp5152AsqTKx8ADJp1jjTPvXDbuHKcAZudQXgL-JtzuzS4rwGbGSMYZ0cHYZ3njpJ4h7vJR7zNMsGYZUpsag",
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3knu5t_ZiqgGRI5XJQx6_HrKGIs6ezkADyYEkb8mrKp7TrV4gY0dD-e3leGOn33fHyl3yNeT-s74hMnSb7l3din7KZNeXNDuIxTNCGaRXSvGszGeyVHYDrTvdaiogwC5FH5GW7RzXVS0AimjcBVThpO0EHBXJ7yaO0aeRsCJjne3kFgOp9JNYbHxHndLHhPY0510zgfm9kKb-9jBJPjXMObzUAWj37WHVtmFNQtUsxOkAwR-Txs3ce0LfW35T3THOW22XK9pZoeFuF_KkaxmYzRqlvkI4gfOFxrIXZ192ADvl1CQYqFJq9SQ1Kck98yMvrJiuVZLp1XYJqn91U6-dgelaGhJ1rrqbH_egjM459lkobzn1fEH8sVPES9BEwm6F4Oh9genx3_KFemes6hFjoaBgPC0OuMg1GbqkMPYEmj0Q",
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3nYLv9HlWt6XGFrRX1un7V3-E0JH8nkgbOTBXJ_TV4OPMKIZXvKPbnBHfvrhjFMBJfwtKT31oanmCZ3Tb9poeWjxzb1s4WlPyhX6_uyQ--0RfHZ_38uBFtW_gacJX4HDJmMHP8z68mAgvmcJtstOpJusKsiMa4teM_pKxdScJjujP_nc2WffsJ-9UkCOSXgTOPu7GoQ3pr9jw0SJAX727dN4lydyqHW51pMauZWoo5CzsrlWvfN3B-zot4DVbgiVWlTR3OflwtaSsax8fil3qYxOmAt73IIGSVle7dBXrUNKUORTKxrS90UeFF7BTbXbK-sPrZnUTkpfI_oQeKkD6u05oMDxq4da-N1-R6QTR0y5kwI-z7fO5BzAD3VhKeXmikxsn_b8LEu5SrEcICx-Qv58Wr0GrLXkE2NkakikefiKmc",
+        "places/ChIJx2XQzIAEvhIRMJzrT4ih1kI/photos/AaVGc3k_ZQ_1UsDLgZ1GogWXKypm8_Tf3T1cyEjAdoeyL6480c4bC3GhAP4hKMnk-vgixDaCxvbPIUUXu4fZe6AL7X5akwgdwBc68iIYBzx6F2L7StVsXZamO2BCEqShQNNoSwsj0DJawk79x8wBDXNEv3a2wXOsStHN_6wP-p7hvJzbM2ggwUB5OWyz9RuWr14wsjaMaX_iKjFVyTUOCx2YCTbnoP7PDhEAyWaBb9jNgbqeT554s1kfUW6z2cWXVrzrEQBAzqxUcew5bcjdGXfm-x364Gh23E1DQZ9xchueOkQ7AWcyKEcmToJyc_ODNTshG7xpSH_oSOp23j82nMDMrJxPf4m4dinXJy2SQeBNf86geJD2-LURjPuraiz_7EvCiat1RxL-E9Wb7uXDQfAzVLYcDaT9mgovHg7PIp0czjQDUY2n_LrH3Bs5F5qDZsAr"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-ses-voltes-espai-gastronomic-ciutadella-de-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Ses Voltes Espai Gastronòmic",
+    "town": "Ciutadella de Menorca",
+    "why": "Recommended for wandering through old town arches",
+    "tags": [
+      "tiktok",
+      "street"
+    ],
+    "type": "street",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@palomagutm/video/7646457698380221698",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJQTj7oQkEvhIRN72gGC7rTLw",
+      "coordinates": {
+        "lat": 40.0022059,
+        "lng": 3.8387326
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 3569,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://www.sesvoltesmenorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=13568478360574672183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 11:00 AM – 11:30 PM",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 AM – 11:30 PM",
+        "Thursday: 11:00 AM – 11:30 PM",
+        "Friday: 11:00 AM – 11:30 PM",
+        "Saturday: 11:00 AM – 11:30 PM",
+        "Sunday: 11:00 AM – 11:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3m1nVE_953VjP2VDPnV55QZT37GMhOcCultKSI_OoZ9CdNzw0NhwMylZl8YphDh-_V3YJsDo1AUG9ylL1P7DzRjUOehtPU4ZAvHrIlhKsg7xqS6-FIFARsnreYl3Joqabxv0EjpyO-N-6uk_kYrVOKhGclGcrJ7y5_t9A6ecuIUddL3gNkJ_wOG61IazZe5Fg8csMCwLXJEf8eqmxQAadkgQgb7lCWe-67f_Vh50EImx2ky4mxeNBspvkwJzDMgmE59qAMCf-HV_tMhJJPUV2Ds3UkGuHe8C8tIVYWvwcpiKcj7M2GY03o8mwo6e-4q6KIWs--6El5IP2eTSO0aeIyx4CjQc2AV7yCxd3UEv6nIGgRXoX6fuCQDnS1gU4rkPRNLnUmeDEvt5oR4YKUcrcr_S6IK0bopGneBm2Vw49u6sg",
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3m5QHCW_VIJ40ZLycBShd9zg2ASV38XHO9iEnqDtycEnAqCpN_fsfvIkD60hII7Qw3XrxwAmuK9Q6gX5-0eBWmqdLuwwL1ajw13hrVYNcw4uJX1UgKhZok48WVmgKy6-wqaJHSsJQB6sAV_tpfLkPPJtT0GliXJ2_q69eIMiAkMQittgUkZ2Fmj7oJZE0Xz9ho6527SoRJKeGOGjEpt3o6GARpRqsvn7N-oHic3zzVCiYr7n-Z8tXCk3Wxol8VQvgH3EMifsi-VWtNaDydcKzA9Cx8t-FwXvA0uTeuOC8VzUavFzwm5juV6oh9rjxoAFeLeYTN2NBhkx2GOGrSAANKRjSvgy3GqWiyTxry3ExPive2Qe5P7_IQVuCnsumoujhYECj_VbSwylU8M4egOY_OrY2tRMD9V1TaqOjlCg4655g",
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3ntAqY355XeAt4yaFAk0btIdlU8eJ0tyOs6Xv9jwsGRfeIjzorJLOUQPbFhcCSaDc7FTc8hSoiDPkU3Inaxp89Xzro9TZvGsZc56GzHY_NapBRna-ZRvsx_9hbMBWAVJJIH9sIxxRrGvQpV0tMYZ0Tv-3kFELc-6ma9ghIJebtCNeLzwKuK0Md8e-EiFAbKKVWvtl0FYTJDiTPCokgekHTIEU3m8zlkxgUGmFKQKZ3Ub-WDZvzDvSC5fiXbcf1ZSj_RrJIayxxUSCRIwdgw8E8QCxtEFTnkB7IpBZmnPK497jsA-aAOB3mvO6X4rvjT5QvWU9-nMg_mEAc8rpCibCTONOO4lHE1m0s8z9LjDme0FnEUTBcl_UNGbR9F7UjhwF9USe3RDPc-CRC2w1dqM6KWKmu4dZpBNl2ik9Exa5twYFIkPKLHj4xUoBPaxA",
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3leGjUREnxcETUdSCoamVeBBo9-Uy332Ewx8JZW_lGr6NQY_PLwf9TvO_9UPdWtASpwQGRPfvvrw8kLYrmROqXII1bi9_5EbVzYPLVJw_vqpi2wN0LH4oVPCa1H2dFd7xhDf9xFVYaHPlbf-Hen8AlZxXQm1dpmeHD6h7-BRspVZ5rsv_4KATGj1pJtvH01TAphbjlPrtLSmFCtmpsyrdqkzYGgRUAl7C7mUrYRkwjCjNe5gXGNHdk67Jda4aN3MkmPs85VwDxn5gfHuYLp_P73jZ7Au1J-lM72C3h7Ss0A-mvCP_ljn3-ED-h9VRbog94ola-ld9eefLUli45T6Mu7YidDTdeN2Ir0eIhN68ggjcthqx7ccpH3owYCKGX6yoSgRKjEBVAWUBq2W1xHN-1w-iiaTeRloXI8_RBgB4TLC1I",
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3n7RAMftASq2x6ksWW6s5UV2sxarZx3znlo3GZMFaqN5IRqO_XOueORrS0JRx7PSb724RdfUTQHhWsIT9HtKGnIT2DsMN8F5PGR7rdMcLO4NQYqh09ipKLM4_mn0k4IX2O4x86ISHYRIYQY3a2nX8A0a6dJO7jkrpclrSO8LC7al63gkb8Bkko6qItHF8XByI567NU-lhU7USGa7c34DdSiUyvVo9z56J7jp_MuRvf1-Y4S2Ceegjupg9O9V-ZJ_m7N5gVeTvb2AqK51TzxWtlDRPgrwQC4IDnXJvINhBTQC8rGk6MMW65PzIegd9hDcWwnfhy5NWIvITWOq9W8mMu51-gGRnhAPFKtZQHrJzFgMN_nAIKfwYiYaPxKh2xA0TuEG7UbAy6YIr3NA-oYB5vLm64qE8bN2_JSPwNMunDNjajoI_BbC1liXUCKuJRe",
+        "places/ChIJQTj7oQkEvhIRN72gGC7rTLw/photos/AaVGc3noNql155-IayxaCU7zS6Qt98joCovwhJPI7VVkCu1cFkQFGBr7_BBlJBo2X-XpcV3NITENaQNTAqLn6bW0UhEfHJJU-p0xzVtGzxXqpZwylJxntRC-CgoM4QVx-3p-NTfFyA6hLIxJZO03aY0pltscNo0wUj5hiUUhDtmd6jk7mwuk9F7x90hxbk0Aklf4wzr2FOH3aEg3z5Tat3d65XQuAsnLpCB-oVFWOjRxAhyG1R7uvPkBMlu4tNDUvIx83-eK09geqWVa9deVbBSwmqEJzswzU6SA5cW7qn4cCeNteQ5kac00jYIEoeW4kZgJuYn-pD0vkIfJUmC1iYxZ_H9TtrFb7awW97y2_qqCyST387kYEJMmWZsqu-RlEBeYNpYg7HxfDCZgR1rj36bPlLPj1LhvEprLY_MHP97mQ5ckrIRhBrFWO0JIDwMouIaz"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-placa-des-born-ciutadella-de-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Plaça des Born",
+    "town": "Ciutadella de Menorca",
+    "why": "Highlighted medieval square with town hall",
+    "tags": [
+      "tiktok",
+      "square"
+    ],
+    "type": "square",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@palomagutm/video/7646457698380221698",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJCbrxcAAFvhIR-X4i93jiS54",
+      "coordinates": {
+        "lat": 40.0008287,
+        "lng": 3.8361524
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 33,
+      "mapsUrl": "https://maps.google.com/?cid=11406459490416099065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ],
+      "photoNames": [
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3lN99NIAvBR2laiwysMYcLo9cASbXvd-xR3DGuoQ2In-NkPS5QSE9hCZb3PL8sXtAIkybTdMXBHbLKk0z0NQrW2jXXxdfeNT6KAEP8WBLf07YOCd1K33OK0GC8U5VpEPHr-db1lMD2zBHpdDxocbmvhnAWyEZVPzxEwsvo3kZGgtxl0np7VnMUzaRW54tHZxhMwA2aSkVXjsUK91MjBI9s9o0FUkQ8pDi3B_lZkDNmABHaYfWoU2Z0BVaZevqCJp6Q14Z_SRPGOYkIJQexYP-eG78hq1HkFAu9AQ8Amx3MFGr0vmYrpIKZEsqvX_9rvuz_QxssYrprUOVt243EAo83sfPGgekBNcJ6ypAAyWMIXNJqYcAdiZ2KEZv3ANHDk8BmPDFiIFYv1eiscqBPa3blCB64ft2Nraomml6N7y_0IbUp0wmTGdPJkOaMvPw",
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3nIjdNua9kr05pn-o-2-ObRZs9SuK3FWTD0Wo5f8qPBX3s51iE4KDv-ubj6do3XEttAgghnFrRZmbMUDbVlfuHCYpqSvFNl9wVVI_pthzF6JkhxrJrFOWY7T6P-czZXZ1b-oS1VdYInM2DTvLTnj53tP8y5wITNw1ih39XowSPZKpq5ddHixp9M3eVxjM9o7J2vhA1gLAYL7CMmW5an0a1B6XqIOkur6K1BmVPNt_fO2nGaMUnz9IKtymtTGf0vtSGXnHUvJJIezu31WCaDbEMvEZ_kFjH26Xz1SxQFCjrkxh788KjBHtSFVwzV6yr9JCf3f_XjskGh7dMPCM2r1j9QhHaLZqFp_7BBZORBbsA23H34dFptna0DPle8lIuXVW8UQAe9EgVa1CvNHjh26IgwuYRegHwRzekvYHieIi2pTajB",
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3nZ18DrlD4PGQM6nfA5M543Vq3-cF_2bZF225jhMOI5sET_D3NAu2Xkdc9AICQFY0Xw0i3Y7bCmjWzEiaSrOF98egIrtD9F_3H7v3Fzp7lHEhkBG7yOu5sOnOYg9oSpFubpzOzshkEicdlfG3x0b_Q4mUxBZ6YsNoY9N-AYDYm8MaLjVT8xjDCjhukm5dIaFbiTmN6GcZuJ_Z_66uXF_aR22ulKNl_fqIb1hqshQ0dKZOEfvfpnXzAuOYemuIiMOvKcBCTi5ENFUyESiDIY37QdDo0Rf8sOy1VWQgprwVFo8sHJwhXdHWFn03L0BkFx_Unkoxiq-As6BThW7mGDdAAQTWK6eIy-yglOkEpN8E-szH_O-oUsA9_JNaEWxoxYhcBvokakAjZydlhS88LxISiMebsn4SeAToOA0MddozTiOX_FnrBbIdRyvEmR5gIv",
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3nxk8xr7MaDpycQBrB0R8S5tsMlpOkGy3Acil2BLeyk8uG9nIS2EnxXlpasR1tPP_yBeeiSscYJS5SEizblAhicJKQzo8GpsOCC4rFfeN07Hwf7uRj2dj7kAwfQYozD35YKcBw5mHUWDJScrhUeUpgdqytRwRbkDeBL6MaqI8L7Crzvu-YVk-ckJ7Yj5vhw1NivIOP9p2NoNfEjkgC1qcsb53vNC3MXVL8KBTjiyKUJYL1kUd3By83TuYRqqQQs6T8nnVMMgv6RS-WFFWohXSmoaJfGaet7CNWCywuPSLMIRuLYEWImpActSmf7Cx0UKqlXaC5HkwipuoxKpF05cq30kEYz3Y-sdftodWUALxgKb602UQUmWdM3Nt0OzoyAtWfvBtpLa_EOkazJ9o0E3unKMZI-lplKvb2QHcWuw8XSwbc5-J46MjXSW1YQUQ",
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3kJFLxyT9k102yES9cHcjeYYc8h3eIYQaE2duak8zQY0hyzWqkw6FrRLC9SRba0jdA9YJQrq8kfV4LMy1CXu5qMvjJtUaQEa5MJI4s3alRoEoUlDndGWJL-zg1mLcr_f0lh15YTDxxCps1CX6jtrng10ZJC9JOnDLK1z-uvx5Gj0jPTs0reGOkXU_zTGmf_7LdUp1mEO-WHR_JhON0zECG6hWbMlEbD0fFWUzMIOcXp41FHnyjNWHB0one3eKBxTBTHH9IeTxJmroymipHrW50qKr03qkZF6dfP8h0TnkA8dGA6xHfljlaYS8BTRkfNa_dGypSbEyxDaQFDkFDgTqwszmf5CaqXcTEJqhLlozqdKOlAcZ2T3DziMLq_Opnw85fRvfyV1h2-rUIRDtKnItGAD-d75oV1_09nnj7J-25cHpuTLIB_JOD7ZWOsR87_",
+        "places/ChIJCbrxcAAFvhIR-X4i93jiS54/photos/AaVGc3lEPotx9ZeOloiL5UQS6xi6USc6547z_kWB_kOy4jdR2vtlwWfRQ00MU93BCqCh5hzcJQxrrYaOmPexMksiEmyAnaEL21NChjZv2CYE_TNn6_AgAuVwc9Tmtenx52GMYtesX0Lyv4A1JAdM8GXvlySCIz96vh2rn7v9wUECGgnHMn3s2zfj6hMfeGrS7npy6XFczF5UTDFbBnv4apSFtPKkZYnqfV96uT7-RzYLzVOalxi7NfZ4zIAIrZOFivD9tPSBUuXp5I1EKY28ivC_X7GCDmPn0mIiY-vdCNoi5K1rL-SWY5zs2EQCH2d9W_NxgYK6GkpLOxEjPA0f8aadM8eMNSCaNgLA0fRl6Sjzm8VkZYq1b5-Gg-vEeDm1rbc8oDT0L73HCH3chuAFaVOmU6KdgC6R9WcwLQvuiMfHF0VqJd6KBdBIs9PJuDg8c_H7"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-puerto-antiguo-de-ciutadella-de-menorca-ciutadella-de-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Puerto Antiguo de Ciutadella de Menorca",
+    "town": "Ciutadella de Menorca",
+    "why": "Recommended for evening walks and waterfront dining",
+    "tags": [
+      "tiktok",
+      "harbor"
+    ],
+    "type": "harbor",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@palomagutm/video/7646457698380221698",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJbfTHdggEvhIRmx97NoU7998",
+      "coordinates": {
+        "lat": 40.001686199999995,
+        "lng": 3.8355698
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 14752,
+      "website": "https://www.portsib.es/",
+      "mapsUrl": "https://maps.google.com/?cid=16138433233036189595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ],
+      "photoNames": [
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3kalo8heOAsZwG2ukljuOZdHLBqd4YcnrhzRPORglHqMLlmqcwNtzadCnAC7KT6v1JPxjVjHSbObmMOAmQScGKO-7zDG5r4NScyJE5Guud0NAnLRFWDDpcW9IS1UtECAKSHMZBw9E8mpHWlpuVa_cRj-Q0sHepfSioRHMc2xVGWiA3lIEqel2kteyaMSRD9KRavcahrL0sB_I16lnJhKI2C_Z2Jg-8yCzjI3d9ksDdzyS8gOGfu4rtHCq7jQ0buVTyYnIUtKxleZm7jpb0pXYXWnSVkdWosRLhqUNszKvJotQSF-v5iFN4YahGZA5zOVqoAjXOKFtb7swNCLrILS_pI_wu7RABONwKiiRkmur-cCsgiU3GppTTUkbV1dqBXKKVPEf6OuawK2mDHvz6fkAPaBG22oZ_zjeZqfHQ6gP35FQEK",
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3nWlOKeMEHLwzNqBPhnRhov2ySSOBe62uW3wdfr-39W0RioE3TkZ4xw-kh1lozSZJgfQSU7swlViLrs9n0Rfhj36gdYHJj6VXrjCtFV2izEIV6h45ThX3DJd2SDnbhQ2YuImJ1JDjHkVUGcxKf9K_UpmnbIoObkwuP3TNTPTyXYSd9vrr8DwTb1oNupeddetG8m-CWA09AzSr4ZfL5NOGCff8gmEWw3HXu965lgdzSWQ7AG6jki1eOfbn8Denaki2Do3mkd6asCGG1NiiHkQAeqg36wTReKIoJldyyzb8Ls1W-DVXQuLupRZwkrms_cBAnvF6d2WIbzbj7lCQo4Ecg3Hl3cYbu1HTS5oe5L8mLgey8tV1AKUrsbTIDpWeLw7-aHtPOFz9K-Z5hUL06Jn3L_KYCZEo4VMiXb9uoNmHXKzWnW",
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3ko7zVjauSVPA5GZkgsT1JPnc1xkhR6_tZbWYga5HhtIEINyyMpuahOXZqIxhxR3OaaWRcU2L6KGO0tDIH8BmAIN3kNaKOzfseyAU_AH3fq0yD6_VB04DsvihvCNpIGo0JVqpCAOLJilcpaEFoIvz6k73Q4u7fXcbqeOI-jZX5aVwgEv6N2sunlbvlvalcKtrd8-TXgArr868Eyo3qSaepQXCDU3IKJVOklxsEQd4iDxbd-VqHVHv07LtPQF3_vSN1trpmLdd8C2bWr9NHr25RAXwB-wP38-C_vXyfQ6oASOexMpW_gtXWa0begAzU326CyxrsxmKk4iiBJ28hqkMHtEHSs-IciFBcZqv5ZfU7dav2eqfAClaTMVFy3O0m6-lBNuUQah0e3ICa8fJazwNp8Mt8UjRek7_YqfUp7pDb1dA",
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3meTyFdy2gGyj5Bv_I4WPXtkPwOknTaWyDPKrE4U23lh4-rDkhFipWP4cV04aVMCISf71WrXIf6jRRPCby9xZxVeet4I0vB7foOlfB72_Xw7Y4oTJk9s5zLdVGE8h-l02twMgiWwI-jfzU2H8y8c_RGHwNnefLMISGyXZLzhFyIAvEenvAhilu9X34vdKXST2mPdxAecoL9IPR-jHzFzbBwCYnZVQvVgt3tfsasY2hVk-lr6LzZbWQQ9yaMkNO9hoSpghRUkG7AshkwFeOywQANdRKARP76zGppgbn8x-t2muauJXAts7jvWOzs3klvjzhjSZiRHTfc0yv-jEGP0RTzddjFwYXzc2gw9OOs0JuF49IFuJj9zAyTfYX73MGc6eNashy9n3Hb49blG_nLgGAqdgcZskgG0pMVdJjS7LKRjQKzaJP_u29CJ0PE6Q",
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3kAPnChIJa-7INxwJTo8VhmQAaucIaYNBbCcAa1IxvDwjAOvCfdP0K8si9_arn07uI6rSmQnry6k0JdChrqUyhvMgUa98zIb8jMTiHzy5GPcnJFyCdja67NZJCvQB3HDVwdAVwU7dT0yTt1qkT0XNc1TlxH3FJTMRXyam3FRoC7chbtV-r-AJpohBRgFVBrRwaG-o7NySuW7DtcLKbbAUtB-otJMUPnfYQZZ0D7SiFn_DO159_spYovFndefI3YXJRgfvlT--3JhQQ3Iu_aTAwFDlC_-99G_dAUXWYL2yJC3UY_CrNwjSi1yRuSjuLf2Iiv8RMQi8SbNyZvBCmu-bjNL5Jx2sj19pQ95-DPvE0GNOiQk5u4ITMAHIwtaWFul3anIG_CGVJld6aDr6ewICu80max6nz4R3pZ_oqSqw4xgKQ",
+        "places/ChIJbfTHdggEvhIRmx97NoU7998/photos/AaVGc3mw1kjZzFZriyrlW2Edl8LDM_6srd4tVg2b9Lt7Ebrf2VgA_2nCSiaZ21RkOZztyvfDw-q2VmuFnEr6j2c4wyKXP7j0lY5EuTdIW6RLPkIqT6wK3nfRFLc9b2IqzEqLtGi42V7rEup7K6uqEJfZDlkk1pQukWTB0NXKxCuoi-Ys1mo7b4XFiO4F4s3eLxZhh4D4_wMXUr_eyZKMutD-M3nVvfGSa_YUl1stvBKaNqY6yeXDkbr5WX4ktXGgxu3qOnlO44U-HBnXvv27U0k7pX4noNMMDNV7CtTYAWtrCzk2gwrv1gXZABGa-Dr9flaKMhbbKB9lOMsnMhNoruTPzozMKeazp3vnd-bf31url9dHbm-2FmspcENZDP_v73Y6hwYRnLinf3MCz2OUu9BRNhTY18-he2rhcXEIJWJ4eb2HSnGF"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-cami-de-cavalls-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Camí de Cavalls",
+    "town": "Menorca",
+    "why": "Mentioned as part of a coastal walking plan",
+    "tags": [
+      "tiktok",
+      "hiking trail"
+    ],
+    "type": "hiking trail",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@mareabeachhouse/video/7643425548680678678",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJI0GkcYyHlRIR7VY3oBG1TJ4",
+      "coordinates": {
+        "lat": 39.897672199999995,
+        "lng": 4.2572649
+      },
+      "mapsUrl": "https://maps.google.com/?cid=11406691043529676525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-restaurant-sa-nacra-ciutadella-de-menorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Restaurant Sa Nacra",
+    "town": "Ciutadella de Menorca",
+    "why": "Must-visit beachfront restaurant",
+    "tags": [
+      "tiktok",
+      "beach restaurant"
+    ],
+    "type": "beach restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@wanderwithaj/video/7511778962779950358",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJxeAaE8IDvhIRVYzlouzNFQE",
+      "coordinates": {
+        "lat": 39.978986,
+        "lng": 3.8382495
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 2804,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 30,
+        "end": 50,
+        "currency": "EUR"
+      },
+      "website": "http://restaurantsanacra.com/es",
+      "mapsUrl": "https://maps.google.com/?cid=78194984777780309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 4:00 PM, 7:00 – 10:00 PM",
+        "Tuesday: 1:00 – 4:00 PM, 7:00 – 10:00 PM",
+        "Wednesday: 1:00 – 4:00 PM, 7:00 – 10:00 PM",
+        "Thursday: Closed",
+        "Friday: 1:00 – 4:00 PM, 7:00 – 10:00 PM",
+        "Saturday: 1:00 – 4:00 PM, 7:00 – 10:00 PM",
+        "Sunday: 1:00 – 4:00 PM, 7:00 – 10:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3nw1oQ4RjLrehMQG1iGT1AzTeK1aztnjsx5npHigFY-E5PDOneeDQrZoGyVuSU5UsiZ8KDfFwQFdyVapmqwgF5bBPVSwqdRpP4gcWKDqn8zqIt_hM7YM0QsyzMzGEqEXb0gG0rHSxnll2aI1dxftdDVaz9VFiBtT-sU3HJ26AZOYVblI9fc31g7qsWm3ktry7jV_MebCkQRa07kYnzfQkqBJPzmj-rKL9JeF0Wv8AR5oUdElGGfwMQdjSAD6eeF4GscVI-XVTxJRvcf8x9WHEO9O8CP9NKrxIEgkBXTinzWcFB2FBjUsW9s50CqfPsU4dIEWlnpENO_YbV2_fKuiR8IX_sDwFp6-1MrnjAZUpnxSjrRteGGysXeglKEdhltJKSxu7tCj2qNyg_qCL3X87-yb5Vjuf438yHmXtAi6l0",
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3lYZplsBzr9SM2Jne_3xb2WAHRhSvhouQzfXRpb9ECHywqOjUFQ8ymvlZmLP9MLUiuO44lIF2P-ko2iunN11QpsiBL0shBzhPS4g8PUyg4K1UrocnERJuSKyo5qYozIyaqEoSBtaJUhe20T0ypU1IgVVnHlqIau8aFWN8iR0k6-yQmZdIjT2mHgoTTpKM6GgvTOLhw9OH3bvazWxg3fN-wTKzb-bUZRqbKwukgLnq4h9qw2N0jVQ-hiy06zv1u3JYBlvImQpd7-G5CBo4j8Smydb3vnAiJOXh-ZplIhs05gd6DBC4-DM7xWl-MBBFN04ythKLQdVj9N0UZ4t_EXL9KIdCjOJVt1T5od2E_eO6tMoZ-Xj9FxWhWw6L_78RodZmZHwXTFIHy72PMtdP-xzRXzL6FjG-xGJ1miiXCEc5y6p07CB3lrdWPJJmhmn-tN",
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3nyD7rU-o9B11_iqfU4TImI8sKRp-k1QK9dY-ZsBII3ricyVnfucXF1MeEUlerZKFC-GgOsx9rJR8EgoMLOdCm1HwVoqYkzQrO97x-KTs1PEvAN3zgszmMDDOcOztxs-R9OYhACHPo30C2OOaQCDdBDR0X706Wq7R5P161YQPUx802suaqIURNCWXL_0eyO9Qa0_H22CnrOt4iiiE1foAPX06hy0CnyFsYypVfF3FOtcAdQQklRjHSFYmMIFygHyG4KgOWVp_07NJBchQH--RilZ_Sw8UHI2fH0WlpGGm0KvfDvTtMQ_J3P6dmB0tvoIEt8Pupfq4mih_YWOw018TK9YceoT8ReXNU1auWE5HytRONy9KoFnlVmyrtjb4CtbXxzqjndA0IZOaszzcPmgScfdFNDwZq6iThHrFqFSePq6m2hd_cgfrvylMPZ1964",
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3k_CWm5mw-F25vXa4lS0S5pQ8W6H_bwAe5ywNsm364Ht6cb2m638EImFwCjhQYZ-s1OlFkkkX1vYHl4_P-sCUB40dG-Ith8-OISCXUfVU4Nj3aZI7sx7XFpOyVyBB9D8LeExH05tRJ-hBtxjtoB0vXnX_F8jOsXUpb_6BvWTg6smH43Zr23DDXLT1D2FFJ5tb5NUgc0brNXRvkTm-vn0auvTR1ou8hIoPHmYTgDKFNgJE8J3hinasmfRjG9ROJOnLIwUT2LmxYItI44pMSHFp9S1yqMTtSDvjxDUgyKq9Fo7BJz4-lHmKHn5t0GznO5CB9prvs1A1Gp9SQFkBVPpVYQD-Vi3ktK99QtO84H3YyaXTFejQET-ZewWtGgfdZ5a-bBvCpRf9pkh66gd5MQywuUXYMIUFq5rQsGdELxB9W9OF8XCignR4s3298Gst7U",
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3ksCPPzCJVhBSr4EddY_RwG-GETC8_xagFoZoDkhtBNucOV4Gflb79CAytkGb5ScG-VMgDrFZT3aWkDn19TReggdoUl0pe0tLUyl1kYE5hh7yZ_MIGe4hOO8tZeHMudKrF4pWf3n24cvvSS3kf_KPU-8XMXlM2DSFVpG0Ffd8mvjc2djwm3wwlSVEIAnK0wzEvXpXQx_eD6cFvt6Z7KO2_7EnrARmZfXZcuLKBxG1rles6ugBpgBQ5M8MAltiCDQ0ExWfkaBWAlI-qWnKVknccaAr-zV8JDjV7GfP-DNkveIKY4pJ-Krmjtoqb6E6rotNVnD7lJr8f4I9FbMSpgEl8li_DZ_ClTxKMrCrOe7fF6brEZkzaBgy7m1kft0h5a2tbNcbs-n554DR8RF8HsAl6ntosX-xud7MyIGaLdqRgWqamgdsxpIvxRWqfzhyEr",
+        "places/ChIJxeAaE8IDvhIRVYzlouzNFQE/photos/AaVGc3nfS_nbYsyAs381qjlX8pTt0MYJiPgI8LWyNpJcPEm8Kx1V3zxN4ImKKZiw-iJgOdP7xdYai0OKeV5xLPdQob3XV7I4XYsQefS2wj5eIEEC2V_l4MC27aJQYkY0xo3zgBX954Muin_qM2vboQf-U8UeENbLGChjRfhJkjwh-8u6ZVfWMxFPE7czm9Etjzh8TogIHxizJsQWfF86bnCeJOdm0PZ6Ko2eHGmRFOV0rR0Cujo8Q22tXHIDmfyfZ2l0o2UQzvJR6hmF-PAnLh5S9gyXReNpXQ8Yp-AaYG2yUuib7CDQzxE9vzbaaSsJyp1K3h2xUg7wbBNMR8V-eQM5LcMnoCEkC8S9zd-Bg0ikROYUoJ6pcMHaT_O1BKbwgAPXr_rTvWMR2QHlbKtF2vprOnqg4GbI6YGVtBTs7-RiXNpDFNK0Q4N14y6cXvd3Xg"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-mercat-des-peix-fish-market-mahon",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Mercat des Peix (Fish Market)",
+    "town": "Mahón",
+    "why": "Highlighted historic fish market with local specialties",
+    "tags": [
+      "tiktok",
+      "market"
+    ],
+    "type": "market",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@bondvoyagealistairbond/video/7552438690543406358",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJXZt-P5qHlRIRLYNhifqXyUI",
+      "coordinates": {
+        "lat": 39.888840599999995,
+        "lng": 4.2655113
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 8167,
+      "priceLevel": 2,
+      "mapsUrl": "https://maps.google.com/?cid=4812544779124572973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 10:30 AM – 4:00 PM, 6:00 – 11:00 PM",
+        "Tuesday: 10:30 AM – 4:00 PM, 6:00 – 11:00 PM",
+        "Wednesday: 10:30 AM – 4:00 PM, 6:00 – 11:00 PM",
+        "Thursday: 10:30 AM – 4:00 PM, 6:00 – 11:00 PM",
+        "Friday: 10:30 AM – 4:00 PM, 6:00 – 11:00 PM",
+        "Saturday: 10:30 AM – 11:00 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3m4WGO3_BuDUArh5WS8nNDdVoMQnSUzwWBHbKVqR-yY1JmtQn6B9ukYCFWDJM78hzuCU3VrC4e1OOteZ3gd_WbyEV9qdTjs73WqvHDWJOE2H7CX-s1gyj7S4BTeEDScnhHMM5H4vm-ntKxJQS3mvNxwYm4tj3bU1Dz-vbIDcOxcT6G_61sBhy55PCyFv_tVOrZwk0g_fpz8vLoa3nZBtmmtPbELKhAXJ0bIbaSQh73tnwCWA5X3PUqNck-wH2PLXgjlS-ZzCRdVPU5X0w-8mBYIoib6gQmTQQmv4upFdQAroBSqih-Nkoms5KB9xe7bExHYuYKHZM06top-jc_wJi6eEgevReJ02fBZba137axPCH2K88NAHm5pqGOq9qpmVHSngV5oD5kGab_ueQGmf0JV2aQhhgFiecyGZiwcbDgOdg",
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3l1TEnfll8cnMwlI8Rp6x3L3vc6iiAefl3xT418Qwl9zTRJxq660Yqh2ymxfZM986brReunU95l_jPZGaRKpkH50zkQpXct_k9uJLLPPM-tWD89cQ0KzZeteePzaLqHF_fTh-AgzbUY0y60tVyMiWzLe5iJ1waZHZQf4676EdvHHJtQ8bxH8AMQcs1p5MfjZKrkdf_SC3XjYf9ick9APc4L9WGEy3jLf3afH5o4d4nADuHoyja8RabmZf0SDPN9mm37kYUpfzkn5e2QJUMW1WFCRw-B4nqIauJ6SHsNCmpKcPQBRSHU87Gj7SxVpoQgvIgOpXD2bhWy5Jlg0FFEtgC-YUWK318ClPercKdo-vzggOG-AMUFd_PNUpcqWEoy02S2Ro9aUJJRgzExibjVkzlsdlqXodahKxSMpnZSpWW-a4NG02FQgcmVh91iIRP5",
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3m_DIYSYPdlVPR58Xt4OPBXZLTBlefOMiMeVsyc_1b5v9xYBW_UU09jFXvS-EC_oMSiQFDRxJMtmiMHN6X0oMLdH2ZxlDCTroAVu9MVyshFqSkwtd5K1weO4SEKEbwGviPfUH2QPplvq10xnJQJr-1881_ZqKZ0VLhwItvZKKo2NiZyNYSqMy3QgNdCub9p-fCQjHq7qjrpCb3cO4WLwcPefRgck7RSNzhzVHafp--buG3PG9MIU4Zof6FBnlFctzj7Nk4GFdvhmGjjFriG5oAiD73RhusmqeGt5_7EK3ZBCsxCX7KJpuXk5fiRK24TPgGFJrHVZocIMu-gdgLECI7KVpKf-eDRROCILsqCweRUZk9Mq7tPLliihXKGXDOjdcxaX_66ED1q-yozT1Q0y-876_cfzkNYwPmFJz0nBvmwGg",
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3mIuch8IcqCXMygUqX4E30rkjiYqPuQpxlgkvY0q9QHoUlPFdYamZ9aQhrJHXgNDdaEutDOjq9N7OLMftcVvePyIOBXB5BcdgBR8mHxlaLvIOZBuauuUxRWICk1dqwKecww5SwjZwKVP5AzbIcm32UqvTgB11_n8WcQBChRfG8E_frxJaT35q-i8kfgvqytGJWEeZvp6zq39R48WqnuwBENwC8w-rDFv2NsjAjctPUmKi1MKdvoSEjg7bo7jHrdqQ9NCO5FsMg229sgZsiPbqox3VwMWwm3RxP0YWabkQN1NVZ3vxqzSofMZ1zUB_uc5Gj0FlpvWGExdAfJPk4H9DR1IZlB5_43P3egNQrdPEZT0kUD592LOhr7aoXvRyRKvqIRJnT5Mj4QEWL4K_e2oLRM0J3E1gVWjczuYIvNLQkZLwE",
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3khy1Rpk0VlyBF218kEHL5pcDV7yagHq4xDXYwGbDts4TPNKbSivGRvq6Mfzbbu_RzGx7cxFdi09MgJJHFE6tEdob2Qx0PFhUlpe6PzpeFW9oFxRq6ZJ53YbGBgGwRA3ZFJeluuR4XEyMuAqutoM2pyDBo7P-kDWnc6FB3XSxKoHEXeog-3FnJzTSQnVuY9LGVHaUjTvkHAWuzAlWnUFa-uRv3WvTmtY7k6eoS7-Eoi7kJuitAtKpkk51kj2_JsUcsveMzyBeS8rF3tcZs_LqiP7HK6qjzaOqP_tBLghTVumNN0rOJVy4rgrcv_Rkc7l4Tb3Nwg3VSrL-CmJ05mCdWRr8Xf-6N6QaSxdqzXSGNU1tT0I6gEthsE7MqQh4h3Ov9_guCNYhK1olMeGKOCvhvoQp4FITcOxXlDsFmoy_JhSHVB",
+        "places/ChIJXZt-P5qHlRIRLYNhifqXyUI/photos/AaVGc3nBgMs2jY2bURgn7KG4pqm2RFV3fex9Rw7atF7mreBknC3qPNtPZ5KgkKzMrawruoKsTxvfgEn0mjmzOanFki8__6vTaYh-P297tKSEcjyglqmUimYLB48gJk_6b0G6UKnq90xxRNNuwgfW9T2QctqxfPHD5kwgGhoIYa3kcwL8RzxXkeJdhfE2F1SmSrSIDNUVDfO_po9wn7n0SgyRf7QsnTA8ySyxhymeCCRe_VLMGtG6AX0dHTBZAPW_KtJqNFnrMbjHknEpvl7nW0lm6YAfS7osm7O2Y7PdwM83GJZjQuCbCybQHwacro8iiqXGlIf8msx0clNz8F56fdE-AZ4DaRDISIapAKxD-K0C2e2HaofEw1-3rOEfeOdaf7CvfmEhsSlwO1Pxzg4sASczzcYUsEmmA_xzkilKebP2DzDudyyo"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-es-claustre-mahon",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Es Claustre",
+    "town": "Mahón",
+    "why": "Highlighted indoor market with fresh produce and crafts",
+    "tags": [
+      "tiktok",
+      "market"
+    ],
+    "type": "market",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@bondvoyagealistairbond/video/7552438690543406358",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJY12eAXAovhIRafmz7w5bk64",
+      "coordinates": {
+        "lat": 39.888814599999996,
+        "lng": 4.2661435999999995
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 827,
+      "priceLevel": 2,
+      "website": "http://www.esclaustre.com/",
+      "mapsUrl": "https://maps.google.com/?cid=12579498303885146473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 8:00 PM – 3:00 AM",
+        "Wednesday: 8:00 PM – 3:00 AM",
+        "Thursday: 8:00 PM – 3:00 AM",
+        "Friday: 8:00 PM – 3:00 AM",
+        "Saturday: 8:00 PM – 3:00 AM",
+        "Sunday: 8:00 PM – 3:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3l323xV0oe2yubzClYtRKChIhNWHUHnAcecA3p56EmO41yyti1e9vMXlOpTskXI7dVc53JPG76AobiRDlHc-G5V-AF5ZhBVsYQfgeOm7PI0wvLIxR3F6Agfm9V9YyGex2ESVhoCZrRsJ_R5ZBn3s-eFH7XmCHHrSjapni4vVV88ikUZkXkSsX5-dwvNbmAW7T0lzzmWr7x_D5lRhEH6_9vocuKNC5ewL5uaRWzrpfZw7VMwG2QTz-td-EKrn80IFgw1xZJzc11WtvuZDjV2mGc5sN6zWVcWWkcPZ_F_8NbjWhcWGQ-6pkrdZ3ZHvJJ3YHn4b5NHEwvRk7U2CtbuaPE2wn4peu_Qu6vrEA7tKp80pgdwZWB4h86xGT8G7OpW1Dp-w8z0VT42U7-M5WF1LOcnZWsmlsn2Kzl5I5G58xPuYA",
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3ky0HBij3qscz67xkffyZNFlUf9Mk3o2pRpOBWuGDutB6mJOvv68mwJqdaH7r1JRnK14Q9n8Z_09czlPusGJgSgf0LLX4erhI8h8NsPKvprs9vwJ1XimO7eomqeFtjqUbRaydsnYQx38er-s3XCxx4RnOARh1KpOrGxZmI1qMDD8BUYHf4JxRflxY6yNkFFhnQUrCFo75_tMdRdyvA-EUm5g8-wfMJKV_u5y_-2WD9W7XwEXfN60cuDupy6TIIVXp8dfbVyrsrHslC0WSKJNwQ3Tvt4xhNa_oQ4rcufZpwD3MAkbacrORmcGIVW74IRIQj_aTDFfshfAWKmN_9cGiQsHv-aihFAGjWGNE6JFTNnpBQnejg9ntctRj23FYCJIxqlwJ2DEBRZyZCwij-r-B-qNHQObnkq6_K8ygebbfScEDyw",
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3kHbH9HlcXnvudJ0-BQpqj4e7fojCW3iB4uk5lcUYrV0VPb4UlJyN1mi_oAyjgGxHBxi8ldaE3mZWI3vUdJqofF5ImdTdgetM5NdZQunZBVjikhmXJRAz9u1F3kizuDTj-uF88KjldsAhFzzDIAYRYRIdtR6_5owr0gvuhQke8fAoHNPdIV7UyKhMRe5LB_Y-CwVOA8W7h_H0RNRoj_Gd7iiiu9NKE_fuY5v8-47wPJEhuqC_iLb0gcIpbbGMzTHGPMp_08rteee-4iPMwxCE7f9T25axnyq7onSwGijl6QHCDsWsAh7poA4tzjzbe2CvmYXzYbQVlF5PVY-WRjEr46Xx_bGPCixvfkQVTQYwUMOOrFWShi0DmgxpXgMzgFl_0tSn2qkDvPsXL_0WcKw4CtPjtWioe98uiw9YqTcxlNNQ",
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3nX-8Yo9NnK9EsWfCDA3QVfwD4gn5wixnHvVlP-i2DjwU4ZB3NRcgmRD0ilHaeLHlzH5_1mpzpL_HveOLxd49NrDtTp2faUa6nrH4ckcsg3XiC-IVjMj2zc8CXZdd-Oom00Vt-_TYVP75rp9oxT2iXUkn7bE5waulg-kjTkCvzMe_7kN_iRTFL9r7wscboz1apEs-vVaqInAAuSoO7iaz2EHT9OCbidF0PGypDwohRjI2ifJpBNZKPt17GsPsfigG2QNIrCgwpoZ3JI1yrdVAYMFvozgGfJpUohxfMyD5Zb9Uyb_SZ00dMZ_i5ybwXzxQm3UheT3hmmHnkkDDplS9KFgEuiZr3mU6DPHgC5yb3wkT4e6gNo1UYCHX55ENiWngpIvDYhO_kBilLsIOSlOf2FfHpuLWIV3xwnh216PhoHW79Q",
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3lKJctlIRIokRwpfm4vJ77DBtkAUz0TgNi0G2OacRBrdD5PRc_zBRtzvwGc_81o85Hir935Hgil6np2mfElxXteieltTsZVnhIUh68eHwgHQ4DOrV8HbZ4W88tjrHlT4Bpo2uTN8aRkFapZhhpTCm2pili65WoLZC8DVpwH9XdOpPnGQPOwa9s_cHDl6tVHjUmwCrplhxQ2_1lIsPQhRtHkhhmIY3sU8zvyIIVinF9RuDAPHoCeunw7klaRADjnzDSgX9__a5_XaJPb6YC1qHCixv9uvNYw0PE103LJswYaF1SSRpMQ8wMFwmdpcRuXxzqYbSRhEGTnaw8mGa001qhwM7vVeIvYUCyMngJg6csgwEy3_3dwjGbQWK3w1KbpjtfB3dS2pp_-pRvWNJmGaA_7oEr-CMC6tmYcdvebUBiM9KA",
+        "places/ChIJY12eAXAovhIRafmz7w5bk64/photos/AaVGc3mKipoqaeY6KmZBvB_WzM_XackYvIIaaCeOpVsvOy-vWXOP2e7L7p9CvQwm2BBAeYUuA7l1POM0ThFtIcfgWip0mkxYzOb6Z_h1voFwZGGcnaUbvixiP2kYYzQm7Ux7IOx9--o3ePHadnDTPbhPg0Ecq2Pkjk1zoJe0q382KvyZVOFNg7BbCUnxVxWFSYnc4wKB9B0gnI2edUXPGipNIan3xNJkk49aWEiWJUqAn6P7pxoacFnmzstc4fawb1IVoFF5U2tPngdpPMpwxXy2AKQxu4G1Pn5Ywk53VacTB8aqllN_umD5MwXEsCjG84c5lZvVg0MjaBy7yZwdfDiebasnwK9Nq0gW26pE0Vc00ylzj03uVPUvobyg7AprcRipiazhjfCwjwe8_7EwUqwg1W2XEtEQS5Dj8ofx4cPZ6XA0Mm4"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-catedral-basilica-de-santa-maria-de-mallorca-palma-de-mallorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Catedral-Basílica de Santa María de Mallorca",
+    "town": "Palma de Mallorca",
+    "why": "Highlighted as a must-see stop on Old Town walk",
+    "tags": [
+      "tiktok",
+      "landmark"
+    ],
+    "type": "landmark",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@lowcosttrevel/video/7646432418806631710",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJVY-vfUWSlxIRqoH9muibDFQ",
+      "coordinates": {
+        "lat": 39.5674251,
+        "lng": 2.6482994
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 65660,
+      "website": "https://www.catedraldemallorca.org/es/",
+      "mapsUrl": "https://maps.google.com/?cid=6056387022241497514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 10:00 AM – 5:15 PM",
+        "Tuesday: 10:00 AM – 5:15 PM",
+        "Wednesday: 10:00 AM – 5:15 PM",
+        "Thursday: 10:00 AM – 5:15 PM",
+        "Friday: 10:00 AM – 5:15 PM",
+        "Saturday: 10:00 AM – 2:15 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3ktF1J7K_O8W1m96gzC_tHwg7VN_J84_SatLY1r04eVGdWQyEGZg2wiB2pRYU1ABH5ZY9iGpvHfUsvMW5qdJGm3ih6C6JwWxTtyGyPr8poo-OzJVzpq8KctQ69E4XWbmw00rB6_0EhKf2otAtMAt6OY2Qq0FnS011JL0jFXuYZ7eFPpIlQBAczS8MHnXi8_5SVO5m5voAGKHYxql_6p-ajp9e8LqNXc2jKadyTpZLyqI6BHLHCbmaX09K92Qo6eSkCKy4xIdRIr724Jka2qjc2TVvVc_sKfEYdLuRASb6PAWPTU4ZsVkOA4nMcIx4sx6b5coxJ66E-h2vJV0YVQP_IITMNzmhEkOuK6hl9-wgh0a3IOhx-RTRnMsl_FYQf9ZaoLLnL-orBffdEi8-9c9Jqwo7VmZpwkVvbSjIZckFy3zkQ",
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3mAqGZrj1EpFeLaD1bEMnj97K9ZdtorsXQK47rao8szb8DcGD94RWpj4T0foBsIREXeHNpdYqjozhWzAoI1xMBVSnAjJ8fF3I9ZdaNIrxHXuXVm4a9CS4yZIjxjNtvWRK4LFU_sYm3Sqt48TCfszhXRApo6JoELwE59mASJoJ8MlJefU-Ugq6717jxUJD4sIZU17LxMTwUgrK6r0-si8239rIOzg-lH-lCEEQmxFqkRXbeNUDyYwE9jFNFcq_G3OtGVaPaTKJlx1b2RbB7q2P9EGX6DUzRSg3rlcQoYzVS7j-YMzSjge2ppxtTI1mMVXVWFwyXLcsf5p45gbU1Ja_WwiNglbgELwnyp7IMZPNJvUCvQ1TG_Bv_RXekwU5-jdhdObTHde3VYRzX-DZPJ5O9P_NAJNjgXcGZGWAvAFbcDlSs",
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3nmv2hJp7UhiakjE1qhMtt70hvZEVcRnZYayNGLbDlVU2A92SZvnGlNoBvq6HKulclblWIzyEGtLsJupS72IFGX1MKMnfv2yqyAxanNvcdUH9ihhdh_DC8c4DqiIalx76UHAgn7490DtSyLI2Lwte7vpxHaO_gcdnVt9uzzLMtRnUrNyLziWJGb8BHvyFhXWhrZbJrYMkQdp6jnroqbOwYaR9iLZhowB438Bo5V0uOYWE62efTnvqCqsDUlFdFPMuHwPlky6MCKDDAR96JIzRUybrjHflf5-25ajQ1URiM6pcNBGoDaMuilzI8EbhTBQOzLhBo_Fg6SO8LBxQZfpdqDePzAFqVca3Bd37PMpBPRCrcPnQPwcDCDWEG65NSuWR9BDhEeziEYz82VTJpCBJkTsYiZQPW6dp25tOqUTCTut6WWl_GfPUBqsOTIiZrn",
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3lY8hwhT3nLbKltyLNbexAgg4wSi8wRMwH9n8ksLU04l6YJnjEotMtyarviFBCacNBczS4iXzGWaaLhJfoR7om95MKoSuTgbdsrWKWNAS_q5ippPxr0Iu7WH7qyVcThN8yVJVcCVor6qCkSEGYtmMODJz8vOJFvmEEoivljf7grRYVtCUN4dC2JCIAQ3H6ZcnIyY2GAdOjJg9R6857r_1SzyZolcDRrrUDQVY6jAuWJ38Q1gSpdwYPlBsEpeSOMag4zPbS-9JryfjBbC5HVs87ocnT2lnLJbe27IVlTvmiWND5D3Ls9XsOAO1Iz7q3kmJH4LfvqTuejzrLRqHpmWwCau9cLwV7xruFTpvw7Z_r7RBTSkoEU-V0JWAncBCJrq0iyfS4fn20n3NIRBvAQGTtE4B45xMGvIxMvquNjUkZzVg",
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3nDcxVCW11H75p1BQUT9ca9Y4zKibSeLS_EopzfVLAaDvZDwxI38So7--LqXH_VBki7RThOXqNB1YTLpyEAVvY6wVGngl-DknniwjT-d0nVOr5h_qbt5uJ7sne2GAIr2aH2oCoTdmOU-4nq3RiMtYim05pqs60ybwLwVzbU3BBe3WOPCbCk8Z7k-oc82EOxnroL_w5XiUfFAJFJgApF00xP9CdO_dC2rusr8Ni4nM9Yx-Fbk3VPww9NGkAB0I3yLxFskw2xlkNdtbrvtlhfGDWSWFZH-O-jbsS2UgT9n80CNcVIpTjWoB8qhFxHlDsW7xf4D4hEsyExA1IPMyItME3XPi0fPVcESbnczppkn78OvhlWySkppXHCu-NL04NNTTtzQhOmsiuMjH2HMFntgnHhA81dUlR6tSmlAQmM0roDBQ",
+        "places/ChIJVY-vfUWSlxIRqoH9muibDFQ/photos/AaVGc3mAjjutjfjF5zEOVgCH32BVQHeugbz5wgROlwIKq4_gBOg1WNaG0umxEhCwzf4ZO-3kyV5inUz1ifRqA26aZk6cwKXB3toqmKUgVHclRCcrSlKaZhufW6gE-JZLc2ENAqC2bzYiaBwMSMRPva8LeFXTkEd8RRsxtvH-oFlFOo5oml9RVbUKSCg4gHynz5h8hyXTFxKND1wqb3H2yDXWWKfxzBFK2ENDZq0524LmUP1a9OfuLBfOKS8JzUlPgNJzlnGV9VLpZj8z9COra8Pl-4jtb-k_8ANsJGoIDbe9xBwJ2SpB7ruaBeHsYkbsQ5hDdAB46pqNcgRuTYPTCFMIyqVcz_NPhK7WhOKrqxYtlPAWrgzR3tpmuYEtVSkJ0uf499nAtyhSn8HUrtTKkBOVZzqu74iQ0WpUaOocrBnU2QsTusY"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-parc-de-la-mar-palma-de-mallorca",
+    "category": "do",
+    "leg": "balearic",
+    "name": "Parc de la Mar",
+    "town": "Palma de Mallorca",
+    "why": "Included as a scenic stop in the Palma itinerary",
+    "tags": [
+      "tiktok",
+      "park"
+    ],
+    "type": "park",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@lowcosttrevel/video/7646432418806631710",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJWx64PE-SlxIR1iNXBEL3elY",
+      "coordinates": {
+        "lat": 39.5652982,
+        "lng": 2.6480764999999997
+      },
+      "mapsUrl": "https://maps.google.com/?cid=6231564897333224406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "photoNames": [
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3n0Tx2KBveXh0lOxixYzCYR9yQKJlKVC7kcEpdYMwJR3CjDmQ1spTW5GtlGFpXs5Rsg3vzN483lSkUOHS4-N57zoJe4DEoaPw-x6Cu0vvPNUytMUa1SHbPLCBHU6TbST3rG3VWyEv0UAFA_VWa4JYFDJK1RZjZQFTHG021jSS5TlPztJd6xdEvE3e_rfcawgICcisfb_Lo_Q_SXo8HbY51b0gL8i2jYcgAYtnqRYLEBZW3Ndaux_BAdUJVzSnmuqerr30wnrS5T50qxCgnkI_k2Tu9fBmXd3mxQS0wv6rhyL-6uzy1ZqlqdohCl0SJJyLIA8DPFgnU1rUbJjjHkqilr0tPg7AHrnAxfj30__vSDIGejRpFiggaBs9X_QJf9ne1haLMBtayKZcq1yGQrrF2YiDX3gyOIzTG3fy3QP1g",
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3m1xkIq2EAOMys8eOPfnCF0PNbGHTy7OFmLSe09HNC-FjSn5Q3sFXGPcq73vsk4_4mlfZoyYWjfVsPRhniqG5ISGUwQ8LoPqR6SqfU72q9PO8UPDwVD6-E-_Wsund7K1i4QlK_TXmdDg1dLKNF3sLmkSgh6J5YtRNZcAQhmBYZX6zWj5dT6DrY7NjQApkbpNLrYqCPdovDb6tHwdM2iLC8R3SFXkG3ec2FO8kyD5XRiAINK-GgfnwMajaDsHQmWWPljdVteb8qQ502Okl_JsV3Pbmg0BXa7zGqZb9dr1Ia45C_ilZY4sfW_8vAgi2yIeS8z0unGo00EEmFYQa2vbLEFHYOz6R2GoFK1r-r9Tgja2aYkoVP7meRa_rDNKQrRjRRv1BiQqj-pX2yygpEIwkGuUmP0m3Tdm96qqUZrZBs0jA",
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3nYxtT1JcutdfyWknBpR0e_425VbdHItZ0ce5RqCQJ-9Rvo1_ztDuqHdBA_FR9qJWFud--7_Kz0yerjG2Q63nkwKPRSXFFUk-2Du_Gkn74FH6rHQZ9IlCMpaVcxKsatg1_BE3H_cap9WaSnJPc2Bxi_aUsKpLHTYisxjaHMmzpoZ9iZ4erm9nXFjjKXnuugxysFbU--i0tt9vcVEXIMvpYPbbkg9fAxolSw4n_Cr3129O-SIprQhLhQdBxqK9YDRG-Ui9Wg_aJipSsAXTWiQqgR8WdVeYcHouF1K7-MSq4gO5K85KAVrt-TTUkdNb107ep3HBqvg5EBjmMvGU3D8Y_au6XPXL89zBCTkqQhcHMSAKfusZg2rTHPM_ZNB3qLzJtdFcRLj1xuux65ofgna2Qn7Y8ZbjgO1YU61wzqDtt1MA",
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3m0p2FWQ64dEaQ6WpDh2CXE76uInuXIaV4fxeUEJBOXrfT-twogGb7HpRJGQTWHf5CdqdfGN3Tw5utw3wt9iARTRXDlD42a0wm6CprNfYUsIyyUWiuoVo4-u2eGSvCChNPAmf-RqqpMgwfpBCrIA5WPsDZNsukLxIkp3YiVs5R5u-az95DGwMYf0Qc3xwVUw4OOV4MDAVb7JhRf5as1tsXFJvkNJKPwxsZDwF1j-34OnqAmOOh3jZ32zRNcRxWtDJuAdeqvWeMR-TqYB6zNfoc2yRWwuSIKan-PVUxVAon6sPyULDAutBEdCfVflOjpsg2BxcWyk9B6jT_cPxYTEX1u6D88pcP56s-yxMra-pFWCM5V_6jcwFodRQogNpe_SMvxu9PQxU1TvF0-1QF7H92iLLSgpAv2oeL2X8SmVOfHy6Q",
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3k30YqOXbh5eLw87weW7ptC6KpLIiq6sCy7o6JhIX_jmd4k-nfwyeLW5lRBFRBBCC3sP8c9QgtYNnZ8UJIk7JmuJQG74EF3ES3woN39JUJMk2sn4l3TQ4XpionfSBTDCFJ9TRWv7PBLg-L6YtCkrGcztYKNC1Kr9GxcvR_9sJ56zjRkKOj2WLpuEuOa4-sX8EKCezKmziueER1mpkbSEJgzcLqvZ6g1t0lCn6nlIXslwjUBxTPY62zdcmOK1j_cn8efq7jamXiTK8TodxKSPS1cKFw1fzLuoLcC9z2KJuSPyVTA7kNoetYbKPhWuhDp8tUEr39V5xtlWA1_EBktY5b0yCJsDJMm53-755xYI2CsaQUObuQYac8gKo5nMRbLJhSvnsStch-iUU2UDFo6bnqwcte1Lw_RKEcoJCQurrW8fOhz",
+        "places/ChIJWx64PE-SlxIR1iNXBEL3elY/photos/AaVGc3lhysJa8Bkjz6khpnXvxnkIjE_jkdVNPoh-cJeDMQ-dqPJ1CZe4eNklC0fv_rAUvX4upz3ajCqKwUais3YYJU0u9ZJBI77mB4v37740D-XdgRym3kC42zEdFlQKdHPe3aY5WfIVIIQTS2G1TW50Qxj-AeAHWOMXoiYWbVaa9Px3wuFMZSgQXFPFrXYLXvyIbVAZsIJzXzfEFpOKrRaGxJ4mqPlu8sj6JiPTBv5UARzS5JZT7s8piQjbPQooPp5OOZsFVDOcTFCGbrnOdvh1y6ZnV2nivOSQoO4bEc4nV28y_e4SV7dmTyYN1P_K7AULqu8yME4onysmf9WK4crBTX5quSOo5oSiyy-oQVFul6ShD7BlsMdMkL4DO5ci3TeRZrg6wxqYrD_KA-hIjm93Syp7TWRhPMpB2iMqNi1yZ1nLphU"
+      ],
+      "verified": true
+    }
+  },
+  {
     "id": "ai-el-olivo-mallorca",
     "category": "eat",
     "leg": "balearic",
@@ -3846,6 +4989,102 @@
         "places/ChIJW0fKNk6XlxIRY8IT2Te_8n0/photos/AaVGc3mlJcBLegp9Q9nxDpHphXYrIhHfJMrkPaoPcbEQKcpyDn1QKLyV5KQWpaUatHRGoTAJ1Bs3yrPORd5Uktfdl5pAMIhd7gsSagui00qqLG6_W5naBR2cbjNtVyLYjFUcBzbyVoGOjzCP3mPDk9UCux7ZpGtN0ZtNb61G2i627Ioi_VnnFTmWQpRWOw3BhQnK_NmArL4wp9NT2ES_it84AUImcvpybsnVu3ouEEKBwUgH1kSFdjcUum0BDOdemFZVNMnpkpCZeprkELJmZmS39KSt8Va3nmUDckGuHL_vBZ_3s_xtp7KvnPw3hjZZZIFdBznVv_wZTO5uje9DKdjB953MhcCvaGCD5al2oDehi13rzgxrdiQSV2n8otO7auFkxU0OY0QtgMPbax7bwaUSvRs_QI_M2MG-Iky8J8DToepzBV4MuWCsx96CRNqdrWmz",
         "places/ChIJW0fKNk6XlxIRY8IT2Te_8n0/photos/AaVGc3l-jMx66_jXR7VrdXt4PQyNYqbtErty0yzxwTkDdJ_6UN4JXRbfhnNJETtuV60CiU1Mdrje1AVRTCvjkx-QKkGyySCwxlYpMVjZa_8qfAIRnvezRbkI8uWLxkD-G40OnUaEGqX5TcH7BcTUeRrGIPKyds9SQhXubSvnaieJrFaioDnTfPwY1WTfoh89RSPdfe0dpa7TWguy10LJi9tMBYGPRPKTBl0jP10n0whxox2uRp8BtiS7_MuphK-toM01KDuVf3M-Y0Li3koPiNn12G2oh88Yaq4yRdUZbVFhNINjp_5lpfMn_U_NV0nhhPYI6iwZSe0slDb-JSdiNEiru7oapxQNRJcbHskxlL0qQgp5UDyH355DPVtQEEWqLirX3qYRGgs884uuTABs3meVZFVLIQjVAIr-MJK4oAe7FdAt2GXYo3aLFmuXRDMGsQ",
         "places/ChIJW0fKNk6XlxIRY8IT2Te_8n0/photos/AaVGc3lbtgFr_zWiy9znV8iSZPCBdeYPLmm1Fgyq1x6hP0nARkyvtR4V1gMHicPBeuE57_yXpA4PODb8WOBbelGIOBUqR_v-fKZ7dmXDrXPNrGWDodofAmC9UO8dx5d_xdyqzTTSQW1wbr8Fk7jPNerNoZWR_n6_23nhaXfVYI2Tb1TCnThKvgeggAfPjxI8FmBHaEPZOLrRO1vLFjNj3nIGwNp-qVGyWUIPmxBcAW5CFbyPdza_NFsLkEt7ZjKtERaxfsIsfC5Vd5GDyAHly4DbssqcSot8m68lIN0frJyJlvs8U6JNAe3_0zsD-Jz1c41zk5PRK6BHLRb2-TIvK0PicmdLsKU5-ddwBEHcv7mIbEZOeeciIMCFGAPdmNsLuQLVF4iS1oX5FR2Tlkgl_qDJm_hOcvzdd28J1ixJM0UWFbOZcOA34kIDpW0HeKLiSJvI"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-barretes-restaurant-soller",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Barretes Restaurant",
+    "town": "Sóller",
+    "why": "Favourite restaurant located in Ca's Xorc Resort, praised for food and views",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@jennnamorrison/video/7653150506327575830",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJNZ29VcfolxIRRowL6eiKDa0",
+      "coordinates": {
+        "lat": 39.770801299999995,
+        "lng": 2.6873655
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 279,
+      "priceRange": {
+        "start": 50,
+        "end": 100,
+        "currency": "EUR"
+      },
+      "website": "http://www.barretesrestaurant.com/",
+      "mapsUrl": "https://maps.google.com/?cid=12469775676205665350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 8:30 AM – 4:00 PM",
+        "Tuesday: 8:30 AM – 12:00 AM",
+        "Wednesday: 8:30 AM – 12:00 AM",
+        "Thursday: 8:30 AM – 12:00 AM",
+        "Friday: 8:30 AM – 12:00 AM",
+        "Saturday: 8:30 AM – 12:00 AM",
+        "Sunday: 8:30 AM – 12:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3n03bFa4owI_dGgot2CToCR3lIwTsmVjF4ICa2Pvu-hbD2HxyxukTt70wT-rO0eRPwEIAHthZ8vb2EoFcxgyIQe08c0xUMm4RfKrbyNpWV4kN35Qx1DZy5cENVBaARaiUeiZMCua0vzLTCFwLQlnGBMt263_G_B5kTYuATPBnG8r46WJP7Z9CyiRbKxcZOP-oFrnKzeLp6gknLWL2I9DcxGBs6kdMZqNCIqfAK1FSN7XPrRiNsq5rtzwg0vNLaMs2jGamNGdrloqmUCjzLVwYDs8UZ0UkF1Vvoyd2_tlpjQ7212yHtsBG310lReH6j9K1y-dMxC7pcVZncr8MzYR_yqJwOvENV9j15CC54U0Lxgv2HDT4JoV5iPmLrSd6GLGb8IsooeoEVPZyX6gMZ3TP_krnPtuur7RE8CpHoCrdbRrA",
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3mLM-XaUOEVtWYGT9AidUSJe_icYU0Fxt1gAjaR4OVgMZyFqliPrI7nVfxvUkNZYWnUenFL9KZL1hzCez-GmC0DrBIi5Om8G-IjNEY8J15rhqZQ6_A5bhNrsJ-rF2faan1B9tt7J9YyFAMhlmDhR8VIn8dLDn5wDBa-eEEb6Qb6R43v2_wHdcIw2VstIVGl3kSiMiyiffMfaqLMKGeHBOvRAFmPZH75NaPlg4JGfdcxUSgWO3WPJP5LSVRNCniE3T87ANbMr4bjEC-gF5z9FuRuqtOpF9OSoivwMzb2stMe_9SX1C6Lv66aW1oah0Y8Yky5I26rLlyqWY83rEfAHPqGIo9PNHoFbVAp1KN1aWRtl0jKuW_4QUwQHYMd8IJbvx3WdWfedG6NfXKgaF_TEon7ftsok8D438w29fpbUAJU0-KT",
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3kb5jlhOQQ7UYXZklfLerWLVu5gIaWqBd68Kzx92ZMFi2yQa_9BjZ5Rv37RTeY2Fjy5SbqOFnYXBa8oj_tBSENFAIiFKZWHtFhttr4smwLHSxCtFSJpITymesj6fas69oyec9Fs5Uo8mTEM64x8feSVZH7ORApi5ZN6PVcYZOlhxaJHMeqYfczi9bALkyW576v7vj4G24jEnwz6gLBoSHDXOCZwjClwpkGwJ-j9t1SOJD3-PTOFCfyYzTTG1gHDMf5GZaIqiqhMiQSeJnqFux3FE4OwJ4g53gIDHxqtVXHumCgCZVjD2vjUPudaTLi5arUYtUGTNRrmoWahoF0ylIZmYiFztAPJCQ7DpaGHINIktVNjvWwHjl7A2lc7Wi3K0elnM4ucYP95wKTmOJXUyLikvJXRjK9-hWQGmBubafUFrPRARBeeWbxom75Z6d4o",
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3nBPeG7rTzKPzjE2tqdtzpGBURJuO56GwWqrJuDOBCuw1E7jbNAD1DPwGs9GDvY7hQnkHz9nmyiAbTtixLSsC2I4pVJ8JIYll4mYSNyda3T69eF9onBirxPAMdFSeaB1QcFkMSHNWigcH2AQIx6GYVDozIQqEfk66a77QoOqjMu6cC3S3xORxBOkEyUc4kw89C_6aEWtFw5KhIPdHnfqWsKuuNJtDOs_T_pvvDr2tPeGgacj8tHRQZcAuH-Kml_Anqa-SvC_gUo8OXtGpG2Dl0FgMNzcoEBjdLLDL-yWylEQyHC4sSgtv3wUNVKOkNAETfwz90CldHvUjEM_MI4Isib9V-p81QnHWJsYoIB0SbTkB1GGmPXmM7YhYaK8fizd7iVzilll0qjJ9LMeKEg7OpaNGjhqG1FI_cZCw68gDxEBht7",
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3krb7V5_hpgyEMDdV3Q5GBHuWw89iYAmA_xaKjKdV4x9vevFYkB3d-Z4cLV957nhFy-_U8SOCZKRiRcaS7LmoS_RTlb7zvwAyAFaNuwQEKNSmVhhSl5NAHnQarPHZH_96SIgy4s5j_W6eYtIifWRihrHlSSLSJJ_7Bd3fyxAO1fJqJeiF-yItGcNzwdS8PPyl041FJ4OxVY8DNt9K6k7vIbJJS49PbNAkgIP_GoF93TQkxSvZibQIy-AAKIeLNJm9L8cYzrP7Ah0vGy1N-a-umzO0XA8_SkGp0M9XZn0KwsNoudODx6jDn1x8cH8kjrknO51vIXbBwS3JFaTPj-ngSdvj8GIs6lNVKrbM5GmNNntrqgyUyn6VjqWeejoh6BgjG7TCS14n_Fsw4HHkWDoth14w9KwTzgBtPsuw144apkRrmW0apxAA0O5czKCkFS",
+        "places/ChIJNZ29VcfolxIRRowL6eiKDa0/photos/AaVGc3lvl4ztjV0KbaHSvrohd7pyf60tjY9n19ngO0iTGL73geQ99ZkAV2dVrIpex5JP_PQvVx-TE96OMMaHyP5snyBGdJ9iZH9KmtVCh9PUhde5Jjuug6XtDY_7n8N1lg9_o-fJm7pCw7qVgrYisgLZzVGXo94DM1XM6szuOgEwYpHWrHLuTZJ8J8n_OULPHiTCzxNYzQt06RKyacIoS3Ql8vFe7csCzfVZzj3La2j-7Q8mS62mHNkJ2y9nqZ_kvzty70eN9oEgAmMS---isT6jhyVYA5v73vmTJ_X_f_-P2cIj-uKUI-yUqza2_vzmZDeN6XNXReDuU3HEEVcriIsZ-quRK4fe2bNIeE5z0SyuGbg3pGJP5g3tphCYPdY1P1uw5Gfqr9MgmMFZIojihd-UlEUs-i9vcxho4T_kDA6w283p3g"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-de-tokio-a-lima-mallorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "de tokio a lima",
+    "town": "Mallorca",
+    "why": "Cocktail/mocktail spot with monastery view in Valldemossa",
+    "tags": [
+      "tiktok",
+      "bar/patio"
+    ],
+    "type": "bar/patio",
+    "mentions": 2,
+    "sourceUrl": "https://www.tiktok.com/@carsoncarby/video/7637638767649557791",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJocNtKkWSlxIRxWLGVHAjSwM",
+      "coordinates": {
+        "lat": 39.5699081,
+        "lng": 2.6460958
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 595,
+      "priceLevel": 3,
+      "website": "https://detokioalima.com/",
+      "mapsUrl": "https://maps.google.com/?cid=237322370732679877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Tuesday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Wednesday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Thursday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Friday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Saturday: 1:00 – 3:30 PM, 7:30 – 10:30 PM",
+        "Sunday: 1:00 – 3:30 PM, 7:30 – 10:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3lmdUImSruKE7kiJtKbL-Zdt0kbkaBXqDcRCv_SczpJJc0RZ7pM1P5IaOiIxqbiIrhasTjKZ_PlEK_q-qcbTIeh7NdV86WK0zc9l5YPasAlc0tfsOGeA0AyRKtgV7WgvyPXZI0qaQTIxUtht2FEoimRbYTGcShuqJWRcJVhQniZO_uzGjeqeUhZ-9ObQBCxlP6fi9Ahq1ZCgJV5U79dAa_8pDF5q0elrOpE6MnbFzt7blNDr9-PrJKMF2RxfYrxnYxC5BfcAVqTCAJqArdcSIDY-fL95oXLsDFseVduA6NPU3FaeZhNxy5N-aLhXizf8ejHQ7s93xmSyKRPO7CUoCkhkf1dDP0H1c2Gs3O2thG8a0QdigqQnxsMMRSRITxOP4x4Rid0BzmcXkPcvW0QdauxzmU3HNdGVB4bTPbqy0Ov6ltIPNwoiZEExgjcuw",
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3ksV5SnDSUCRz0qiJGNVg3O1jx1LVF03zXXCzCwZ4o1fnAKrkq9gycdnLNoGoV1kDtD0R_ERF6oTK7fIXv27JsEWA5MClZuPrxH7e_TgquqX3xc9YAkJsHxVm49aJQw61oAtjPUGrEmx6zCi5BZZI79PxmJ1MUougAtrx2KJdx766WbhDvvjaZJO-zsr7orK6mHM1OV8hR9liCDoHhovr87odlrVOsLNwmzhoyycHXFmHf3DoDV970XKuDEwGV4QNoNnnlQANiasHa00102Glx4LAV88xsRU6n8vk8KoSJLFMuqMlOzRp6vcBMQ82BCv7Kf_0Wd1NfyC1hQC0G0NPbSfTXegbJnp_1b6cc_-5ErcHFaQ8vs5pb-nEizzGl68l7GM4wz18tkud_lamqgoBI3CQKoayWyYxWkbrjWmMeEcrlpTqHLaNzdqhO2sQ",
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3lamtxaa0Ig6N_4C85HoZQglj95j9DSFDics2WY0CfYQ8pTRCQ01HtKFti8ekL7eOXQWy0KTUZfNLjWsNNuFkFNuPMyfKooL7Qufva5j_4v8H4jeijBSuoudYvtO4QKKLpwsWiVSVBM4GTKz-k-p5Dtb1njAXuOYUcNEtOSrRpXod43qweK9_3aD6QmHslQmiKQT7nfWGHsSfmQxIAk-2wSd-A6N__jlTB_tzsyzZlCtVP_7MqeO4S9AoSpwo8CFurYSIfilI6KjG_mtxHcUqjfKdYARB3frgwBKuTp-xHyNB-8NynX412kFz6X3QQ82-3XGhnUIYLB5UAF8NO0C9gIC242UO1xOR5JuXgP4nhdFoD3RkDOJ8f9d3ASgCCZyeAAdBsC8lCwA8rc-m4dECcpBXkmUaBQVT2vTrt5DEsW7YQ8mipUAx40X5Rfoxdr",
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3ldsn-hZEYt_TSUoLuiqKYuZSDlNvuLz8Z7QbUfGmuICFh0AqrJfZZfVu5X3YxFSQ91naVOPWpu8VLVVUlYUQvFAXy-5OcbAJUbsi9KrYSDyRWMKVCmosRlufUL7BKIayss4e6HhCf9MgRuM1HJxIv7I5w3ceOiKhA1SXMXOwAoXQv_FTTBde67XVtXafP66avamQ8SshEr0Zarr1toX0V0Uroa5rAWm2MA3ntno07R67fFSx-uNb1CELu9diB-WcrYeIZ_KYN54PWDU2NChpAYHjlMEusfRyfT3WbRkYDQ62_HOj4I8941njbM8whNevhMh3V4yx2mRyinD4plzMexIghiuXtR1Dl6it3fag93kE94Tsbmwv8ry4gsE1VE3AyF84fLQDy687Zzx9fgrtZUJN-HVHW8-PKcsuj2IDPkLt3fdEptZKzznp7BsQ",
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3mX8VtxalU-WtY2LP_c-NfQsYqRZw9-RUAJaes1eh8iTLbsyJfTJgCSO8_1B-GM1HCzZ6mNlB0UeULfNrmGtcxCQNXozl3813XBPGIpj2ots_gmJUHqBYHoPLggOJ_sG1h7PZKnJD0q4eE-PhyAEoyXrWTQy9HHUpu-ABSUPE3qaKeBCSeu006ZO6Hy4y6EfpJ9ad2rGBZKJNxiQwpEw93xNS30edY28_TiRJjfdVtSlPcRC76ckbR-OBnCWuG1ARgMAPlDLo9BMjkLoft3E1_C50nIo49RJc79fgw6XK5j4wviG0Ae0SghXSSTzid82PdJxDdUsNTQ4T9aV3I0-ClEkGuZSUBU94amRpcAyXYyXQjRSIiBbBVX2rfIUwDxKvtOqg4MsvkVoxs43Racd5mEhhsP0zKi28qEGt2CM0BqmacsG3Q2COushE4X_R00",
+        "places/ChIJocNtKkWSlxIRxWLGVHAjSwM/photos/AaVGc3n766tJtaESItuyTi9ImlaVpcSOzemHc7nz5qKcghmUQYM-u8-O2lVGaK92pe2P-gQ6pNGiEFsbJqpDKCBbnOGXRDPg6e443D4-w4IUDYusRB9_kZPhgSVm2jw2fgMxVo5UWmdBN_fCrGZG1Va9scL5H5P-Usel_Rj-Cis8U0w-rQwH47-u36gqD2CBfAGj_sOQgtLg0kHgHDmI7Zgyzm50mtaTxiC99rTQxhN24fdxW_LZG1Ugu8yTdmH5jFh3S4I6qx_h8vp_pXt7HAb8V6lQ0RSe3StVYXThZdekk82mQnk_bc1LE7KBrb789cLf5GZHJO52stVZlVbEby0Lk2oA4hTMkDH995HlnV8L4vezXKp4RKz5mSJa2axw4JnMk1INfx0Cj1EjNEMehzsQ8TO3PLoZ1ODRaOSTVyoZa8MAhnkEW7ty-xi0aqA2T6M7"
       ],
       "verified": true
     }
@@ -5295,6 +6534,607 @@
         "places/ChIJZ_Iv9NmIlRIRYOgk33WJ8m8/photos/AaVGc3lGkNuiUIDnNjWCGk6pc18S4DQp1rlgteQIUVOdXn1-r_6sE39OhCmJ-FwMSQ0g740j4-to5a52G4LJGq3Rb065gORpFsGyBM39jqfu6RHRcHFPkEKIkywnLfZ2FRuQMjs3QHhGUn-7NUbIqAjGn2NHbHS0fRdm1gAn5xe8FEpmlOltO0scR9Rdnp36PY9OF3YdRsoPmwluOs4lSt6ca49qg8YVLWCbalhCrCkCkBpXjpoOxKcTxH-gsPKs-wI3S5405eBHCoo75EpzDzBBU-MFXdqkYKBV1WSP9AFPw_OXsMuqjcg543SIJyDAYDXtNingEIdKhPQubrf0WW0MfL2cimgtS4t1rg3JfAOIYm50d8kb0bmJWcCGogMOCOAqUe4L2nOtnw2Gn3L1mEuQONySLNYpsP-frbMs_xTihNsfzRBG4mrMeKxnUCNUEg",
         "places/ChIJZ_Iv9NmIlRIRYOgk33WJ8m8/photos/AaVGc3lSTUR59c4rcvdJPf48YqF9P6VKIxGa6z1cRyHdF1IZWv6RZ8Tz9DEWTMuNJTkNz7OmMk5oswO-WBSA9SJRhwIbaMt2KbjXQ0D2z9pp3rl-j4NEekf0Rd9sFrYBlKx91huFX-lohbiw04QVbpiVg66b5Q1f9havPtEUleLrxsr87hwJR1IR0_zvDgHUDPd5uTl9gv9Pfyu9zt7wscHB1x0LLpqabokqfUj2EMPW8VGO_POdRDEyzGEh0rVqNc-z8-GaS87eV71L5cNYqOTS5flhdeM72OBm_N8itWySpu4KbmFhfVh2rG8YUp4-UTQ9LdHKttnhSldlpP4mq0PrBPaMo5lK-girKMbj0z4MUeEj0WRL_WNunwYz05HiIwHaTBlrwB9hvWTvIG8-qwBj1HybiAVcAHBzsVQQV807nQMuy7LTMIcX6A0ocBnwYxuK",
         "places/ChIJZ_Iv9NmIlRIRYOgk33WJ8m8/photos/AaVGc3lJVI8OUyuAQS9vuIPUGPiPBu4xSR-YEnsMVEZDSaFNb1P03guBQC-RElNgQ1I3QY2zuV1uE5S9Pax31ZPDp1OvdfhcQQ_wH-G0p3k7zafTRMUo8oTkE6skmmjszPUjUdLvaRQlj-OvD8uECEP7F0OY9SFMu2tOMRBt4Yz_xf-TpO_Ts6BWA9_0ZMiCQ4x2RUH6SgV95ClG3MnY5yBUisk_HznVIBhGEcDdYXxvCM9HwYAWbzQ1CEgXKdqlZm8rfRfjnYw8to0GrotqNRDugmQx8EcAMPQttX3YlqSKJIYZGyKUI2WtYTs8U_bpQHDw-gCr36WswBFL1McDLMvohgK5Owm57GwiLUc3nqJbnKXpAuaIUZK4WN2vutgD6q7dTT73QBKqOHnnWNVnFfcfEK1dTUWnUIwdFSo_ZIaCNYQYhK_wBYLfCY5oFeQnNT-i"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-neni-mallorca-soller",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "NENI Mallorca",
+    "town": "Sóller",
+    "why": "Must-visit spot in Port de Sóller with stunning views",
+    "tags": [
+      "tiktok",
+      "Mediterranean/Middle Eastern restaurant"
+    ],
+    "type": "Mediterranean/Middle Eastern restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@drc.travels/video/7620171854057082135",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ7wbKljnllxIRzq7u2Cyet1g",
+      "coordinates": {
+        "lat": 39.800637099999996,
+        "lng": 2.6947815999999998
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 1554,
+      "priceRange": {
+        "start": 30,
+        "end": 70,
+        "currency": "EUR"
+      },
+      "website": "https://www.nenimallorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=6392752111530979022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 6:00 PM – 12:00 AM",
+        "Tuesday: 6:00 PM – 12:00 AM",
+        "Wednesday: 6:00 PM – 12:00 AM",
+        "Thursday: 6:00 PM – 12:00 AM",
+        "Friday: 6:30 – 11:30 PM",
+        "Saturday: 6:00 PM – 12:00 AM",
+        "Sunday: 6:00 PM – 12:00 AM"
+      ],
+      "photoNames": [
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3kn_nClZ60mxJyc43AGkEV1gTPRVQ-cfr17F-zIlG_3bsB8M2x2eshu7j44ay242i-GdHyIV9OVWTpWvNfW003ArX6P8vUH8n3T9XsHmIyGV4y2LM_AqBi6TwdSsEaaJ4tRqHSsiWzggWcQOdLmRbwWcxEL7tDfKWKxkBUumSFh-SKUMZsP9jH8_zrdhofsFkQWMgcYk9oUXHNNViqSKR2bfnS-Gj1BCSh8AaSe0FJg7Xwxg00IbVJJ_eyMrt1_wj-9-D-5OoosJ0sHGdjnq9rb2A3u7V67pAVGcgh6DAjrqHo6fyBVRXoJkAJu_E6X4ew8pFu1bkykN4m5PA5rcRldWqDY6oZgHbancMkq9R7TriYxh3dF9gjF6ebKnRuSRiB3ioXj01KI0ABU2JG2HK_ZTXBntBMXP4NdpJeOwMgNrtrU",
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3nsICCzY9fKTAq0X9IyevmJ5o-m6nOcHuYDSupQ8FM59ZyT2WubIcOwpR7DQyxufWsEtoKLYiCIb_ObIqNwzcM-WRkIyJRniU9L5O129F1nZ_vhTmG4DGF0ww1NDgfG2spoulDxFVVgwSZsIeH20fOS4MdslzeLedtrSePy13mqEni81Cg-m01KX74Y4WyNGiYiOez77HJjXNxeQEtB6PlW-mTJfMsnExIMM_zY587oBgoVVSuRB10A5pPyWjafhgh8ey3KwpvO23egtcS3eVvmRAEzh7inuOAOf-LUm4hs5D1jEBmzGpCvjYqCf0OkuDz5IpmwJPe_MVFUGUqmhmFRAniyMD0l1JeWviY0cgkUxYO7lpX6N3J2i-XeZc0Cowv7aYIkHOG3CI7SbaPMWWlWFVJdLBHdY_MkkRXRqPXK83CXjKudE3dWJbln7W92",
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3netHu3PrsfMFeHuK7VDj6mCLpBl2h1myRxreA7IM24tj3EJQWwQ5GRmCxFiS4BVWi6x1nszUlOUsd7a5K8NB3Q3I2YWiosW9fGV6Oq-8Wbd_bCkM-C6ef2UCaz_xLd6KGLBJU5IeabTp-44NaUIO_OHil-UIzqPgZfPuMedMFXv8thIFITj6QCdYXyEHz3ryyfFUWe3au0R0k-k6T3Sy0JvwFktv7kqx_sASAUmRoRC9_2nXk9La_yhBnmRsB6lfxC2KND6qXHtL5HkeT3w_37SLqffWKgwef9L5S2lq50RJAe4BVm_e82_8py55mJmN-yVIsM1jEt9E1wcNf8QLQrOf0uZnIqHX6W-FiZ6Sw_0KfhwGkkj127KlFOEAIP4zEsewMaT-sjVXHXIyKLQhB08gnFJILYJg3lCQBRJE7rgQ",
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3lnbnAlg63wSgrBjIhUXIeF6xi6nmn1S4C22HmZYne2AM-Q-4EbsFBAJzOmaM3hXCEGynmBa1vCZ_VjX9dKKA6q5x383WYn-QHCTx2acoO6rMuAL2bD_vzMvwuyq3lCd6Rhji_mkd81xK6p1frkztTfkmHamVPVfgd3ivbw-HoOhlYJEuYUT9YybsXtr7KbMknpBGe6QYlzxCogZYoo02-0FaXDIyrp_UlRJkMSyDljCYp37Vy7G1Fdyq-JBOK5w7IhvsdHcu0qAATfjjNjIHFs7NVSJ-Y1yx8FaBm-SHgZ2CAlQp0MYs0NnCVFiJlvcl4r4tZfrIDdAua1rMZoJUlOkFFQ89udnboiGvCh2Ut_K2dWXgQheyyxjXReiMitxbahYvIPL6zTZ8jwdT1z3fiOIP5x3iXZgoiEyO6KrxyBdBTnser9w1Zp6jyyMOVl",
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3n-_9yTZHuwKCjHCsEffFZ-72ZqtSFMs4eRCaKauI11jSrGNXQrYzvpOVUUqOY8w2LxBFLo0sIWdQRnlixb5IcIPHByOMnUpQPlsuy-lDh3S1pMcEKFFQGZegcMwy3K-xKa-XaIazLuNRGij1sluYAWvfT-r4dvL4Q4S3Xjj317blIHnllbBdj0MGpVSRPy3-QxSzdlUzr8OLuHtzS_6b2suQa78PHct7x6_ObnDwlYHt1PlxYiD6hqR2fbNfJaOtMvloJciOy56DYNjvYfuCLuiX6TMSA2IYRqyyAXowW4HSkEtTaKZkS5k3HsDVtpDFMnieFNxF8W5xn8uQW7ZivQm1Uuf7x6uNXjWwy34Sn2dVpJiFtfTKr4gr52YoMxU1u01ktT_cF41TyqvIgdoq27kGnHEefbf-vpF-GuIi-QXrbEMfDbZR-jMdgseg",
+        "places/ChIJ7wbKljnllxIRzq7u2Cyet1g/photos/AaVGc3m4ZxNWCpHJnSLhyaoV93bDwoc4rZ76jSTd90uFdVY1oIhShUSTY188DjgpU-YDcbkNNgjZe59-KbPrupCYHrr2yf4jF24PMEDzbzkPklurciSW4iYFtbh9qR6iaLS7P5Bh8eI5hv9SAkIJ_-vnx3ddOkppWddhI77AeNeo0Rf9NM8qb6-DFFnTjcid5i20yh70LWzT0hdWeqzP5G4PE-hoz0IevCVLTtOLR7wJgJJd2XtodAUnnpBxPZev7n4nERxGHjsLyQpDcwwNFPVQPGmvfBRWQ-o4CRGAczXvb8YNI_oBqI47tDVwcr18qO52hsK17eAexpQgUHPYEf6SXjd6prhNPZIWPivdr09OD6mQomcGFWT-IsN0_LqAdftEr-GMTM9unzd6ntISgG4NGSejJ7WVJQ6XDumMIdnH2as9biloeXZHKooKBk5IC4_f"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-trattoria-italiana-mallorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Trattoria Italiana",
+    "town": "Mallorca",
+    "why": "Must-try restaurant in Deia",
+    "tags": [
+      "tiktok",
+      "Italian restaurant"
+    ],
+    "type": "Italian restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@alexismackenzie0/video/7652552581306223902",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJay6YFq3vlxIRL2rDAWJ5O4w",
+      "coordinates": {
+        "lat": 39.747222199999996,
+        "lng": 2.6491667
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 783,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://latrattoriadeia.com/",
+      "mapsUrl": "https://maps.google.com/?cid=10104803650779179567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 4:00 – 10:30 PM",
+        "Tuesday: 4:00 – 10:30 PM",
+        "Wednesday: 4:00 – 10:20 PM",
+        "Thursday: 4:00 – 10:30 PM",
+        "Friday: 4:00 – 10:30 PM",
+        "Saturday: 4:00 – 10:30 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3mpD1yMUlteTbaXBZKbgXu1OSdXdbNRD9wcoEL1Nomb-YgY-pdPloitz6lb8nPkEPDIZgwcl35lV7ZPkjzqkejVk4wFrGPVcgcwGfwF5jZr_-YGYC5CrNIU31eo-nNeZzPYunJTGCf8tP8TOFqy4TW-cbxD2BH96yg9ZIViOm4jZplV4Fh-Xjt0MiKTXEm0GGOwnXESvxTfb_0blY_k2t69f2uFzsDSx5xsrjDgyNiD1foRqZb3V5NXsTiYmI6mZ3ICWjNyhoPPsyCBtkt1kPzTDKtAOe2SkxtTY9KJYlgoCL6VmF4f8Awxwnb4RD7wOiIRnBaUB7OLgKX2AFGzU-mSrBrgu4vacYRV-eLdDzh50KBhnx2yGFeubdihV3SY0-v9ehAz9u23VyHZWsi6phW5NdR6BAryJRF9vO0oSgX9-w",
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3l0Fc5XF9HOv-x7dEcl-cngp0ZJCFen-fKrkg3QPT7hZ3XDNacQqADH5lhDmxa-rR_hNh2BIBiUV6P9Ibmsxrtf6U2KVNjgg7TSLPDZyQm-4TgGqwOXOR8qt4GXwARH_MumyIo1ccVgL0qcIDTb8Tfmp6-WmvZi5tDgxAx3Rx7RkbDMO4tsJbj-nldvinTw2aOXmrwn4qX97-RVpl1Zrz5ZgOSQi9NhcwWl64vuBM_N93qPyZPu8_sUdFi1NC9yytniYLXtSANIFgp3AXfVxGabHBK7ozXyFgn6kq7MsUa5oNYvuwnkGP1p71dlOaqwxEwNjYvkr3KoDdfbX5UmyAzcQ5uFCuTwzWXjV9tl94j_hvAHAIrzPORMyMKGnKqGsiLWoAqPvbyl_PDvMomjJzLtCU7esT_q6Gbyx1zkkhUfCdee",
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3magBUa52S5TrGWg51FKyfTZY80CigCsV0bkhQfOyFBg5e2yE6UbGke1jHWrg02i3vjkz6n39H7IHIUlLE-z3QDhVNg4Axkp2tdICYGdLUeINSLIwaLzjOLKIYjemJhGngbHFhoTFimgWDOQSyTo_PW1DCshiS8SJ88unCRxgVXpoqlzVd7NJaUECCMgjo-iTpS6O9bTJv48AeR08-tFX8xueaeeRWQPTBCEbNHejqoUrn292UKWbQfs1qaN2FTxhFEMjsxBkoJrCEzFVAN5QkaMi5_n4SSPSdD5RmPpm8blxR3Qr5_AmkEDxZaQTQ2wsBSQZxLz0zp7awaGTFREqCecByVkOppfKt4Tn9uaiI4_tsQA8q19CcGV4AuY8hpf_JZqHGPbhHu9CYRNKHmT_iUVXQFm0xEk8ud7nvUqUuvGpERh7lQa9YI4JqIYQ",
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3nrONy87V65w6J_aVj1yovPI1qyMqIz1_Mg-x7P5D4-iN_SCC28uxye7yUgywlMc3PrEoFla12FV9pgfS2HwUgWVA8mEYYmcQZF917DnN-69Dh8JYhZd0u5Yq0wqKOi4GJU5kyqasxLucov5124ZCBKiscb8_CrgStqDVg7GK3Gv46LF9gY82A2BNdVNE_Ois5fEw9DZYPuKBsumSLhnPf-kiYWW3dcmqfnKfpF5-W6Uk28uR-Rft_FdR9SWzBfg27wvK0nli_Pof9FX7ASoDzt74bjvXe70p54xOxZ-VA_VyjAo2EXsE_Z987lMnQv_l2y5QderMollOiGM4nIf7Ku-qqz3kX0_1YxhFg6gORuIfQ8cz1HOgWjao1HP-XDAL1cYUm9Ufvsp2c9dPIUZSgiPfjLgG3t6lMgOvfcTe0F0QpwXlBQIAMFI_zIgixX",
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3nOz5fqviQUePjt2hA5gTlZVJX76kK7_cc6odOaknmTH3ql-17VPQJ75F0o31rY9W_VK6zmsnTs0Tn73kE50ppobPzdkodfTTWHLXHQ2q_T4ef8l_lqCAjhdwUCPHy59F9Lr0fBPswV5ER5YkKjNtqy-Thqw2pYar2Yf43Ab3vIktr04ghmMDTU9VQS623S3Zysp0kzK5en1sZp3o87zXpiYB8cg6XI85LVU2-75ewKlBUxyJjFqO0vHGkjLlPKKGGqn1L9GegRqOV97GxrEC3WO7PV5txomSPlzYTwd04yVGQneAWcmRlkY2uj8W_xHSc8IXige1-RMQL1l-8LoCGUh8emAnsoycd53mbyqizVrvsw4uMyboOTbnratZzBZr21q-Lq_a1PJ3gbhdU1FbrTp1bzvxdEGy9kmLu8m-_TD2qr0zZlbmf0mJVIPg",
+        "places/ChIJay6YFq3vlxIRL2rDAWJ5O4w/photos/AaVGc3lXcL0RuMfTjyI2GkVRRmhdXr-87Eg7_bHXksjTjAaD4BBLOvCooKe2Qy9CKt50BfR98DTsJtmVxufldBsgtcH78AO4lWVA9Jj9GeAWOIrIHfVDM-d6MPQy9BElDW19EF-G1LvS0cjPcaKBZ0JdkXB8C_oRN6bVJbJnB9u6iTfdzdkZxGlk_BMV3BeUiVA7IYfHXc-MFP9hFJrgwrCC23vo6DVuOB0_V9ZjSL1yBQVh6rPaKi7Ipu0QRHtuy6PkqIEXtudHKO7uOY7BDRhez7J-Bsw5oJv0RyCX31M7q7Yi8H2d6eshwNzF5BZfhDvEbW8kFf-834HOdeaO6ta0DdKvJTeVY5RbQTe_dV3i12OTX__-1aSSKvzpN9bby_fAhK2y4fAUfjMEPdT4qQoVCbIFn3U9D-Do2gE3O4FrTyYPU7gcZ9EK1LKoNFjMzWL3"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-restaurante-xelini-deia-mallorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Restaurante Xelini Deià",
+    "town": "Mallorca",
+    "why": "Recommended for fried goat cheese in Deià",
+    "tags": [
+      "tiktok",
+      "tapas bar"
+    ],
+    "type": "tapas bar",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@daniiiiarroyave/video/7657307825382771982",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ8_DQ31WSlxIR3Yv4Z0epDjk",
+      "coordinates": {
+        "lat": 39.7468505,
+        "lng": 2.6494562
+      },
+      "rating": 3.9,
+      "userRatingsTotal": 374,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://xelinideia.com/",
+      "mapsUrl": "https://maps.google.com/?cid=4111409633987955677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 12:30 – 11:00 PM",
+        "Wednesday: 12:30 – 11:00 PM",
+        "Thursday: 12:30 – 11:00 PM",
+        "Friday: 12:30 – 11:00 PM",
+        "Saturday: 12:30 – 11:00 PM",
+        "Sunday: 12:30 – 11:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3k-AZHqQ4_8fD0QOAWHAF6UjMXWOIafWoubAbu1ShpFQ33sRw3YvEQx9-dU6_V3BX8F9DhIvLY3d_8yz1NUiJMsRQ0w95nppvjUBKl624BpHdjmOG1T0bki6RfIru3z5rqwUAuE6hM6mpclow1L5Nh9la5n5Hz0TZnKwhA8Ss4FvMYGYwdWYA_NQoMJznZ42rkDhx1XQjiaoAQyU9vXmUQzRfAaR5mIBcVs2umULzk6kihqHtl4-omyWBet0YWF9JbloyGBLhKPPiFMXCsu1tmzAZYKkebNCD46BUVTr2rQdymQZ4vYntaRrZCZ8EDdSvQWlO_Fq0RxForLSK_YQbTqER7CSRXok_OQsLsAQYWh955-jfjOJKE5wT2JjQ1dXmZ-ft4cqxcVUbqs11k6dL8bGu6sH3CSQBWPGMWvvAnTYw",
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3m35GRpk04QFzCiieg-GXMVINVlnZqOXorMLAAlcU4CKerSp2niFIL8xsb-Ys_Um9Tvp71JaTqW6p5EM85KNYvv2AF9z0on1tALJSmRMlmLWicpPwD_LIBIOMmhTwd8PiJ4MqATXeuHeVR9xs8dpNn_hd_Y6bkKwMYmmuLpZ_23tkDtAWF4JdaJnlpczGDEFnlWrA5dozD2glzLQk-dGl-bbLMObfCT5VzE2dGFEeMTVznqDTYM0oIvD0zRm6RFaes7zMa1-PLtroa7-mLscmSFH4o8toXJNlBMfoJaSnnS3yKG-injMVdzZXqyyLMUQwJnLIH3ufquGet0TT5E7gR_rnyUHkrA2Ww5c8plQ9YhnIutFOkjAkNw9LO0b7cAoYmGK9CGoU-X7aft67gyvH3x49ADk4pFrVnT8rs23BIAtWc",
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3nHrTJDG269id3oGo4sUBQdRdMpQnfDH6OqQGFoJKn0yIed7XNLX2pybSmtxthTQGUMH2gKLTS-YHUz6USkH6ovB4q3sx4QZlKjIdaBV4NsMBF6T252HB0m4qVOxm1Z8PQuUyMuXuzdMbU2dcr0QXGh9aafQdqixB1oyzrNlnq7dtpcZwq-wMFQRA2tHfui5QCZBmqu2bItlwe0K6MHP5CEdznJMRq9ZMJsCu8J1lBkUcc4fHNSgqkVbwDIU9UU_GxMJ7v31JDNCbUqT2Aqa6p8CCvVCqZSEDdgTV3X-8RfIIBxVT7b1vBjNLuS0O85FxmGCcFq3FR5yVNcuzPHhptgrXE2jFiYz2o2_L4qtFOjtYclJ4z5ofF-G7Y0eOWbMKujvCpXc-VhyguhkwCLVKIH1xhaQtM0_rZkdYs1BY0HPXke",
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3mBg6UDGy0fes50oyAoF1ncuw83TeChFvRjzAk9AaKcy_O7nFCaJ0h1Wfh9jyYkN3pETPKX-0hGsHS8YdNCiO44Ey_PT8OjzCSIAQ5BGW08PoTK_14AJMrmNckcNnCrtC446u5396sxchQqFlEHFa8-zUkoZgGNwE2yf3FA6-gti2WY9FPIaur0xh_B7x1ookLZarO8HRc2tSHWxLvKqKJi1Juz3DTWyJsxJmkCZOueI-AKJOSGR4M8kd_6k1WLPfsDVnoNzvq0QO14upVg0w7nN0AyMz7L-xq1e8OmbCh5QuTHKCloD80HxUAOlTtJlAf2Six78voOVkh5wGxAcdwMC3qX58j9RQIBv25E_n5sD2wthN00SIKPVyCsWRFSf5gjVD54lUWuDP8pUUurnPnJpzEHJpK9OBvaTl46X6FJ_g",
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3lQeZCRY4qLdMdLFr1wUMb2FbdSd3GdThEj_ppYX0yLeeiBd1FNJ8nI6-HaNJvIfAKevrHdEmLAnz63oMaZeNQmlMV1fdACrHG30JMlglqLYikMXA65pfUz7_z_DvChbn7a7Q-N2ArUllfCVC-dwDt1Vl4FKmp2orkpQxDi7B-uhcq5lwS55zdPh7fZuoIxOU1H8nfSnAt0frJqDiYEzWMULulFxJ8odwjY1C9PapkvLJIFIQHbojnJ3yfzp0J8EeeTgvFkg7GSJnH_dQ441wHcXzBFzW_Imwx9OP6fbQni5hRSk_L04AI1g8LQnjBmxc69kCv1Blr36lwqPeI1NOlf_J_iS-xiTuQDOsQ9hNMe7JprQ-MfygGo7ntIgUbq9k2jA-2ifMx_NNtSigfLdVjLSCXL515e_Bljv5v1Yf0NC4lAOP9BUuEyYbDDJq98",
+        "places/ChIJ8_DQ31WSlxIR3Yv4Z0epDjk/photos/AaVGc3m7iBG9F6IllrlmsUc4fLIQn1uunC1NzS2-2FotQ27rwqPL2ywrhek6ix4kwYQG7uqZZ9Emql2k9U5ba1clSiXvfLVMKedS84xeHEou9n7eru5MQ6S2GSoB6cVJV8z2C2Tx_RosI95JTRRGnXR-t_7Oej_ptLoN_8yIhsK8XYlEWlIDSAgygqblGvM-RJZjF0rjERtqwyLrz9le1hBxecew7u-20Ena_Tx7lMwu9nMqESeq7LLxCdJ9x51qVETezZTqk5vUkadC9ckuRfxH0ndK8A1Afdrs6n5Qr_ESmRiKxSdCPwMLTYtak6_f7iZj_t_gwRO7V-ezFCg1bRggC2YP2mnMenULri19AlMbQ-Wc1MOeV_9_QfJn1qC4EedAODM5nw7HmOOOn8iWJUwSoUKGaSDqnOHPaUajsmxMNaH_bzWXd-Hg70pwR_Vv4zPY"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-tapes-can-avelino-mahon",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "TAPES CAN AVELINO",
+    "town": "Mahón",
+    "why": "Tried and reviewed restaurant in Mahón",
+    "tags": [
+      "tiktok",
+      "tapas restaurant"
+    ],
+    "type": "tapas restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@isoladiminorca/video/7595646152431668502",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ6-aRvp-HlRIR4v4p-9kHATU",
+      "coordinates": {
+        "lat": 39.883708899999995,
+        "lng": 4.2727574
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 2085,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://www.canavelino.com/",
+      "mapsUrl": "https://maps.google.com/?cid=3819342591790022370&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Tuesday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Wednesday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Thursday: Closed",
+        "Friday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Saturday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Sunday: 1:00 – 4:00 PM, 7:00 – 11:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3mvAHdK2SL3hWamYvWgEsQ1JyKOX4HJwnppuo_GzpnH655bsBWBRcrbuQTmCg23CLx55eRYi5cYZN953be2dzWk-0gCBPDfqGgA9BI284MZO1yWacNRlWBOvBlie9iHoaiPIb7mPqi7lZpvvqkAZsB5DUARhsYyibHN-XXgHjn25UCu1W7ascJ9ZgStMR96gKaqfnj_fwNNesVe9T9tZRhzILoYDFwwxYBs-s2s1TLPjepqWI-KHEbV65lQXu5nZxlF8n_Ya2_ZRpTJrpxoj3vLhGYkHYE_5hFrzY4XPsJn_kknityvco2Vpdb4zUg9XpNWTwh4HPvu5R4fY9r9vzH9JM6mKOqG1Bkz13inq9lqfk7JDOlVNixwYd1yBAy-fd3LQrZ2Fzi5SgH3MJt4P4ikbYtxB3Jw-Kr3lMMl2vS6CKUm",
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3k_hu8WWVxVS0ThocQniS1U2WLjgrjvopMOA-blqVvqM2xDJZ48HqtnDha9TqTYob6403jQbKYI3h0JOb5WGDGcBB3iwVWwShnc1w4IVq_Z5R22NefiCrZNdz3O2I4atqr7toCJslQJR2RgZQQFxRLYD8ekhFn7yrMYvBIDOxaLnO2YALPyUo0_Ly7EuTPJdl_m6FiGSt86001B5NrwY_hBk8U6SPso6ETSqxgQuKM8zBKxyesgorOInhOGKGSH8yuc5Vf_cd52S6X-mIK2_8PwWzBGq0eu6cFsuYNclgZNG3zZDlEbxyxg-Yo9qTBLHlEGnGH5iNPbqsUI5pMJITn6TTsCyXwQmTyWkecg54akQG5jU4cIp7dXsCrq3wgi9s7L-oeaAunHu-_KtEZiE0TeR95Z3p-65guxXOdTGflF7qIhXHi2Kjd1dT6zVI7D",
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3mIf6LdBhicBdvvg9FR1rQAByqP3DkHkxGpi0Ki2DL0ArGc3rMOLp1twhIH0nXUpgy508kO-wUdMtZnfhdylRZi-TYRB3GxvLnVGNbDFyhampQYlT8Bwt1jrPn4RZLJfpAxp_l5oUV8oW6p02I_p_D4ZxLUAHbUXJ---6P9ofkI3l16p19855SejNM6gVpBm7P4ytvAFqysmtL7WCf1SphpE2wEnqZeDDcO-NdUFkdFl2MUcmTHNDLhebyiQ9FzWBe0MNMMUHDiC06nmh9tqd9lLijG30E22iWcEXADpzDt3aoMKOzPaaQqYUG_m27Ehl29qIk8_Fhyen6aeK6hACXp4-4uxAUUwg42HG75pyIn-DKPnMJFFqxWzcXeknX90UXI0g1v48tFoxHP889E5LMoWo8Q_c0XHduwADzU78v1013h7ou28xrke_KomU5l",
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3l8b8je84JZLRVPU2I7hpfl1kMoq53RobwyoY77NqSqacq3Annl7O3UFV1McDYtUEJEX0Zb_3E3zHPK0XPTgEgwE1PUMSwakZGqAjXMlN7gkbOt7stfaRPecILJvhLfpJzCbb5Y-mUjj3hAo4WR0mEf1KoCeuSO_yptk4RYJQT1xoNVuA7VfDAqrOyPTTJjx7W95m-oLhzI7PMq482iHY6zXl8diIPDGtYFid9BUgQT7_6DTFyuwM0DLoqRFn4xZNL4qDAU23oBMXTz01RZVtFZPn9YZlampr_nVA_-VwalsBzeqrFMeuyTE0zaVwhv-Srk4lRURuDGV5nWbGM7juJ8QD5_UUiP0qSLNJXMjtIfWwQWGyFCdtavHSw-NLMg7Be6OJoFX9R1GholGJTsmaz-RVq0EDJTcJp9AUx4oz4qCQ",
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3kBfOloh4eHuS63tSB7PX_JIN6a4pnIesC4Ygtkq5hVErWsblJDl2Jac7X_MWTdj-ShDUe_QOv7ktnxHjdjey80KTJkbfvjA8rpnvQUXPlg6NnPK5u7YVCH3derUw_PBt42RyBRZ5DCS1LNpay47O4nMqSlPO_2LlZGmXQQHDh0EDA72TOARPKOU0tkSLdvJgurqSZf1Pl6O4KyVrcJKJ_U2fWKV6mI4qXfPhhTboPIIvPsyNefQ8TqjUNpDJBeLgn2z3cy5BhIh8w7c6XGKsm116OUy1iLy9cwY_rlRSuWOEd1P4cf_0RT6Yvrcd8WO0-PCpPtfSKnW_qyjiNaUJ-AfEIMiCUh5BlsZ-EYuf6uWgzGzbD_AqhodhpaOv6rpF1Wkc3klcOGmWnbzBDBnwPZWwrShEabyFpn6TWrD91W8U5pIrKAwsA4JZIngg",
+        "places/ChIJ6-aRvp-HlRIR4v4p-9kHATU/photos/AaVGc3kWGFXQ83lSkcRkfnidB7kLkh6vZGVWG9mM6nl0F8pk-k3bZqGzkea_egN9-l2iH2tkzuvmx6QIMc1b9VqK3cT1tc7fbzbeqrvv4Podv0bhNdF21bey6S5lZmMDVvFd_34GXryH89qViCPvkEIF42eh6il91oMwYVzV0yRd_8HZiTopQhHLZC9Z7dkdX4hQdXVAblc6or1-eXnDyFtW2lldQEmgpQf4ec5JEwtID-knKWgktlKg3OGomEh9IHP8wQXintR60pZMaBVDq0ZhxImCVT5uKdBPvrfLBkUY8nA5vajenYJGxUA-ftWy4E5TSNrRo0t_FTwB-dYIsOLke0NY79o4c-sHmfQVpzONrm1FdT3ngugRGkIIfidsu21XGjaQkSi9chYJIuSxd8xETp7ppdi242N9J45Oe0lYEHAjrhaIPVYhy60adFYqyQ3f"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-il-porto-mahon",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Il Porto",
+    "town": "Mahón",
+    "why": "Featured restaurant recommendation in Mahón",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@alba9966/video/7530638356590415126",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJGZtWuHeHlRIRp0KyK0xsDLw",
+      "coordinates": {
+        "lat": 39.8894848,
+        "lng": 4.276097
+      },
+      "rating": 4.2,
+      "userRatingsTotal": 1871,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "mapsUrl": "https://maps.google.com/?cid=13550324453257396903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Thursday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Friday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Saturday: 1:00 – 4:00 PM, 7:00 – 11:00 PM",
+        "Sunday: 1:00 – 4:00 PM, 7:00 – 11:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3n80FdPvC3LKgRAhSrdmYd5sHsRaS2jJG-qUor6pdxGcL7FHScnmrBOeiCqRyGLP71Wy0BGtXs2jJFTdUxLqx6RzY-mwxXTfn682tZrnBTSrakEy_sTy7j7nm9-Sp9-b27nY9akh6mZGu3uaaMZBgJqCfkmcob87FaDPKDEce4TkUHWRh-ZH8C1sx1Q4tngqfAXeQm8p614RkH6BjAzMNPRBB3Grv1MfhkkbkG-07ZYs-Hxm_IeKNiNfXZGHyINHQ_8J160Do9Om67OmKh-U1OLUho0srnWzSaJzz82fb21bJlOBEhN1EHr5acyCoyrSU2LwMyN_64IKKw9QEFmdDhgV8SIyTmeSCVv1u6fpbSjGXVrb3sEPDFXbuwNP92wfkjYKO-ztqRogiJTszcTFOfRAW3TdTxEQzb_Tqc0Aw8CCXgc_AP4jTYNu7-aCPua",
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3lXCFEluH2GNi7nSuKMMsY30GNVmEuWwgTnnd99POD_20zf6b4VlsMo7qEzirtpqF5ynpRVTvnANI3GcC5RA43eRnaftvLPgPb-0LszvySmpICfST6vgmISybV0FfrDI9w7hmGyGc8t0C1K_Fxqr6KvXLeQauZkNXLxM9Erngzrq-3g3cOgVl4yWI2GvBFhPCkbqns8qywdtfkmU-ZhrT1JtMXtfScx7cju9Jj83WKKKt4z_BOcQ_a7XIw0TxdZJXLSeshl5wFrQ15SoymQWXVbZzPE54frKmL7ELloxXNUub_n0ddcGYsmEk3XZlQ7abIxdt9WU-o5dGK6AVRlhNMvwg5M_cfOzkFZhs17pci10SM3zjE7zMZoojXEwpxQPuOQVcyyvxCv2yCT2C0LONQRAJfhO6ppy5zuvczgKcbS4A",
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3lsWBaAkZA4-SuMgb-shemvGXh1XkwrOZNjeGgvr5xqUjN_EafayXDtv1By0EZfwhVlZbGeiGC31mJONaUwkUaCd2eJ6mOMQS-I_GTIDsoY8SO1TRAXoYY9nYZx6CUeVvGgLIkubfiJADNOszu2eABuvnqEn0-EmuLvlDoMXVjAcbCrgdFwy8adIGY8Uvc0KDDCm9yurPJVkdBWIC1r30KIA-Q_0jCTOLkpTLyxHSX6fXWQ7ZzydSGxQeUlE3dkZzBmPir_PqMw65J0566CyJlBxq19DNExpqUFyjUIFkbEMKkzHCj0hsgU2UxpGZyvIf-ggxSN6mIHcmqP8tDQWjdDyOsqO_8LtB_gnhWDzh_g0Dz5pq7wniWObMlsJthnlC8PNDA7R85T1GWD__UBMhtiSq6s77745gyix4vA5fLF1XkB01IOoU2ZE8UMo0tT",
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3l6USNwwVsBj0BrGRv0Awtqt7RUKePSFz2xLCLzkd10_9zhG5rhAxbOMXxek4FrUEVKOAPrEg-TnmgKKWiPEdR5KMjdDNFj9Gg6fetFm58oVBbn5DitiF-4G1Rm-tRoi4jVqS5AxRTA0U9T3PoehhSf9KkNK3jQxsCLGeHs4-jjmn9td7rrvdG6RitVdU9ZgIMMbwDg5KRdaHA2Jkw8bPGpm5Vmgm_ZDYUP3g40vi0z85-pETzPs5OrAWEzWMarRA4EW753uxfgZmy7umKN8LFwMXlNDcNU6BPKgitZEtEIl8Jy26iVFMspBz-oinKxaxJTMiS9JPD7wdVGnd3ktMeXibKsDMsHpxWWmqYWuhmwOQLQTHcv4g0FD_iaplDTiNfV5RlDk0M2dh9Mc6AiCDqPgumhfHff9kyqR5kHkzlqNw",
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3m-iZl8NIdWr9zoslPGO-72g1seTs_Ws1uANNOK6oiNZ0Lg9fgaMQrRoXMQyX6HK43q9hSisDy5ZpvUYdbsAkSJkTvKoGpgL9jrpTI2fv4t6dwexBJlFEjMpT6FSshfw8aiDG1cJTmYtUebF5JiDCFdIJ39tIX00dsm1P1VW_jmNywHtElBlbp_NECKzgy03sNQLYAyX5WvlKNQaHmrM4xn1t7EOBDfBRlQQxbhDcq_jbmcY6lRrheds3-9NDWqAm8UyfTendIW6AVMkNMlWkoepofCLLIpK64Qv3IwiP9wpS_9P-so1bT5sUMjZJzjICSPz6DgzvheaFLORDucMkyAuQwzPYuGC3GphRc_G44JnfFPplyyT0g4YhITGnXqElXvLsBAbEm92IR8NeUtIRunefzdezz2OXH3MYn-VKRyEzguWRt2R2e7QurqYg",
+        "places/ChIJGZtWuHeHlRIRp0KyK0xsDLw/photos/AaVGc3kmw62smhtTDYGfs68xkjzlHlGqnoEY8kZXxT0XdgvodsD5xN6dyTWATm_5Ulkegd_OXVZdZKQiiaxpMXRUFQULVkEim7XApFOu_MmQUKYQHE7jrBqQe-QItdC69r8z-MolemW45ATOGEARK__URG0FXTxk5-TufJtXEjSonyI6PfTBb0LemxtkZ_Yggx5NTZkpTNReZ-AatQLmWRriHwVFz7Cn1t5Vn5Ow4GwYX5pCCkHwuI7jpySrGi9lw8YMX9JfQfxJWVXNWijAFf6MooqUvpLZHyz3y4yEEDFeR468mpn9_LlTDRAohiu9vEKwDDv9UxpjIBC4n7MAeH1MrVIHHgnSIz75FnxuyGLDuo5kLkrJXKylyb113n5Sb0jCgoLyPENHs4MOXEbNJ2y9h6-KRQ3QwFaRTTmaflvJ-dIoTCzVMxW75I2jQy-4vw"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-chef-montes-mahon",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Chef Montes",
+    "town": "Mahón",
+    "why": "Recommended for takeaway paella for boat trips in Puerto de Mahón",
+    "tags": [
+      "tiktok",
+      "paella/seafood"
+    ],
+    "type": "paella/seafood",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@sailinmenorca/video/7649837664950062358",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJc-ALjgyHlRIRCySMCAh7HxI",
+      "coordinates": {
+        "lat": 39.8903987,
+        "lng": 4.264589100000001
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 735,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://www.chefmontes.com/",
+      "mapsUrl": "https://maps.google.com/?cid=1305897691394089995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 6:30 AM – 12:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: 6:30 AM – 5:00 PM",
+        "Thursday: 6:30 AM – 5:00 PM",
+        "Friday: 6:30 AM – 5:00 PM",
+        "Saturday: 8:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3kOvPzoGokrzCv7Ml7RHbGCjg59c4wT8RW3iilLRVDyD1qXxAr8JBW_k_AdxkoL0dkFD1tp3SlITB1_5u-A-FnWepa4prEORb4Yf8kxc9ozCHzsRdkUltKV1JWfPCS7gpEqgik3n_YATyAUofk1mYwaWZL7FhpDk2JTZUmxzYAT94Uy3CkSPwEyIVLVh-wejUsrK2Ha1HyrHq9rcuqeD5WZZWHE26th7ihOXDhT4ym69YTvpdkVBTra7W1yjZpXqqDdXif7C5TTgOcVvBc0vtV83ABqkyzxwKMnf1MViTlEvQp6DBzl69rFrhENxd3U028Y8mSg1rAC4TefLrIAP0p9noeUwEmGY56nbhwJcGYN75AShTE6ZKuIB1TWhJYxz-kwL9t6CDsRxqdcBPzCjqIVeWjskZ6uifWsxwTqLca22p-_mITtDDKkI5W8b3hI",
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3kV_5QP2MzjLRYpNYhsT1PmYAA4mxZFj67nMp1LnwggDSyJj-mFY_FBO2FaF8t9T8DI2Z4xrVJyOJbtgTZQ9F7mnbqjn2gdEcw4BFLdBj9FY21uv_1oTAOST8U2ZE2q51YJbyawpp37KGBDnKROLgJCB2m7IdfUEyjngoSxhGjfuFZJSna_6U3wty-gn6Ig3DrYayTIHCEjq2K-bLLBSfLMGnogSQCNjTHbg15MEqL2YL4MjVB1UeGaC4U0LjDf6S1Xk54frWMqSQrdlNDYJ-16KE2Mb14ZUikDw2y1yhmKaXQnK8QzkZVuf1rPKpk3QKOF70Uo-G301dXazziT-TEkdfYV3YVkcyhGhNqNy51EW_t8O8-rS8eWizjg_anshpi12GpC1wZeLOiPGjHrQ_mdnDSsLUAINhZWxWlMstEroizcuzfhqDDzRxlX0Bud",
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3m35RiFz9tyk1xlwu2Y3Sdecln6QunYupw0trOEyoiG2VZ-DA_Eul-QS3PQJyTVa-bl-XFaLo54gsZQULhCvVDC-rQGl7dSBsYRfga4RKSZGMLgB-f1d0xRg-x-in5wIgHa5ojLW-I5wTqslRISYid2rXBcdA38SMB_c1z8qxAKpo4dHgWGhP8E5znFqw4DPMdGGiAGycvjpDKgZTv6tOIILwLOUOsJzdMvAXugYEuikEj1cPvXZPNFZkFCw035hR1ZOuxi6HVqm97ZiZUtAho2cQYY3sas-TAP7dmGo1m1PNb564hN9_hOdzmKIMdqH-uE3ZIBbFLEviuJxt3InEsSkD1t2PquM1vBx1abZbgXI_2F1g9zTgb68DQXibeYpEk1vQuIcORUEqCKr96i4rm2ngONt62U0TNAAPbeEWwZ7Vvo3eGjSEMTYmq3Ww",
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3nY3f87YXeMDhDSmq426THn-cqVDdIgDekYPqih1DWNdbfj3sPD1eAIPKzbEj1SqApslbFgSNC6_HacyplyfQPMOS9AgE7RsVyvVi59gt_SsuCAdquzy0cFYCM3D9ytBVfuny9xIRCwopz492yXGP-WS55BC5_ukGCFQWtuzCq6BGFluB1z15_oqzNbEkpWI8pbg3tI7gmWpwJtbG-p8zVKugdv3GZZ-ncyMEzNxUB9777417FU-cI4virH3iRz0glIigcCxl8FnzYYSNsDb5rwObwY6O_pteZTyLZf8PkYE_2oE5dwEbN4AeQz3jtXD-jN1_lAof-3T6hoM9majcJOe2YVQOHiH9loVyLeXsP4hrNieko7KZyWZBL7fZLnCqJaUgsMZSi9mXntjcJnVoFxnVd8Mj9XzEs4TiCQi7u2OaOeCtv6OQG65jMR5g",
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3kBqN1b-_LB0H2q_r-Yvk15fyaAKQ5pBTuuqpJGFBo4d-kbbEQIf2GjzTZCY8tYaaXwMg48SsWi3fsv01mU8VUvAef-LMH4IK6n7R79hq_n1E_h9j2mScxkz7WBflIRidybvFz9YFxxZee_e5hOkPtzlfJUDOaaShTGazcbMN_4xJR8bzsKVFcI4bcneSg1rP7-JnszC2KX5wWnPwlyl9pAAS8f2HwRQMCy4LOZMs3CQVcU10NiMQAAud9ybFDnVI-ORiglSSEVaTwU8I9U1caNCNxvEn8oHlZO2cnKm3X-gRemaToj7WhrQRdNfswqLBptkAQp2mJ3q9p8GIQn6ZRLIvFl6c7-6ukFyrfsGvwD-RBpTw-ag9gNCFrLBU3K8c0EsKB1ik3IRMtEKp9Rk7CDWiM8u2J2X88RodjstTWUd-BIwyw4vRoufN029A",
+        "places/ChIJc-ALjgyHlRIRCySMCAh7HxI/photos/AaVGc3lQS25GHp6WQ-hA9pXQbQnlqL_1i3W8Tx-hOUboTZYAR4A8zZqXKEwDiL-zCzpadKW4cUahh84_a5Mis-m2Yh89CNrw_qKO4SE3uXtv63kRrRHg7jjTUTRKfzVqVk1qd5PyjkELVZXlWpqwZTN_4JUQ_5GOxlMYHSKoC6rHbSlesJKTgrH-whHmN4v7cnIFaqCSWS0V7wCt3NYv-jr4vBFYNr5oRuY_x6WuqTdtO2bEPAsnH3Lrbt-DN16Nx1gdp0VYNYBuAEQv4FWIihrUQ3d4cuICIv6R339aFc19lMBn_SfAkff-W52EbrqFm9SBN8afKTCKDGFslLv_3xPUAzHLbXpSpg5_6PmydNGv1y6vE2oteo_KxsLT1EwetTgl2KjlERjpgEEORSvYkOGauU6H58Q1Qqyl32I3t_EjirNFlAxA"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-club-menorca-menorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Club Menorca",
+    "town": "Menorca",
+    "why": "Tagged as one of favourite sea view restaurants visited",
+    "tags": [
+      "tiktok",
+      "sea view restaurant"
+    ],
+    "type": "sea view restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@the.menorca.mum/video/7594202084979887382",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJ9VD-180gvhIRf4Dmn-e4JTI",
+      "coordinates": {
+        "lat": 39.8679075,
+        "lng": 4.1327456
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 1529,
+      "priceLevel": 1,
+      "website": "https://www.clubmenorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=3613497580994330751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 12:00 – 11:30 PM",
+        "Tuesday: 12:00 – 11:30 PM",
+        "Wednesday: 12:00 – 11:30 PM",
+        "Thursday: 12:00 – 11:30 PM",
+        "Friday: 12:00 – 11:30 PM",
+        "Saturday: 11:00 AM – 11:30 PM",
+        "Sunday: 12:00 – 11:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3nSO7Bmic9YytfM2yAyAPgUUzz0nDNByiW18aHygDRY-AfM6EjuS818WYrb4DSv_14Zpj-Xy3qwAwS1Tpq4fgOIYiUd_UhXlZRCZwUrLeEJ5UNcteCMlrixr0VBJANfYcO7EyY3wWp7k6r6lzOrspxEnmzs07NMHBJGzYYZH4h3-NMDVABO16dbIdL44px0gs0a4FnIF_psbGH7d41ev_-4kJ-CwzKi0JlOeKcmi7rxG0MQewbpEGWuZllCiPFm_josSAq3K5PKiiG21R27o-icPGNyCIYt7DStJuERUl9pm7DCbUd0S3abyH3SDMdemS4THWZ-cAfv3gKs4wdoXhUIMWgPFtjNZ6WThpfBoQRikPfNzIq2ctjxYirIq46Q-Rhc6Y-aYUGXQYg55qYmLRX__6gR4re229EwCOLNb2R2JE-P",
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3lpSVGX5IKxhBni3M5C9uo7pkQldcL1yBG0xSmc5KXRNWv58ESlMpmZCBJAfdRlvtQqnwLSwbaLHtTQI6C5mJNp5in2STGy158G8yWZZUb7I6qkeBIpT8UxHpwKZkUVLl2nlRLNpntUbjzTDhQjnrMZtGCWNPJNgkyAP-l7-JQ35ekukIY_0l_aDpYopltu13s96YkZSt2K-b8fSEiiLdQoBoXwBD-khp7eFXuUa5UraQJ2Og2XCl36O2HljVRH4u9cI_D8jCOqjMgRhsMbZjLciZxLJdrCTJ2NDiT1gf_o4gpfzqnfwZtHn8D4YZNtmkEEJbtPw0scGLfIWPfgNZi9JpmYBKDxKJHNbVwrmlnzn8rWijE4SdS5Ts-pVizvu0OjPtOkXER9ofEJdbRRr9iPm_YuS9pv1w0fVwcFZFvY1o3baVDj9_zKww0L3yMg",
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3mRcNIdW7MULec0C3jmFvU2sigJK5BMGbwfhFIlVyYAxqk5gxaF-ouPzV3WasEJjwJF-A0VF67gxAp8pQA1mJd8IiIQL8_r8ex1dtH3ovgx1eQAj9qZPl77w1z43GSwrapQXqG44JxrrAFN7M_8unJuGJ7msEVTl7zmMeu0UTA2V7YkPPYwpHlTfPsa0moHgVAZIFPEcMcT3Ls37h9Kx3eF6mAptN-TkQ5sgAmOJ3DZ5dMMrj72ssTKUf_YOGRnKuN2pEjJtljIDSWTh990YVYQRfvCPgjR_mHEkeeyFirEVAm_j-1Mo0YilA5cBuMtHhbR1VuAJgROJcMFO8MONGnTfRbL8s4463NQ605qrdCskscxsAim55RMWXgQmmlg6op55o7Lz5nEvg3JU3tSYkxXj2CWm1hwafJgD47eyoADSyqX",
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3mGOlOytvYgNaFwn-jzofhM2JcbQuIjiZS3SuazncauFT6NY6jK7fo1Gn6OaLXTrvoxn5kn0Uic5cP6v1Nx6XEX6CH-g1LTleg3LmFpoyqUUxQ9f_HmvQpDMvUwoQ1Ih8w1CunWo_7r2A8Cl_tJ9Bcye2ono4vaX_T7Hv26u8wI9XkLQsq01b8hZl-9J6izA4DxPpfSIfhoUQidVCoenJaLcPE9BFvL-Pz2EK5a0aQG77DdHrIYlTxelynDN2grxPb5_z7_x1TBG1ShZrBCKyj-bB3L5oZmHdUNYw2GywrKiBpyBultZo6-HGB2uy88h27ndrzpRjWHd6K1f_XxsPBOw0SoxhHQHRJoVy_NgiYBsITMMmcKJPKxsSOahgmkD_97Klk4O_RLdc6Oe9K40fFWPd4mpKjyuqdRsM9qqLZD9xljRB5IH3Es7_RRrQ",
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3l9ffe-uxKSBhmht2l5KzIBIfIjppeuVxfufkYgxvo61XarkDaQIIcnH_WI1fAKWuICDitYYuExFAaYuOx6oiqJrSL92HQBDjdSOyB-cV1yVkxgrNowmv5cNF3x-lzXSEQ7Mixj-5h776NyPY-bfD1Ytg6MO4VkBztdiVoOQSwLL9Xo8NxfarRrMgOd5YRLr9nCRQJe4-gUOwe5nRcvvKbVskDMwxyzxrWO8t-E9-UwBaysEM1QR62TfalgGDydyrKxfjLPmqe_De4YYDwMCAilFUidJN-kcEVZZcx_UAoevCWe7Zh5yUxSYQXgZSZ-NgOD3j-HxGUh2TtOD_f-N_6QiJ2f7d2s3uVjOPfyNs6U4yLBoFVjX-LMPfVCNdn9EH0iE1txLQWPdDwFxacLtqPsquoz5UebCtQ7AaFsCmx7aOD_6tzDZgD10u6zmA",
+        "places/ChIJ9VD-180gvhIRf4Dmn-e4JTI/photos/AaVGc3k7k2MyWY2vKF58VSrWsK3dqvblHTrBZWQfpv3hMFL2Dsbdl6DNYw_Y8b9iLVASg84WX2nsQrMeT_9MiUG7SIXHYgtfMcVJ0kCgoPDkZD0rEv5QHKeXMPgmEfi2rAWZy2cYm0rvb4njTewRwxTXs1wLi4Ai_JWIhRYjP1IhB4LOxY14vBjEvTChxtIxPakABcZ3i8xMvm_Mdajxxmum3oYwe6FO8mG2Sm5344IOjzju-s20WRGJLFADQ7EpOi7o88pXS_CgBbHwYyns0UxsEEfEwstiXrQDwoUrJB26iiIOOPz__RRugAbDYpr8tNYuhBezkfN40BVSxwJhb-kgF6A_zAdI-1ugADi4_VCP4-bGt-3cDn_6zYfPhLz9gFuUHkvAEzlD4011nVSG3pRCSkkF42JKtQ0pwU4SQDFaGt65-VkwR26Rfmg784-jeA"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-pecado-ciutadella-de-menorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "PECADO",
+    "town": "Ciutadella de Menorca",
+    "why": "Featured Italian restaurant in Ciutadella",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@isoladiminorca/video/7593748633284005142",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJLS9tkvwFvhIRPViDUN9f1Uw",
+      "coordinates": {
+        "lat": 40.000319999999995,
+        "lng": 3.8397283
+      },
+      "rating": 4.9,
+      "userRatingsTotal": 781,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "https://www.restaurantepecadomenorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=5536436729655023677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 8:00 AM – 11:00 PM",
+        "Tuesday: 8:00 AM – 11:00 PM",
+        "Wednesday: 8:00 AM – 11:00 PM",
+        "Thursday: 8:00 AM – 11:00 PM",
+        "Friday: 8:00 AM – 11:00 PM",
+        "Saturday: 8:00 AM – 11:00 PM",
+        "Sunday: Closed"
+      ],
+      "photoNames": [
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3m9RWxWepa9Ptms597Kt0J1xJ84QxxK4lY7fUY9mpNFY8UeEIeJdpOkkCUCKgd6Wm1XmQmDnw8ZfZ5sRQwzTR-B2a22HgFZ55z7lEm8VvReo0o2D7R9VVAME1sMg2hOqer3OOJZVUsmpzm7yia1xwKr8tWS6bRLYDNNWfXsWR4Au0pNC2QNHvhqyuNvcB7Pp6EesLx1m-ERLM6pyfP5z-Faa-tnGaBDLQJaa5h1FeypeJS8gfjTMSnk4TDlKYmGqo8UY1tbKMUiqdRIsweT98RNA2KCyBjEGRXlemw9h8uqjOop5hU5JhP0DhE8qPvLg-U01zczqgn1EMAU3_uttg8Yl67lBXYnWOD5N8UuDtz2k8LLG59NsM2da2qZ_1JjGxfWCv4mN3jxW9m0ImzTvGjxlMmKRlILERqoEOWCn6ltTN0",
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3n0BOYEBCFbXE5HiW0QFnswwKs4MJlNTa_zoY_zGMXVSZFHqcGdP5ABLLwPktP7guCsw0-SC4IHPQEBZS8w6P-epDEjKfmhdawA_LTCxgOhcW9fYcHAlDSwq7zYpXiOyBA2XwF1IJhPgY4pAFHJdslnrFo8go_NxIppZjtSLwE-ecWprEpSvuyyhv3u01Z6vBvf50ItPKmNJhgZaetDfw0Ega3daXb6yNlv_PoOF2rXWAd_eyodTmTO8OU7MtkAYt5eZuMC6YN8YyD-2b35G7sfppBFm_a7lQha40wt8vEuaNDFtls1QEBnJ-foCSH0xi7k_dC20-MPvmn7so_KMiv466bj6Pm4UVNUaX-eeynVaxOHo70wnCKYn-lFZTGHcXgfnzt-wivCaoMM24brBXnxoM9wM-ZS20PDrzuwxoevYA",
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3kqvhd1IiiyS_ZrnLO3nhw4qJPhd31VzGPIsXl3xCypautnIlZ0kUnpUW2M2M8PkZK67TlIND-oFP9mBCVjN62pmgSVzJQ6BpyGXIpeA0EOQb-3-on0pTLcayqOA3ssx_8C9t11LQ3n0We4eRZVqKyXsONMr61kFidwZLN0TVTCJFaVPWxQWL8nB1dmQKpKeD5hqGOsbsrpBuJ9y3pu2J_4NRgopTWVAJ36KJ2v6-Y3eCbdga4W84PktxlTajWhxu5_9S-2SCo3eNYBgZ6xffghhw6Q_tAyo3e58Ybyz6DbgVGS9-LIlgqzhxbOglImlrijqUHbkXKmzcy_KOY7mm1M4tmRWz4U7iLMz25lzAGAAXfhjZwAqsjlbJmIVtPv5vnJSxPtvE6M4Wt5soh2OjMNOOB4h2DBni9MIi2AJLzhedLf3deBld_SzciNX9Ee",
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3nXvJetDpYvTXaPAyCi3NgmRFhYp6u4U-pFscFx1Gmk1GNNtLiRimFqQ5mdpE0XMBV14dd-zyEeifawIS9wUlrc3yblFpaVDuC-e24I2BJY6oInpDfXlHD4dfF4KWF1yHO1oyHB2sl238kIDiwog5lPNQ9XQLqP9F5IkQfDBX1PEtUmMQsNcZtm0CCv1Keivz70U0NH737Qntd97rLUxIZqrTT_zH05jrI2lkWm130D03-uTAOcErRidxI1wED5UqQAKgLeC2lC7Pwcnz2B0nJmdzChkTd2Cl28ID8Q87vVILQjmKRJKLgiQIn9sClb9d6p1wOcsB3RWMKYPA8L-fT1lUdA7LNzG46OPjbd79FkWLpbLkJqgMb6PQK9O74ahfaDvqub7hD6ztVyvxIFXOvgHs6hq8hRD1xsAW6LkFekOxpUc867uPl1pWWH7mCb",
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3kKlgNbeB_s_3AZFzMX_N8ztQdLMKVLUuFJauwxMdw8yNSfyT0ihCkEvCW0jcnQlunOzknFRn22ZUB3RAKQAbjRYayxLJ5NoxyZPh_bERlNx8Bk7CocG_ufUqUpTlV-lmw0NMPyY2EKed7v_HeKCqc_xCzgNAIzSy2VrFCkSe6t5oMFyDySxzNhZWERKa5hzdVx3pNR4_Xh7SXgJzS6jbbC3zEQ1X4oPdetCgb_Z0BgYBFptd6QbIIvp77OqlVQJssfz-SfCGUm2PcyhSaXIUM5537Cq67aXdodYxUskveiWgy5rzzTSh3W4s3NOqQgk3h8lm8M2dmVLu6b144fRAbECXE1HgcwXm7qzMo6IC-sdTsNc6TMnBM65-snSJ-piLgc4VP1HsPK_7LHeOjZZf0EIHL9FJjnV4KKeKD3cq1pKeJDR0JtEDdTQfEJlw",
+        "places/ChIJLS9tkvwFvhIRPViDUN9f1Uw/photos/AaVGc3l84bM_gPo-_te8Ci5YE2PqmfnieaF11yE7Oek45u8A3FZjLz7-QsAiztgTgjLKOHINbtiRSrBZHnVU0GwjGgK7hA6__fNE4TzW0ObzOLLhtX1Fy33DEaGhWs2vvO3CN4NMNc9fwsjoA9y6l8H4I6q37jriFmytdv-Z557dTliRTEIzGiDsFDtAw6HU1d1m1CN_LCb7JA2WmWtKMbF56NEDJMT9gbOaIXE6bJPl_OkTHJnYZFfFeyPr1Oc0aJJLvfvzYhh3xH7Ev2KgF2BCEcsumUfJDH0HSxE6gQ_Lk42ATQh0gJB6ONAgUz1Fzj2S2Llw9NbenZu2pQhEP64TG-3rz8TWxssk7CE_HDJxRfmPZmpVWXIlBQmWgiSen8YTMoSYHZmvkhB9WUoPgRssmLEJkpKFbBfNCmIXsqR9M5lb-qyXNGkOuGWCVObQfvgp"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-margot-locanda-ciutadella-de-menorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Margot Locanda",
+    "town": "Ciutadella de Menorca",
+    "why": "Cute dinner spot with great sangria and atmosphere",
+    "tags": [
+      "tiktok",
+      "dinner spot"
+    ],
+    "type": "dinner spot",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@dani.s.place/video/7648668594116578592",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJmQPAdcQFvhIRj4f2yXM6zrU",
+      "coordinates": {
+        "lat": 40.0010189,
+        "lng": 3.8382176
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 922,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 20,
+        "end": 30,
+        "currency": "EUR"
+      },
+      "website": "http://www.margotmenorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=13100472635051378575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: Closed",
+        "Tuesday: 12:30 – 3:00 PM, 7:30 – 11:00 PM",
+        "Wednesday: 12:30 – 3:00 PM, 7:30 – 11:00 PM",
+        "Thursday: 12:30 – 3:00 PM, 7:30 – 11:00 PM",
+        "Friday: 12:30 – 3:00 PM, 7:30 – 11:00 PM",
+        "Saturday: 12:30 – 3:00 PM, 7:30 – 11:00 PM",
+        "Sunday: 7:30 – 11:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3kfTxsQudDljDm5v-Nbh3VgxzO7r2X-uhBSOUDkBV0dufj1IPwZKiuM3FmOD54me6W3pzB5j-q4z6ToIlPIgRBvsOgV_RyYiUhv-j2ykJUm6yBy2KEbhw63fcqN73BQYO8HqCjR8rmnI_zsCijJiRppEVhNCBrcrWmxxcMhf3izOo3Ao2a6k0bsFdD6y9FWBHjmQeCQZ47GPjE-N0bD8_8l9RSMoaNlj52J-TFZ5kLii-WUc-2xfqYMdRPP_fMXkI_sAEHRgX-mFKpbbyGidZKDrDQ2MsDozGGtgmO12yXSbHMwvroQf6xto8n4oQqlFt_OQFrDkzqlXh4pAz1ThZIUZKyw1D3AjAiADRTdIl1BV0CBUXcdUekP_BYUPiznhEjxvRqmWqcUxq2gNVwqK_azCxEcEYMVjonJKimyeKQ",
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3khlY7UDRW3WwOseXWwO8ivbP090KJjd2bTCIu_b90BK2EEGhjhEMLwf6ACJE1YbERU4MX6fckmxxbrc9cwSoEksGdvh4MpQOIZ4wums8iRqcJENYHOkaXNCVlazv9dvLgzSawmmNb9G_0wXLbA4YZS92sZ1obZZCFY0jLwIJyHD9TeEOsD8-Cm69knNoJLrIl8MKZ_nTXipeSV98otNbjtrB5GbmcOlZoPVBZR063M_wjX22tEukIDNJ9jOPAW9WHsiskLOZR6GJ4GHJh6AJSPIjt4A0yeyymQ-BLrCDqgwOhgnMhkhbExs-F-km56md22zXP4dskLDQAo4CD8Rm9fQ9255cB-tu8qk9XLACyKXdBG7FwglcLPPUBX6mGTdLmC7WJTJJggIYk5ImaqF_JW0XihjT3kDFmxcIUo0abZRWU6BzqrdVwEtSOHbQ",
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3kseLFc8d_ShO81BzKVTfBaTt3u6yzhaHpzaW_WRn3rR8sLoCyZazVTwWGH293ZR0AGQwU6uMDHDA4VrhrT09WnSB6ofKXjO1j7JycOftqkgG1gsyTdMiD8D2-tmGhbN6EIQuGmCNVNKkjM0XqynxIicO2zn4vx7XtRcdL9XzqUmEZPzjsweoe8c4On9kyVgL-ajX0tnYJhhGE12FCiH5JZIm036nkwVOC_WQ4v3HCvUZjtpIzbih1HMSDrjCFzLEdgBsvF9fvWMM1LCj8FixqerOwECJSqojw6dga9gZooeByzYjWFNj0KKjFCxpzSaqyIHY5TSM83bh4Or3DUjz3kOjQkR4YhZtuffDJ0v2NSYpsxgPFP0OljfHWd4L0IzDVDLMbvBcnBgjysPO-gmnIJ5dFSrQIMunkcOky68CyUMhl0QRpQr0mcgzHAdyhR",
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3lgzxJrvzaa0nlXnEamXw_T73m3J5bl-BhgacUywngR4YzclfQQ6Vm7JzgPW_4C707eWjdXSN9evuUeRUezKtTJR3qjHHjZciXnC5LcYYb4tpJ6e0TgW_M7TzwobcHs1hrrFrFI4sV2osF675pGYoIRaMuM28yKkDJ2zQ59BJ-jfoDBs1f3_lOnjYXXLy8CT0l1vHi9Yv7Vjg4vtP1yDRWdrSbDL6PRo0PWMqUlvErAdFo30mriIM3GW66iFuI_N-6D83Eh-J12b8VqzQtB_Zr9siOBkcXYw4zeevL7lMpAabMaKLg7J0KNYG8TcYYud867JwdYngdNVnJFYWl4V8DOnMnMGBcrwJSC_RGhSW7BjPrzP_lrKZtlZo5YRxik0eoGLszGbZlP3jiPLyHG63g2hy9Zs6tpYJ7eRq-ZP0WrZvCjNZjlvFndDg81AYBl",
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3luEC2QUUSEfsJQyiz1lHtt0BjJmDY3cOqlhAs00gTIQXiFOFLTMOx8m1OtpfOP9cyqT-icliPLmhDoPM1pWGeCzxI1k797qSM_abKqLPvHnkd-YItliehFeKRjREELWE12Z3youXOq92g2YDvzO0G0PZ7-M0oTGtYEMssgMBDlQXStrgj-Q5tlBcLSJyeD9-QvZZtGCcAmgh4gtF0qcKWcxBtxf5yZteL6Zk9NnNOpom4kunzWF94AjdXxtZUZxOafs9YEns6RyL6aEewIxBbjVD543nNKzqapFKsMGXciZqsseN5QlMU960HDz-KdcWlrW1iRxp_MIWrVExcx5VBPQ9vU-j2_no6jWkcfzdT461QAg1vsZlfqYtiwBlhoKAjrqoFtC_Ze4n1Jegwat_c33eGWy7PIAVxM6bc9jPYcY78WsDWzbWao2ob1zzqZ",
+        "places/ChIJmQPAdcQFvhIRj4f2yXM6zrU/photos/AaVGc3nTRjiW0R9QzoidBnzgnNZNM2u_yuPOlQeYsIDjMlCGB2Ps69o2IkrBSWiKW5KbMBCHnN7JKtMwHIVw_VNRUT64b7nyu3aDaIFZfmKop1pm4OljNcRWZ3C-5HZlTyBz5D-yFQlUVcUk-cL2FtHYQ8EM8MCF5WvXcZ5pUuoHkl5yRaWMjFNp1ikcek8ZW4ilGcBesdrB9wuBVvjrgC3NIhvWsomv7sLim7EusJxzOqalcFBcGzipCVblkUGqRUhBoUPdSJcWe6mV3GrnaNEN__cBM1rX1EDFZ4pFkqNU1sSuLGRadgFEn3f9AukdLzOlfpEpVJZEn2age3Nf0hdyyji8b5AhuasLGY4vkRBJPdELdDwKR4DqtprJ57jjvjtUt2eq4ZfBNfL9tx8JvoLzT21TSgIcO6pFCVjpc_sxO9k72TVzDsX1joztTJz16Q"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-flamante-menorca-ciutadella-de-menorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Flamante Menorca",
+    "town": "Ciutadella de Menorca",
+    "why": "Cozy rooftop restaurant at Puerto Antiguo de Ciutadella",
+    "tags": [
+      "tiktok",
+      "rooftop restaurant"
+    ],
+    "type": "rooftop restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@lealvictor.rj/video/7655656342144748818",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJOTnq2r0FvhIRNV2j-h10Utk",
+      "coordinates": {
+        "lat": 40.0012833,
+        "lng": 3.8342368000000002
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 915,
+      "priceRange": {
+        "start": 30,
+        "end": 70,
+        "currency": "EUR"
+      },
+      "website": "http://www.flamantemenorca.com/",
+      "mapsUrl": "https://maps.google.com/?cid=15659706526428519733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM",
+        "Tuesday: Closed",
+        "Wednesday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM",
+        "Thursday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM",
+        "Friday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM",
+        "Saturday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM",
+        "Sunday: 9:00 AM – 3:30 PM, 7:30 – 10:30 PM"
+      ],
+      "photoNames": [
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3nGor93LHYbyYTsPnlEJ4CWUXJnmWD5Cus63nS6XFmi_-9ss42P5vpmnhsTbdp168kUzhJCtXolxU2KhGl19wDT6yLxLLTJkvqb460bIs36GjKe9hARJdlIwoaAe9cQD5DKskAUbp2fMEkdOH3Sso5XHxn3G0HRePjglVn6OZSKGuBe9PNfFH0NtHyQuMwJnYOcbkgAun6ZsVAqmGDykjJ3AN9QtLMH1JSYnt7sFHZhNr_WdEupk7oy-FqAkZ_ibXRqshP5y2zYNE7gaAX2JgnPgY8vMLbAxz6qT08rl3xTazsrs6ghWhwpJeYWRZflSWATs5Zl47V47f0qRjCaTogBTBLGqLaiQc5ebriIOyIAcmcaddqXAPGHC-CCypR364oInUDWu56zLqXYDCelzVLZP0GOuv-g4XFmQjQ6IOw",
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3mQyxsN42VuIgmFdCSByRWgDOnpArXoKN4-h4d7GB8bUTPlCX18T1OPArbQc_EeAEV62A5_gjhxGAa7ORWtn7CO7m9wubqQlDnuCuORwZgV7jS2bpISq0q75HXO_67w74J-TqQWOMaxu-0yGDKmMPD6v0PXSdMoVprq4M5pn8iH2lEWTs6TW7zYX0CD-NKx0UZpvsbO3iDnOyScTgGYuraGrnynRTWxVbdS7d-AN8k5FGb0ek1zvLP_tYOSAZGB_uzcMdBzMQkSO_b9aZykxNRXllvDzJucYWQl5YGDGKeVjfkM8XSghg-xrClNME1Z7i2zZNkWTRc9HXwP5mx1RPawuwKG3GHezZxzQyS2z7ZPfdV1rm17-yApfgOe_3ELqnsEbgB3Vs-gWiVkwZMKNmEONnfOwwXEqlDg5buIOftArdGYWjDgNyi4KowRHQB5",
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3kOZnIchR913wuTQaoFGYf9Xm8atpaoZMpNRipHW6g0h56zBNbk3PUSYtTwf3d2ElHL2RDNgH44WRMK3RRbrLuPb71Xtj6woWlry-Z6LcQKAK3IXfxap9b0gM1S9BhopsFTDHAni64YrT0neUnQGCrH1w-vDXpr3r7se0N4lMrEM-uMicQRUXzSfNNKSRnbPJu1_2dxAwzwoZbaMb45vHtPi9K3pMW5l18dWQmokgwOd3P36-ECSvLk859UEvLmkhTKj_vbNEPSGVKrLTcaYesabi40QEqwFAtcjCMhxDazb0cMztSZq84dtnFEQHg3UoLinyvBI4do0DfUNX6EC49S8G9NcvPLeugV-oChfARKexgmMM68jQ8Ft4y7GWjH2cOPt-QlX00kANI5aKu-1DWEFl8pIgAhmYXAZTO3EJs",
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3lIVvU6jAROI8tTuhdZk4FFxXSE01arkaYy4V8TApjIDw2d7kPm10vfIlza382bAqldJ67Wjxwj_1NyVcAbKjzAjTQZ2Q_VvaqZVoUtmkylN8QdxJzccI1rfri9_D8vD_d-5y8lVlsjw3dyjyhn08dkhX5vjeLK6gZqHwVlsJr4q7qykxWzNK8QyY3ejzSuXrQiIMXlNAQWQ4RBzxV_33EmqJBxg526QDEmKlWy881L_ERgPmj-lPUTWmzzh4yxV25R3Ul2hAOJiQenZYfStDIPwRz9cd3Z6HRMPcX2_msxom7GuHPtWViu_QUr4j-PsfJ2iNbplFIfCWqiAieDsqiXndqwz1VWm8IcqNqOqhvp_Z45N4kXX8piMTsPmf6y_6cpZ074WoCqI2QsOJIje1YZjeyYhJjsjgxmbQ9SYdF6yAeXJFUduYNJxtEJtu4l",
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3mNNlIube0mngqsPEEUITWJN4VzLs4rxY3n5hr-cfxt8SLODrpgoRGB2Wm3bHUbK-ykElMaCByiU9P-kfGuz3iWxqG71kLNct2ogyPqe6Nh9tOWDwgHI9E68cgSMfOcYKEBml9LbBN6y6YgomJl1CFhd3lOVREBlv29Bd7nsjDEGQRklURnEfJtn5UqXxHLWEpH8_Ac1sT1duUpJ5JTjNR3mMCoMZC_QwsnldCrEqg424G31Uc3K0mRG-p9XO-OzflNFblG5BLKV6KZGuZ5W2ac6qbKLMvldtOdKF6OZYrgLVw3zwm4soKbt4TNtTqt0UaB8td968GGq6o4YCPmhcg5dzjhBZK0mGUenAg99mWm2FZyxUMD1RFFJDHH2jrGvOkOms6bLOnG5cDE3l2LHo3LuAximqAnFaevqRC2Um7r5nOSi8s7iLm14lLmAA",
+        "places/ChIJOTnq2r0FvhIRNV2j-h10Utk/photos/AaVGc3nrxQdJvh2Q763NPMPWgdblVPoluHKKwltPXo1inqllaiM-L6NGACIxhD0fIhnlRSONAgWM8WPT_Z48sA02lvZbj-6bP1XNTvU3kt-P7J0r_GuageT-oFyaZfNBPdoB5OO_rZkv0b5cGnD-Q-Zx1EbqD8xwpKHMvdbbJoehd_76vcJMjiwpYSPDTQBNT33iFGKWMSCXBfzu1PqUGGce5xkiqk34V9WdJ-X4MW78LbZLNsnLu0LaT67XyDqGerOqJIzMr1NGw7fw8poKXvHxtSKooXo1FB1t_syK8y-F2Z5i4koBS_tkmMr2xpyUcI-c59hfy8w5rOTfPNiZ7NnsA424fJZF3-MIcugdJM894uD_kVPLXshWlal5OBm6YqJSG1SxINBWl5nLQNR9t7xMMvUQ_5q9RCawx2HSeQ6AosuQzBB5Hv49lFGtCDaIw_AS"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-restaurant-nama-mallorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "Restaurant Nama",
+    "town": "Mallorca",
+    "why": "Dinner spot mentioned in Valldemossa",
+    "tags": [
+      "tiktok",
+      "restaurant"
+    ],
+    "type": "restaurant",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@niloshxy/video/7522054580423626006",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJP0zVZq3vlxIREd-j6ay6Ybk",
+      "coordinates": {
+        "lat": 39.746931499999995,
+        "lng": 2.6490956
+      },
+      "rating": 3.9,
+      "userRatingsTotal": 676,
+      "priceLevel": 2,
+      "priceRange": {
+        "start": 30,
+        "end": 80,
+        "currency": "EUR"
+      },
+      "website": "https://www.restaurantnama.com/",
+      "mapsUrl": "https://maps.google.com/?cid=13358163221574573841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 12:00 – 9:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 – 9:00 PM",
+        "Friday: 12:00 – 9:00 PM",
+        "Saturday: 12:00 – 9:00 PM",
+        "Sunday: 12:00 – 9:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3kz4rICFhHctqzZ91135GmTWhlbe_8qxxdRVn9uXIBwg897pe2zld9BS3JaCHj_iUFm9fUny4RVMqo51dYl4lcutZLWOUNCLpdQ7AV5q1q7cKATmXu6FQLsiQZf8T1xE_uju_yWaf4Hwn9pJuclcj1mahNBTRgg94NhmuZL5f393gkcQ3kpt5vQz9gdELz9qYqa17HeVtDbhnfqMdxgfBNOeCNNn5R5fN1yFeqi8bV2IQXDX7EN8KsT7vxpZVfSm38VKLtlYeF-LVzgrb1OiMHzmNB4M8Osl9WSw8Pmaivv5FeKfOr67_nJ9zXHw3g5pHuhXgNNxTfVCfQlLB0BfxUQ55jAxRavXkDrry84y7ZpKq2J-LEMqOezqsbmwh0b0x800LFHKmnEpBcp0z8Ucn2ahIQGiGFhcBxsdzVE6L5RcA",
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3nOr0_HNFyY3uR7APjluR6D98uO0OHW_Nu_fJZai3dLMy4viMVmuaiJbEv7p-Ynagco2jiWjyZFDnnKyFNo-4zsfC8VKHqXEF5POTI4_wuZHVwaGaZASdt4eSFexO7cmljJVQij7No7rS3ECTIIbk6BaWrJtD3Xf3wdhfpIm17ehDpCJz4biLVdd8lQ6Nq6j4kv35MSMqH_ICin0w-LNx7d9lP4Hc9kZqZ8_RPMVqAMRHpAjwzBIJeBLAY4zxPaFRpqr1DP6fhdd7o5yYtbSJlKuPXIvqgHEyLozGBiVGGt9Kv3X8nZPzac8DLEtKRc22OYFM3upP6xgiXjtnpFfrc4q9czup5ozqSEohZmRI_oHIO7RqWEejomx58W-lX0IkWOj-DLPLvicpFXYqUidC7TyBIapq80fUK60Tr4NGAVCA",
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3loT69xke3Isq886i_kwHQMCyFNmI_BlB5eBfJGQ00BiZDhvPLbp3_LvnLbFdfgis82wpG70IO5uLC7ZJmii_5Xaln7B93AvHFFUt8-gCB9iUL3Ffw_7LFuPkkMyGeFB71J3VtwY_tm_KH4R9k2F2XR9t8ZEL5a1qcb56LoUvzc_gG73wmPO9bzbH6PeYJuHwD00AA2YC59iIk9yoLx83laCV0Cw36Csje3dzOYBk-50ead3BbdvLfO8nRJ-ZEzdXmITQj0VtbBgA-5NX-M_i_z63ASCbrlsWpnApFsLgtCcTSCEvpPBK7N1bgqfZMf_juUrs5iGxGiTFcxxTzNlwDMwJMNGa78Nw5vZCme4m47Q-ZfzJx8TKMBMWcvIo0M7UZdDePdQwBKByMajns39tiTtyESsVQxu7WRL_Z90WY1trtRza5VLeEh2m4CA8Ac",
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3lSYzclENC_T_BBXdPU0DXMDTq-X3M7TvCvNhIQw3BJTRJ22j3oagxcFiGM3EXCztqdMYOgi2L503HtYn4DeFI2kwpgqRc7FNSb5USLwMdKlw3xaBd7P8qKZ-YVRBdVSIni_WR-lGAbOt3Zyt8VYUN1h3Iv8ExPZWxViSxi8zsQDRVKJrSEArrw413opk0KOcYrdT2OHxn-187wc2b-9FHwRayXRNrbgLnWfKn4ylBVqmQkreMgN2R5rP_QccI_wS325emx-OqzkTrK1CyE9AsYP2R1y8ZC9BwEEpBPtVNBL1lagv5a9-RVK6K1jGgeXfuzV1_vi_5nQ61hKAeo4eCiyFzLXMrEEN9iwh26db62PX88BBMuVpjacVLTmw3U2ugt7Jp1uztOYNV3CC5kF944M5gJNEy9fXoMwbMl49WU2398zjy3NvGqNeUZZCMu",
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3m52t4f8LAoxhPj4YAfAyUZKI5nJGG88JQMJjRSZzAoM0pQSeR9qiN1jLNYEzaYAuHqbJ9xiBVl1B2JpFOC7SuKG9W0_IGSGMA-EnML5EpKoogrqnwQRh2sTNZGyBx0Z7Kvm-tYV1TUI0KKO06gMI1fLa-Glgk7YKkpV9kqmYXpXeHnb55as8yK6c3PPOOvl_GoJVY0Vl6RH0884rYQj5NITVlDDz8CN1wwJYFrv6_mQlq7j4VAW-1ubrwwXrKoJj3JCNWutI_5z-eShSI0gefmRteA9Zw2ochMa2A0t4Y9OABy00Dq-dnt0GQ8jsor0Rz2AUvXJ9K_lpCtwPDtd0otck6RDvUGPglomLsr8qC98kvKAsJxVbPLRNqZklGbiwymi_hfZ5jpgnneJW7z8vURlnJ1_YHapmULjwsb4MruytTyEMVTdmd0xSgtaoAh",
+        "places/ChIJP0zVZq3vlxIREd-j6ay6Ybk/photos/AaVGc3mwbMkyeZFAfWebhEltmGT2GMNNBk9XrETdcaruMr5aFQD9nRNj9152lnFj2KdrP_GXjip-Ki9uZZoltYoehLYlBn0MS92UzQMsQJoa0SMO6fjTfjs7AIQ1ZM0H60JjF1Pv11OXS7JWsr_qSTHkYpAoRnF_98n9tHz1vIx0CWoKbQoomCC_NlPz4CNdT7s9C9nDNkkFPA6dPmQclmSvj32o8iUdGSsn_CqgB0cuBfPaxLLrpQImAhIgzMBu2_c7hduqj1AoDqGqoQ64J8lCQk5tdbagcF3QIeY-b-spUdZCzXbJowM61eUjyKmrPYYdGRdNHuLQDcVf9TgbEIGH4G38nhfHtHf5IKZHZ-y-MY98q0AmNLaBnTy8YgjRWhrEhO_ArxgLE3P4XCDMG1xZZ8OlyJScEY_PAb87cnZsauseVA"
+      ],
+      "verified": true
+    }
+  },
+  {
+    "id": "ai-la-fornarina-mallorca",
+    "category": "eat",
+    "leg": "balearic",
+    "name": "La Fornarina",
+    "town": "Mallorca",
+    "why": "Coffee and pastries stop in Valldemossa",
+    "tags": [
+      "tiktok",
+      "café/pastries"
+    ],
+    "type": "café/pastries",
+    "mentions": 1,
+    "sourceUrl": "https://www.tiktok.com/@notyouraveragedesilawyer/video/7645397593786289430",
+    "verified": true,
+    "enrichment": {
+      "placeId": "ChIJj3ASV1GSlxIReN9zQlt5-j0",
+      "coordinates": {
+        "lat": 39.574610799999995,
+        "lng": 2.6534785
+      },
+      "rating": 3.5,
+      "userRatingsTotal": 233,
+      "priceRange": {
+        "start": 10,
+        "end": 20,
+        "currency": "EUR"
+      },
+      "website": "https://www.lafornarina.com/",
+      "mapsUrl": "https://maps.google.com/?cid=4466015413355143032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA",
+      "hours": [
+        "Monday: 8:30 AM – 3:30 PM",
+        "Tuesday: 8:30 AM – 3:30 PM",
+        "Wednesday: 8:30 AM – 3:30 PM",
+        "Thursday: 8:30 AM – 3:30 PM",
+        "Friday: 8:30 AM – 3:30 PM",
+        "Saturday: 8:30 AM – 3:00 PM",
+        "Sunday: 8:30 AM – 3:00 PM"
+      ],
+      "photoNames": [
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3n9-74iXNfYsCnD50jbFXx5eWVAMzRW1UNGlfwMIm5hBH9YSMfcqGlqdc37zQkYM7ZESBQGxDDUf83uwEPpuIXROfvMCwlCcB-rDAWDt2Tsvpb-D7eP_BNg5ZGVNGtGLfxlWy9my473UOYJSfrRaD7uO_VgYIuPktV6UY0l4SBSEz3uqGbAyZzAJaSwn6mnmiOQen7TCaXra2_wo3tDUOInPM7PZfXVXaaBFugpS2O3ATgvrF376RH9Iw5SHN5xOxjj76vAkzEztrbOnd6JV1wJ2YUU6HNajUb0SlRQAuzI6mIBwPkG_wqUl5uH6F3vdmGBYTdNOFZyi6AHdP2KyzrcGG_00LQ7maTsP3PeLV5E2h1Zrvwf5G4oL-6bQuXqQlDFQEyA0DSxh9mM65U7lUvMh1X6vd2dskMhRswdZY4p1uc",
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3l4VKluKhQzV7TxfIEYJNrtPOrasmo5mrvxw9svwzfPfZAb0h975ZqplODMDqx95-8LceEgm74f4yI2aqlD0xpThgLVFeF9XWv16SfR01qrePFdklWHqtktcoWZuYdk7BkLiqKPyq-Eb3p0uvWSMOG8lOGibBuoYI_Do1T5DlYAK6BxE097jULOMrEBsHC27_-M7VVcpyntFAqroAL6k57u7pUea039rFAwYkRy4xe2XyMeX4qE7cizz0YgguvtCON1jaMWGNIq1scJXs86T9U73FXYCzQAOTBglTCXYZrmxjoexXt6KsTzJuPeVq7HXqL4rVdH9dbIIQVNSNk7Jjoa2i-6GVLbkbJTHBjeDHRr4QihAIj8DbsFGc2IHA6ieyRxDgmhG_sgQUVCqUhC3nS6YGzXiwH9Pc-UXAI8FDpo8A",
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3mkvTXTUjdqlhlDk7lrOkmsGl15CymWlc4jCQ6EDQ8oDwLHktv5FMr-7CQNUIO-LPKl3PIArgVYx7opWQj-LKBW7VybRatABZa3Umw8IK7ARpGAGee5l8Ueu46tUUTIk3fSsY1AinNXh8ZXFUdmnI4DHbE0GfQ7gS2eKvI9KuM_S9YkloDc953ckRw4E2H00U1lnYrzDJkI5YsbXkJMAzT7amSCgCLECuXDSKgokRVYz017to14cUri5pBhA7FuCqLvZGa3hXjWIVTID-JW71s3cavphhGCjZrJi-QqnCB3iKtlLcfvUWmsEHp7SlByNwHLnpMVGdZ151bS4SNMO_Rayoq7oakKk8jcDjb5jcdkV2qx1fQnLyO91kPUyr1C9SJLrCzZ07XFhlIQvtdlDurgGJL9i6WSGXHaFeQug0Z48gBnF_o7gvDzPEmzYA73",
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3l3lH8P3s9gHtc4fidAnmuL5qYaF3c2_llHxHtCV7XQ4XSvUlNIvTkEbZ6ABpu8EaunASenunglyX7meu6CPXIZVPhSRJ6SJvvXR9JzSnBh_uqPvAuFaMFh4H5fV6KgdkmV1cSjMZSf-9zfZPNvnpUwfdE5Dj4ubHBVWE1v-4DPpioa1DAFamn2LkG-L-WKKtVO5LSMbL85wpxJeajW44HhoSlLqgFsUQGdjv3Fq5u8gG3ZCfBipUmlZ-U6_XnxxQKdn0Lu3iBByDxFE52TQlqGfUQv5LjVZCh-jj8Tpoh1VeJgQgWYi2tjZQ6hQ0tcrhAVTgH2sYr2L1GfK3iO_Bg-qChloPD5xC__J6l-C9muxFJWJaIVGjkA7jX5NmTqD-J9A-l-VCMPEfYB_VGcsXYvnogbDR5weh9kjOCzaY6QVw",
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3nmPgR6D2EEoP8-InkunNHiTKf1Hfz1JorkYFGjh2Kf3kpLFgdZx7UkT_3OyxvACAYzI97HP0sDFVuEK5Wl_GMdA6p98_MoDJqYGr0swkfKaI9mbpSeWd_6oBT8-b0_fmEGiD6VtPqI7Er8etZSb7yuSmx7C5IyB3NAvs7iNTrTaPfxn2ioLFhJGs5w99k_nqQKxb2BSBdZXp0nOcspRpcnnz1nqc-FcbZzKSFGZqafaa4yOqB9cSK0gVjUNgUK9S6DRIZPRa4IZ1RJ54L4fLuOWIg7WcP0JKozwU0oU-MF7o9u6DjKlEGGSQzBKL9PkD62-IddRzMzeMeKeX93VWyAFktDwTFlrp9__ICSNJtnZ7uahy2EalF_IGBNs1EvVAxeoiVQPc0s75pICmq8t4vIjdESIzVyHL31oP2auWI6g1pp",
+        "places/ChIJj3ASV1GSlxIReN9zQlt5-j0/photos/AaVGc3mu4RXx90ql92VlqcCfnwlp667N54VbXlnixT9rzmgGxmSmP0daTVf4d2nr7ybtHI4qwdqvtT7fu-pI2wFCP3uCQ5mMsQwHBNRMZFI0eyXbkcgvz5bF7QwJFPt32VJyOipT-UOnlMmZ2x3hxed2riT_hqEafzQslVqoOGnPK6l9zjwvlP4oS2_GeeDPvH9-UA6m90lB7Q3VOv-4qe8JNCG0mONb7GjOcOYgcO8sthPqrMnqVIRd0GugbK6Wu3bGYlbGwU4Yi21oOCY2VRwlkdiDc_vntIAP_ceDyhWgVdLz5K5_HA7Ea-RVGH6Vq6MRm_HvlTvTbhh7iIz6My3M-TV_5t0vu1Lsf149qvNSbLNr_StPQ0h7WUUHikZ8XpfrUwIT5fOnosOohjdNqkAZVuHTNw3ToO7EyiG1e3oOdTk"
       ],
       "verified": true
     }
