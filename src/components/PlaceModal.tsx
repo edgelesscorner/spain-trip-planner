@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import type { CardPlace } from '../lib/catalog'
 import { usePlanner } from '../store/planner'
 import { mapsSearchUrl, augustRatesUrl } from '../lib/links'
@@ -36,7 +37,7 @@ export default function PlaceModal({
   const coords = card.enrichment?.coordinates
   const fromTikTok = card.tags?.some((t) => /tiktok/i.test(t)) ?? false
 
-  return (
+  return createPortal(
     <div
       className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 sm:items-center sm:p-4"
       onClick={onClose}
@@ -164,6 +165,7 @@ export default function PlaceModal({
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }
