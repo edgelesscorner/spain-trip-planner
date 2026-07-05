@@ -13,6 +13,7 @@ import { readFileSync } from 'node:fs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { dirname, join } from 'node:path'
 import { getTikTokCandidates } from './tiktok.mjs'
+import { readTrip, saveTrip, emptyDoc } from './trip-store.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 
@@ -225,6 +226,33 @@ function startServer() {
       } catch (e) {
         console.error('hotel fetch failed:', e.message)
         res.end('{"hotels":[]}') // graceful — app falls back to curated seed
+      }
+      return
+    }
+    if (req.url?.startsWith('/api/trip')) {
+      res.setHeader('Access-Control-Allow-Methods', 'GET,PUT,POST,OPTIONS')
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+      res.setHeader('Cache-Control', 'no-store')
+      if (req.method === 'OPTIONS') {
+        res.writeHead(204)
+        res.end()
+        return
+      }
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+      try {
+        if (req.method === 'GET') {
+          const trip = (await readTrip()) || emptyDoc()
+          res.end(JSON.stringify({ trip }))
+          return
+        }
+        const chunks = []
+        for await (const c of req) chunks.push(c)
+        const body = JSON.parse(Buffer.concat(chunks).toString('utf8') || '{}')
+        const trip = await saveTrip(body?.trip || {})
+        res.end(JSON.stringify({ trip }))
+      } catch (e) {
+        console.error('trip sync failed:', e.message)
+        res.end(JSON.stringify({ trip: emptyDoc() }))
       }
       return
     }

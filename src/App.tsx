@@ -1,4 +1,6 @@
+import { useEffect } from 'react'
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { initTripSync } from './lib/sync'
 import NavBar from './components/NavBar'
 import HomePage from './pages/HomePage'
 import CategoryPage from './pages/CategoryPage'
@@ -8,6 +10,9 @@ import BookingsPage from './pages/BookingsPage'
 import SettingsPage from './pages/SettingsPage'
 
 export default function App() {
+  // Sync the shared trip across devices (no-op if the sync endpoint is absent).
+  useEffect(() => initTripSync(), [])
+
   return (
     <HashRouter>
       <div className="flex min-h-full flex-col">

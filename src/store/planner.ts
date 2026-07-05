@@ -42,6 +42,8 @@ export interface PlannerState {
   hotelsFetchedAt: number
   notes: string
   packing: PackingItem[]
+  /** Timestamp of the last local change to synced fields (for cloud sync LWW). */
+  syncUpdatedAt: number
   _hasHydrated: boolean
 
   // actions
@@ -87,6 +89,7 @@ export function createPlannerStore(storage?: StateStorage) {
         hotelsFetchedAt: 0,
         notes: '',
         packing: [],
+        syncUpdatedAt: 0,
         _hasHydrated: false,
 
         toggleSave: (id, category) =>
@@ -290,6 +293,7 @@ export function createPlannerStore(storage?: StateStorage) {
           hotelsFetchedAt: s.hotelsFetchedAt,
           notes: s.notes,
           packing: s.packing,
+          syncUpdatedAt: s.syncUpdatedAt,
         }),
         onRehydrateStorage: () => (state) => {
           if (state) state._hasHydrated = true

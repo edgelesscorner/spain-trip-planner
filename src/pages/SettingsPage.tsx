@@ -175,7 +175,9 @@ export default function SettingsPage() {
       <section className="card p-5">
         <h2 className="text-lg">Your data</h2>
         <p className="mt-1 text-sm text-ink-muted">
-          Everything is stored on this device only. Export to back up or move it.
+          Your saved cards, itinerary, budget and notes sync automatically across
+          your devices and with your partner (one shared trip). Export to keep an
+          offline backup.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <button className="btn-outline" onClick={exportJSON}>
