@@ -1,10 +1,16 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Shared-trip store: persists the couple's plan (saved cards, itinerary, budget,
-// notes, packing, discovered places) as a single private JSON blob in Vercel
-// Blob, so every device + both partners see the same trip. Secrets stay
-// server-side. Conflict policy: last-write-wins by the client's updatedAt.
+// notes, packing, discovered places) in Vercel Blob so every device + both
+// partners see the same trip. Secrets stay server-side. Conflict policy:
+// last-write-wins by the client's updatedAt.
+//
+// Each save writes a NEW, uniquely-named object (trip-<updatedAt>.json) rather
+// than overwriting one file. Vercel Blob edge-caches content by path and doesn't
+// reliably invalidate on overwrite, so a fixed filename serves stale reads;
+// unique per-version objects are immutable and therefore always read fresh.
+// Reads pick the newest version; old versions are pruned.
 // ─────────────────────────────────────────────────────────────────────────────
-import { put, list } from '@vercel/blob'
+import { put, list, del } from '@vercel/blob'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -30,10 +36,13 @@ function loadEnvFile(name) {
 // for local dev; on Vercel it comes from process.env.
 const ENV = { ...loadEnvFile('.env'), ...loadEnvFile('.env.local') }
 const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || ENV.BLOB_READ_WRITE_TOKEN || ''
-const PATHNAME = 'trip.json'
-// Cache the blob URL once discovered (per process) so reads skip the list() call
-// after the first hit. list() finds the correct, region-specific store host.
-let cachedUrl = ''
+const PREFIX = 'trip-'
+const KEEP = 3 // retain the newest N versions
+
+// zero-padded so lexical sort == chronological sort
+function keyFor(updatedAt) {
+  return `${PREFIX}${String(Math.max(0, Number(updatedAt) || 0)).padStart(16, '0')}.json`
+}
 
 export function emptyDoc() {
   return { updatedAt: 0, saved: {}, settings: null, notes: '', packing: [], discovered: {} }
@@ -51,22 +60,19 @@ function normalize(d) {
   }
 }
 
-async function blobUrl() {
-  if (cachedUrl) return cachedUrl
-  const { blobs } = await list({ token: TOKEN, prefix: PATHNAME, limit: 1 })
-  const b = blobs.find((x) => x.pathname === PATHNAME) || blobs[0]
-  cachedUrl = b ? b.url : ''
-  return cachedUrl
+/** Newest-first list of stored versions. */
+async function listVersions() {
+  const { blobs } = await list({ token: TOKEN, prefix: PREFIX, limit: 100 })
+  return blobs.sort((a, b) => (a.pathname < b.pathname ? 1 : a.pathname > b.pathname ? -1 : 0))
 }
 
-/** Read the shared trip doc, or null if none stored yet. */
+/** Read the newest shared trip doc, or null if none stored yet. */
 export async function readTrip() {
   if (!TOKEN) return null
-  const base = await blobUrl()
-  if (!base) return null // nothing written yet
-  // Cache-bust + no-store so we don't read a stale edge copy of this mutable doc.
-  const url = `${base}${base.includes('?') ? '&' : '?'}_=${Date.now()}`
-  const res = await fetch(url, {
+  const versions = await listVersions()
+  if (!versions.length) return null
+  // Immutable, unique URL → always fresh (no stale overwrite cache).
+  const res = await fetch(versions[0].url, {
     headers: { authorization: `Bearer ${TOKEN}` },
     cache: 'no-store',
   })
@@ -77,21 +83,26 @@ export async function readTrip() {
 
 async function writeTrip(doc) {
   if (!TOKEN) throw new Error('missing BLOB_READ_WRITE_TOKEN')
-  const { url } = await put(PATHNAME, JSON.stringify(doc), {
+  await put(keyFor(doc.updatedAt), JSON.stringify(doc), {
     access: 'private',
     token: TOKEN,
     contentType: 'application/json',
-    allowOverwrite: true,
     addRandomSuffix: false,
-    cacheControlMaxAge: 0, // mutable sync doc — never CDN-cache it
+    allowOverwrite: true,
   })
-  if (url) cachedUrl = url // reuse for reads in this process
+  // Prune older versions (keep the newest KEEP).
+  try {
+    const versions = await listVersions()
+    for (const old of versions.slice(KEEP)) await del(old.url, { token: TOKEN })
+  } catch {
+    /* best-effort */
+  }
 }
 
 /**
- * Save an incoming trip doc. Last-write-wins: only overwrites when the incoming
- * updatedAt is newer-or-equal to what's stored; otherwise returns the stored
- * (newer) doc so the client can adopt it. Returns the canonical doc.
+ * Save an incoming trip doc. Last-write-wins: writes a new version only when the
+ * incoming updatedAt is newer-or-equal to the stored newest; otherwise returns
+ * the stored (newer) doc so the client can adopt it. Returns the canonical doc.
  */
 export async function saveTrip(incoming) {
   const inc = normalize(incoming)
