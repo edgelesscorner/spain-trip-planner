@@ -4,7 +4,7 @@
 // Blob, so every device + both partners see the same trip. Secrets stay
 // server-side. Conflict policy: last-write-wins by the client's updatedAt.
 // ─────────────────────────────────────────────────────────────────────────────
-import { put, list } from '@vercel/blob'
+import { put } from '@vercel/blob'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -31,6 +31,11 @@ function loadEnvFile(name) {
 const ENV = { ...loadEnvFile('.env'), ...loadEnvFile('.env.local') }
 const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || ENV.BLOB_READ_WRITE_TOKEN || ''
 const PATHNAME = 'trip.json'
+// Stable blob host for this store. Reading the exact URL is read-your-writes
+// consistent (unlike list(), which is eventually consistent). Captured from the
+// first write in this process; falls back to the known store host / env.
+let BASE =
+  (process.env.BLOB_BASE_URL || ENV.BLOB_BASE_URL || 'https://mmd836l3hh2qn0mg.private.blob.vercel-storage.com').replace(/\/$/, '')
 
 export function emptyDoc() {
   return { updatedAt: 0, saved: {}, settings: null, notes: '', packing: [], discovered: {} }
@@ -51,16 +56,14 @@ function normalize(d) {
 /** Read the shared trip doc, or null if none stored yet. */
 export async function readTrip() {
   if (!TOKEN) return null
-  const { blobs } = await list({ token: TOKEN, prefix: PATHNAME, limit: 1 })
-  const b = blobs.find((x) => x.pathname === PATHNAME) || blobs[0]
-  if (!b) return null
-  // Private blob → authenticated fetch. Cache-bust to dodge CDN edge caching of
-  // this mutable doc (Blob is eventually consistent; this narrows the window).
-  const bust = `${b.url}${b.url.includes('?') ? '&' : '?'}_=${Date.now()}`
-  const res = await fetch(bust, {
+  // Fetch the exact, stable URL (read-your-writes consistent). Cache-bust +
+  // no-store to defeat any edge caching of this mutable doc.
+  const url = `${BASE}/${PATHNAME}?_=${Date.now()}`
+  const res = await fetch(url, {
     headers: { authorization: `Bearer ${TOKEN}` },
     cache: 'no-store',
   })
+  if (res.status === 404) return null // not created yet
   if (!res.ok) return null
   const raw = await res.json().catch(() => null)
   return raw ? normalize(raw) : null
@@ -68,7 +71,7 @@ export async function readTrip() {
 
 async function writeTrip(doc) {
   if (!TOKEN) throw new Error('missing BLOB_READ_WRITE_TOKEN')
-  await put(PATHNAME, JSON.stringify(doc), {
+  const { url } = await put(PATHNAME, JSON.stringify(doc), {
     access: 'private',
     token: TOKEN,
     contentType: 'application/json',
@@ -76,6 +79,8 @@ async function writeTrip(doc) {
     addRandomSuffix: false,
     cacheControlMaxAge: 0, // mutable sync doc — never CDN-cache it
   })
+  // Keep the read host in lockstep with the actual store (survives store swaps).
+  if (url) BASE = new URL(url).origin
 }
 
 /**
